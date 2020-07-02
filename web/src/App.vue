@@ -1,24 +1,27 @@
 <template>
   <div id="app">
-      <router-link to="/">Home</router-link>
-      <router-link to="/catalog">About</router-link>
+    <theHeader/>
     <router-view/>
     <theFooter/>
   </div>
 </template>
 
 <script>
+import theHeader from '@/components/theHeader.vue'
 import theFooter from '@/components/theFooter.vue'
 export default {
-  data: {
-    
-  },
+  data: () => ({
+
+  }),
   components: {
+    theHeader,
     theFooter
   }
 }
 </script>
 
-<style lang="scss">
-
+<style lang="sass">
+  html, body, h1, ul, li, ol
+    margin: 0
+    padding: 0
 </style>

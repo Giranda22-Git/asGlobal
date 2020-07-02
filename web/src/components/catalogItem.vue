@@ -12,8 +12,7 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-    *
-        border: 1px solid red
+    $fontColor: white
     .block
         display: flex
         flex-direction: column
@@ -22,10 +21,14 @@ export default {
             width: 80%
             height: 80% 
             margin: 0 auto
+            background: url('../assets/carousel1.jpg') center no-repeat
+            background-size: cover
+            border-radius: 10%
         p
             font-size: 1.8vh
             text-align: center
             width: 80%
             margin: 0 auto
+            color: $fontColor
 
 </style>

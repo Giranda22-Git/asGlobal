@@ -4,10 +4,12 @@
       :carouselData = "sliderItems"
       :interval = "3000"
     />
+    <About/>
   </div>
 </template>
 
 <script>
+import About from '@/views/About.vue'
 
 import theCarousel from '@/components/theCarousel.vue'
 export default {
@@ -27,7 +29,8 @@ export default {
     }
   },
   components: {
-    theCarousel
+    theCarousel,
+    About
   }
 }
 </script>

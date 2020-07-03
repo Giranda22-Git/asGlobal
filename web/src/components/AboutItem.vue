@@ -3,17 +3,18 @@
         <div class="block">
             <h1>О нас</h1>
             <div class="text">
-                Loredasda siufha iufgayufasiu hasodjasihai fgasdoiashdoa ihfasioufg ashdsaohasoi iugd <br>
-                ai aidaiud aidasm ipsum dolor sit amet consectetur adipisicing elit.<br>
-                Quia eveniet ex, officia necessitatibus atque adipisci voluptate <br>
-                maxime, mollitia alias, ipsam cupiditate. Tenetur<br>
-                illo excepturi doloremque et<br> 
-                possimus labore<br>
-                nulla officiis.
+                Loredasda siufha iufgayufasiu hasodjasihai fgasdoiashdoa ihfasioufg <br>
+                ashdsaohasoi iugd ai aidaiud aidasm ipsum dolor sit amet consectetur<br> 
+                adipisicing elit. Quia eveniet ex, officia necessitatibus atque  <br>
+                adipisci voluptatemaxime, mollitia alias, ipsam <br>
+                cupiditate. Teneturillo excepturi doloremque et<br> 
+                possimus labore nulla officiis.<br>
+                
             </div>
             <a href="#" class="button">BUTTON</a>
         </div>
     </div>
+
     
     
 </template>
@@ -23,8 +24,6 @@ export default {
 }
 </script>
 <style lang="sass" scoped>
-    *
-        border: 1px solid red
     .img
         height: 100%
         // background-color: rgba(0,0,0,0.5)
@@ -46,6 +45,8 @@ export default {
         width: 120vh
         height: 28vh
         font-size: 3.2vh
+        font-family: 'MuseoModerno', cursive
+        line-height: 4vh
         font-weight: bold
         text-align: center
         color: black
@@ -62,6 +63,8 @@ export default {
         
     button:hover 
         box-shadow: 0 0 10px rgba(0,0,0,0.07)
+
+    @import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap')
 
         
 </style>

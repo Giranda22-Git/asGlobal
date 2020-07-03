@@ -17,14 +17,12 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-    *
-        border: 1px solid red
     .block
           width: 100%
           height: 80vh
           color: black
     .content
-        max-width: 1280px
+        width: 80vw
         height: 80vh
         margin: 0 auto
 </style>

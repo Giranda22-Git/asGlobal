@@ -18,9 +18,10 @@ export default {
 
 <style lang="sass" scoped>
     .block
-          width: 100%
-          height: 80vh
-          color: black
+        width: 100%
+        height: 80vh
+        color: black
+        font-family: Arial,"Helvetica Neue",Helvetica,sans-serif
     .content
         width: 80vw
         height: 80vh

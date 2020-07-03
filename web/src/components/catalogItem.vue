@@ -1,13 +1,22 @@
 <template>
     <div class="block">
-        <div class="img"></div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="img" v-bind:style="{background: 'url(' + require('../assets/' + ItemData.img) + ') center no-repeat', 'background-size': '100%'}"></div>
+        <p>{{ ItemData.text }}</p>
     </div>
 </template>
 
 <script>
 export default {
-    
+    name: 'catalogItem',
+    data: () => ({
+
+    }),
+    props: {
+        ItemData: {
+            type: Object,
+            default: () => {}
+        }
+    }
 }
 </script>
 
@@ -17,18 +26,16 @@ export default {
         display: flex
         flex-direction: column
         justify-content: space-around
+        align-items: center
+        min-width: 20vw
         .img
             width: 80%
-            height: 80% 
-            margin: 0 auto
-            background: url('../assets/carousel1.jpg') center no-repeat
-            background-size: cover
-            border-radius: 10%
+            height: 80%
+            border-radius: 1%
         p
-            font-size: 1.8vh
+            font-size: 1.6vh
             text-align: center
-            width: 80%
-            margin: 0 auto
+            width: 70%
             color: $fontColor
 
 </style>

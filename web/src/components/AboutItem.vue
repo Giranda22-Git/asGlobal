@@ -34,23 +34,23 @@ export default {
         align-content: center
         flex-direction: column
         height: 45vh
-        padding-top: 10%
+        padding-top: 5%
         h1
             color: #465945
             font-size:: 5vh
             text-align: center
     .text
-        padding-top: 2%
         justify-content: center
         width: 120vh
         height: 28vh
-        font-size: 3.2vh
-        font-family: 'MuseoModerno', cursive
+        font-size: 3vh
+        font-family: Arial,"Helvetica Neue",Helvetica,sans-serif
         line-height: 4vh
-        font-weight: bold
+        font-weight: lighter
         text-align: center
         color: black
         margin: 0 auto
+        padding-top: 2%
     .button
         font-size: 2vh
         margin: 0 auto
@@ -64,7 +64,7 @@ export default {
     button:hover 
         box-shadow: 0 0 10px rgba(0,0,0,0.07)
 
-    @import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap')
+    
 
         
 </style>

@@ -11,7 +11,7 @@ import theHeader from '@/components/theHeader.vue'
 import theFooter from '@/components/theFooter.vue'
 export default {
   data: () => ({
-
+    
   }),
   components: {
     theHeader,

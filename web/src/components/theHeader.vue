@@ -32,10 +32,10 @@ export default {
         left: 0
 
         .logo
-            background: url('../assets/logo.png') center no-repeat
+            background: url('../assets/A&S.png') center no-repeat
             background-size: cover
             height: auto
-            width: 5vh
+            width: 6vh
 
             .logoHref
                 display: block

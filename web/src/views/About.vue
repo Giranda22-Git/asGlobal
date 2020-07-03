@@ -1,6 +1,6 @@
 <template>
     <div class = "block">
-        <div class="content">
+        <div class="background">
             <AboutItem/>
         </div>
     </div>
@@ -18,11 +18,12 @@ export default {
 
 <style lang="sass" scoped>
     .block
-          width: 100%
-          height: 80vh
-          color: black
-    .content
-        width: 80vw
-        height: 80vh
-        margin: 0 auto
+        background: url(../assets/cover1.jpg) center no-repeat
+        background-size: 100%
+        width: 100%
+        height: 68vh
+        color: black
+        .background
+            background: rgba(0,0,0 ,0.3 )
+            height: 100%
 </style>

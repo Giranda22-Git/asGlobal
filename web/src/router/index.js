@@ -14,6 +14,11 @@ Vue.use(VueRouter)
     path: '/catalog',
     name: 'catalog',
     component: () => import('../views/Catalog.vue')
+  },
+  {
+    path: '/catalog/products1',
+    name: 'ProductsList1',
+    component: () => import('../views/ProductsList.vue')
   }
 ]
 

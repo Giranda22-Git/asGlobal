@@ -31,6 +31,7 @@ export default {
         display: flex
         height: 100%
     .work_environment
+        border-radius: 2vh
         display: flex 
         margin-top: 8vh
         justify-content: center
@@ -67,13 +68,14 @@ export default {
     .button
         font-size: 2vh
         margin: 0 auto
-        width: 7%
+        width: 20%
         margin-top: 4vh
         text-align: center
         color: white
-        padding: 2vh 6vh
+        height: 5vh
         background-color: #10c9c3
         text-decoration: none
+        line-height: 5vh
 
     @import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap')
 

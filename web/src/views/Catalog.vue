@@ -1,20 +1,22 @@
 <template>
     <div class="block">
         <div class="content">
-            <div class="line">
-                <catalogItem class="catalogItem" />
-                <catalogItem class="catalogItem" />
-                <catalogItem class="catalogItem" />
-            </div>
-            <div class="line">
-                <catalogItem class="catalogItem" />
-                <catalogItem class="catalogItem" />
-                <catalogItem class="catalogItem" />
-            </div>
-            <div class="line">
-                <catalogItem class="catalogItem" />
-                <catalogItem class="catalogItem" />
-                <catalogItem class="catalogItem" />
+            <div class="line" 
+                v-for="index in (Math.floor(CatalogData.length / 3)+1)"
+                :key = 'index'
+            >
+                <catalogItem class="catalogItem"
+                    :key="CatalogData[index].id"
+                    :ItemData = "CatalogData[(index * 3) - 3]"
+                />
+                <catalogItem class="catalogItem"
+                    :key="CatalogData[index].id + 1"
+                    :ItemData = "CatalogData[(index * 3) - 2]"
+                />
+                <catalogItem class="catalogItem"
+                    :key="CatalogData[index].id + 2"
+                    :ItemData = "CatalogData[(index * 3) - 1]"
+                />
             </div>
         </div>
     </div>
@@ -24,8 +26,17 @@
 import catalogItem from '@/components/catalogItem.vue'
 export default {
     name: 'catalog',
+    data: () => ({
+        iteratorN: 0
+    }),
     components: {
         catalogItem
+    },
+    props: {
+        CatalogData: {
+            type: Array,
+            default: () => []
+        },
     }
 }
 </script>

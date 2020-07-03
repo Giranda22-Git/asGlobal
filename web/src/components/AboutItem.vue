@@ -47,24 +47,22 @@ export default {
         justify-content: flex-end
         flex-direction: column
         height: 45vh
-        padding-left: 8vh
-        margin-left: 9vh
-        padding-top: 5%
         h1
             color: black
             font-size:: 5vh
             text-align: center
     .text
-        width: 90vh
+        justify-content: center
+        width: 120vh
         height: 28vh
-        justify-content: flex-end
-        font-size: 3.2vh
-        font-family: 'MuseoModerno', cursive
+        font-size: 3vh
+        font-family: Arial,"Helvetica Neue",Helvetica,sans-serif
         line-height: 4vh
-        font-weight: bold
+        font-weight: lighter
         text-align: center
         color: black
         margin: 0 auto
+        padding-top: 2%
     .button
         font-size: 2vh
         margin: 0 auto
@@ -77,7 +75,7 @@ export default {
         text-decoration: none
         line-height: 5vh
 
-    @import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap')
+    
 
         
 </style>

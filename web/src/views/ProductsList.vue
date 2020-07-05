@@ -1,7 +1,8 @@
 <template>
         <div class="content">
+            Id: {{ $route.params.id }}
             <div class="line" 
-                v-for="index in (Math.floor(ProductListData.length / 4)+1)"
+                v-for="index in (Math.floor(ProductListData.length / 4))"
                 :key = 'index'
             >
                     <ProductsListItem

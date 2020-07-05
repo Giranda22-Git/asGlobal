@@ -1,9 +1,10 @@
 <template>
         <div class="product_block">
             <div class="product">
-                <div class="img"></div>
+                <div class="image"
+                v-bind:style="{'background': 'url(' + require('../assets/' + ItemData.Image) + ') center no-repeat', 'background-size': '100%'}"></div>
                 <div class="text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat eos tempore suscipit incidunt eveniet labore doloribus quibusdam. Optio unde ipsam adipisci quibusdam omnis fugit maiores quo, consequatur, culpa dolor maxime.Lorem
+                    {{ ItemData }}
                 </div>
                 <a href = "#" class="button">Подробнее</a>
             </div>
@@ -12,11 +13,19 @@
 
 <script>
 export default {
-    
+    name: 'productListItem',
+    data: () => ({
+    }),
+    props: {
+        ItemData: {
+            type: Object,
+            default: () => {}
+        }
+    }
 }
 </script>
 
-<style lang="sass" scroped>
+<style lang="sass" scoped>
     $Content_size: 100%
     .product_block
         width: $Content-size / 3
@@ -28,11 +37,9 @@ export default {
             margin-top: 5vh
             width: 35vh
             height: 70vh
-        .img
+        .image
             width: 35vh
             height: 30vh
-            background: url(../assets/work.jpg) center no-repeat
-            background-size: 100%
         .text
             height: 30vh
             overflow: auto

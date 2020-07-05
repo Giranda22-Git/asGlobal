@@ -36,7 +36,7 @@ export default {
         CatalogData: {
             type: Array,
             default: () => []
-        },
+        }
     }
 }
 </script>

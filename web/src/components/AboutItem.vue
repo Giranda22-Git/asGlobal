@@ -48,14 +48,16 @@ export default {
             text-align: center
         .text
             width: 40vw
-            font-size: 2.5vh
+            height: 40vh
+            font-size: 2.1vh
             font-family: Arial,"Helvetica Neue",Helvetica,sans-serif
-            line-height: 4vh
+            line-height: 2vh
             font-weight: lighter
             text-align: center
             color: black
             margin: 0 auto
             padding-top: 2%
+            border: 1px solid red
         .button
             font-size: 1.85vh
             margin: 0 auto

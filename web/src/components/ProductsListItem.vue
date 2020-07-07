@@ -20,6 +20,10 @@ export default {
         ItemData: {
             type: Object,
             default: () => {}
+        },
+        ItemModalData: {
+            type: Object,
+            default: () => {}
         }
     }
 }

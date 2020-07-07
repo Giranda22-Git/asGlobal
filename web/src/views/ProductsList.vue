@@ -22,27 +22,42 @@
                     :ItemData = "ProductListData[(index * 4) - 1]"
                     />
             </div>
+            <ProductModal class="modal"
+                v-show="isModalVisible"
+                @close="closeModal"
+            />
         </div>
 </template>
 
 <script>
-import ProductsListItem from '../components/ProductsListItem.vue'
+import ProductsListItem from '@/components/ProductsListItem.vue'
+import ProductModal from '@/components/ProductModal.vue'
 export default {
     name: 'ProductsList1',
     data: () => ({
-      ProductListData: [
-        { id: 0, name: 'productName0', Image: 'productimage.jpg', text: '1' },
-        { id: 1, name: 'productName1', Image: 'productimage.jpg', text: '2' },
-        { id: 2, name: 'productName2', Image: 'productimage.jpg', text: '3' },
-        { id: 3, name: 'productName3', Image: 'productimage.jpg', text: '4' },
-        { id: 4, name: 'productName4', Image: 'productimage.jpg', text: '5' },
-        { id: 5, name: 'productName5', Image: 'productimage.jpg', text: '6' },
-        { id: 6, name: 'productName6', Image: 'productimage.jpg', text: '7' },
-        { id: 7, name: 'productName7', Image: 'productimage.jpg', text: '8' }
-      ]
+        isModalVisible: true,
+        ProductListData: [
+            { id: 0, name: 'productName0', Image: 'productimage.jpg', text: '1' },
+            { id: 1, name: 'productName1', Image: 'productimage.jpg', text: '2' },
+            { id: 2, name: 'productName2', Image: 'productimage.jpg', text: '3' },
+            { id: 3, name: 'productName3', Image: 'productimage.jpg', text: '4' },
+            { id: 4, name: 'productName4', Image: 'productimage.jpg', text: '5' },
+            { id: 5, name: 'productName5', Image: 'productimage.jpg', text: '6' },
+            { id: 6, name: 'productName6', Image: 'productimage.jpg', text: '7' },
+            { id: 7, name: 'productName7', Image: 'productimage.jpg', text: '8' }
+        ]
     }),
     components:{
-        ProductsListItem
+        ProductsListItem,
+        ProductModal
+    },
+    methods: {
+        showModal() {
+            this.isModalVisible = true;
+        },
+        closeModal() {
+            this.isModalVisible = false;
+        }
     }
 }
 </script>
@@ -61,6 +76,10 @@ export default {
             height: 80vh
             display: flex
             flex-direction: row
+        .modal
+            position: fixed
+            left: 15%
+            top: 20%
             
 
 </style>

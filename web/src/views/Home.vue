@@ -1,13 +1,17 @@
 <template>
   <div class="home">
     <About/>
-    <theCarousel
-      :carouselData = "sliderItems"
-      :interval = "3000"
-    />
     <Catalog
       :CatalogData = "catalogData"
     />
+    <section class="ourWorks">
+      <div class="title">Our Works</div>
+        <hr>
+        <theCarousel
+          :carouselData = "sliderItems"
+          :interval = "3000"
+        />
+    </section>
   </div>
 </template>
 
@@ -47,3 +51,19 @@ export default {
   }
 }
 </script>
+
+<style lang="sass" scoped>
+  .ourWorks
+    height: 55vh
+    display: flex
+    flex-direction: column
+    justify-content: center
+    hr
+      width: 100%
+      height: 4vh
+    .title
+      font-size: 4vh
+      text-align: center
+
+
+</style>

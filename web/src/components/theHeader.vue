@@ -8,7 +8,6 @@
                 <li class="menuItem">Контакты</li>
                 <li class="menuItem"><a href='tel:' class="tel">8 (777) 777 77 77</a></li>
             </nav>
-            
         </div>
     </div>
 </template>
@@ -25,9 +24,11 @@ export default {
     $headerColor: #26272b
     $fontColor: white
     .font
-        height: 5vh
+        height: 7vh
         background-color: $headerColor
         width: 100%
+        position: fixed
+        z-index: 15
         top: 0
         left: 0
 
@@ -35,7 +36,7 @@ export default {
             background: url('../assets/A&S.png') center no-repeat
             background-size: cover
             height: auto
-            width: 6vh
+            width: 8vh
 
             .logoHref
                 display: block
@@ -59,7 +60,7 @@ export default {
 
                 .menuItem
                     margin-right: 5%
-                    font-size: 2vh
+                    font-size: 2.2vh
                     cursor: pointer
                     a
                         color: $fontColor

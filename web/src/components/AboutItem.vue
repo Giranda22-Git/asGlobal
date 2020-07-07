@@ -4,13 +4,13 @@
         <div class="block">
             <h1>О нас</h1>
             <div class="text">
-                ihfasioufg ashdsaohasoi iugd ai aidaiud aidasm ipsum <br>
-                consecteturdolor sit amet adipisicing elit. Quia<br>
-                eveniet ex, officia necessitatibus atque as<br>
-                adipisci voluptatemaxime, mollitia dsada<br>
-                alias, ipsam cupiditate. Teneturillo<br>
-                excepturi doloremque etdasdasddssd<br>
-                possimus labore nulla officiis.<br>
+                ihfasioufg ashdsaohasoi iugd ai aidaiud aidasm ipsum 
+                consecteturdolor sit amet adipisicing elit. Quia
+                eveniet ex, officia necessitatibus atque as
+                adipisci voluptatemaxime, mollitia dsada
+                alias, ipsam cupiditate. Teneturillo
+                excepturi doloremque etdasdasddssd
+                possimus labore nulla officiis.
             </div>
             <a href="#" class="button">BUTTON</a>
         </div>
@@ -24,56 +24,50 @@
 export default {
 }
 </script>
-<style lang="sass" scoped>   
-    // *
-    //     border: 1px solid red
+<style lang="sass" scoped>
     .img
         display: flex
-        height: 100%
+        height: 90%
+        width: 80%
+        margin: 0 auto
+        justify-content: space-around
+        align-items: center
     .work_environment
-        border-radius: 2vh
-        display: flex 
-        margin-top: 8vh
-        justify-content: center
-        margin-left: 30vh
-        height: 50vh
-        width: 80vh
+        height: 50%
+        width: 35%
         background: url(../assets/work.jpg) center no-repeat
         background-size: 100%
     .block
         display: flex
-        height: 100%
-        flex-wrap: wrap
-        justify-content: flex-end
+        justify-content: center
         flex-direction: column
-        height: 45vh
+        height: 50vh
         h1
             color: black
-            font-size:: 5vh
+            font-size: 4.4vh
             text-align: center
-    .text
-        justify-content: center
-        width: 120vh
-        height: 28vh
-        font-size: 3vh
-        font-family: Arial,"Helvetica Neue",Helvetica,sans-serif
-        line-height: 4vh
-        font-weight: lighter
-        text-align: center
-        color: black
-        margin: 0 auto
-        padding-top: 2%
-    .button
-        font-size: 2vh
-        margin: 0 auto
-        width: 20%
-        margin-top: 4vh
-        text-align: center
-        color: white
-        height: 5vh
-        background-color: #10c9c3
-        text-decoration: none
-        line-height: 5vh
+        .text
+            width: 40vw
+            font-size: 2.5vh
+            font-family: Arial,"Helvetica Neue",Helvetica,sans-serif
+            line-height: 4vh
+            font-weight: lighter
+            text-align: center
+            color: black
+            margin: 0 auto
+            padding-top: 2%
+        .button
+            font-size: 1.85vh
+            margin: 0 auto
+            width: 20%
+            margin-top: 4vh
+            text-align: center
+            color: white
+            height: 4vh
+            background-color: #10c9c3
+            text-decoration: none
+            line-height: 4.2vh
+            border-radius: 7%
 
     
 

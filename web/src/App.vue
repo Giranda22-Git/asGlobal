@@ -24,5 +24,8 @@ export default {
 <style lang="sass">
   html, body, h1, ul, li, ol
     margin: 0
-    padding: 0
+    padding: 
+    
+  *
+    --webkit-appearance: none
 </style>

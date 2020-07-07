@@ -50,6 +50,8 @@ export default {
 <style lang="sass" scroped>
     // * 
     //     border: 1px solid red
+    
+        
     .content
         margin: 0 auto
         height: 100%
@@ -62,5 +64,11 @@ export default {
             display: flex
             flex-direction: row
             
-
+        @media (max-width: 500px)
+            .line
+                flex-direction: column !important
+                height: 300vh
+                & *
+                    width: 90% !important
+                    margin: 0 auto
 </style>

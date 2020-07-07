@@ -37,13 +37,13 @@
               <ul class="cont">
                   <li><a href="tel:">8 (000) XXX XXX </a></li> 
                   <li><a href="mailto:">wdwdw@ffwfw.com</a></li>
-           8vh   <li><a>Lorem ipsum dolor sit.</a></li>
+                  <li><a>Lorem ipsum dolor sit.</a></li>
               </ul> 
           </div>
       </div>
       <hr>
       <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
-          <a href="#">ТOОИПО "phonktriplesixsexsoldoutmorgenshtien13373221488hip-hopstylelifeanalpenitrationfixcummed"</a>.
+          <a href="#">ТOОИПО "phonktriplesixsexsoldoutmorgenshtien13373221488hip"</a>.
       </p>
 </footer>
 </div>
@@ -60,7 +60,8 @@ export default {
 
 <style lang="sass" scoped>
 *
-  -webkit-box-sizing: border-box
+  // border: 1px solid red
+  --webkit-box-sizing: border-box
 footer
   background-color: #26272b
   padding: 3.2vh 0 3.2vh
@@ -68,6 +69,9 @@ footer
   line-height: 3.84vh
   color: #737373
   font-family: Arial,"Helvetica Neue",Helvetica,sans-serif
+  width: 100vw
+  word-wrap: break-word
+  overflow-x: hidden
 
   .container
     margin-right: -2.4vh
@@ -95,10 +99,11 @@ footer
       margin: 0vh
       padding: 0vh
 
-    li
-      text-decoration: none
-      list-style: none
-      padding-bottom: 1.6vh
+      li
+        text-decoration: none
+        list-style: none
+        word-wrap: break-word
+        padding-bottom: 2vh
 
   a
     text-decoration: underline

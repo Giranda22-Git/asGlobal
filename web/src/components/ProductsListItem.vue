@@ -35,10 +35,10 @@ export default {
             border: 1px solid black
             margin: 0 auto
             margin-top: 5vh
-            width: 35vh
+            width: 17vw
             height: 70vh
         .image
-            width: 35vh
+            width: 17vw
             height: 30vh
         .text
             height: 30vh

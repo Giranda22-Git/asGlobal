@@ -1,18 +1,22 @@
 <template>
-    <div>
+  <div>
     <div class="pre-footer">
     <div class="iconholder">
         <div>
-            <img src="img1.jpg">
+            <div class="companyes"></div>
             <h3>ui / ux design</h3>
         </div>
         <div>
-            <img src="img1.jpg">
+            <div class="companyes"></div>
             <h3>web development</h3>
         </div>
         <div>
-            <img src="img1.jpg">
+            <div class="companyes"></div>
             <h3>app / mobile</h3>
+        </div>
+        <div>
+            <div class="companyes"></div>
+            <h3>comp / company</h3>
         </div>
     </div>
     </div>
@@ -25,7 +29,7 @@
           <div class="item2">
               <h6>Карта</h6>
               <div class="map">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2905.9766212365!2d76.95019401534026!3d43.25191177913711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836eed571604b7%3A0x246629b09901c308!2z0YPQu9C40YbQsCDQmtCw0YDQsNGB0LDQuSDQkdCw0YLRi9GA0LAsINCQ0LvQvNCw0YLRiyAwNTAwMDA!5e0!3m2!1sru!2skz!4v1593599792589!5m2!1sru!2skz" width="100%" height="100%" frameborder="0" style="border: 1px solid black; border-radius: 20px;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2905.9766212365!2d76.95019401534026!3d43.25191177913711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836eed571604b7%3A0x246629b09901c308!2z0YPQu9C40YbQsCDQmtCw0YDQsNGB0LDQuSDQkdCw0YLRi9GA0LAsINCQ0LvQvNCw0YLRiyAwNTAwMDA!5e0!3m2!1sru!2skz!4v1593599792589!5m2!1sru!2skz" width="100%" height="100%" frameborder="0" class="map" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
               </div>
           </div>
           <div class="item3"> 
@@ -33,7 +37,7 @@
               <ul class="cont">
                   <li><a href="tel:">8 (000) XXX XXX </a></li> 
                   <li><a href="mailto:">wdwdw@ffwfw.com</a></li>
-                  <li><a>Lorem ipsum dolor sit.</a></li>
+           8vh   <li><a>Lorem ipsum dolor sit.</a></li>
               </ul> 
           </div>
       </div>
@@ -42,7 +46,7 @@
           <a href="#">ТOОИПО "phonktriplesixsexsoldoutmorgenshtien13373221488hip-hopstylelifeanalpenitrationfixcummed"</a>.
       </p>
 </footer>
-    </div>
+</div>
 </template>
 
 <script>
@@ -57,21 +61,17 @@ export default {
 <style lang="sass" scoped>
 *
   -webkit-box-sizing: border-box
-
-body
-  margin: 0px
-
 footer
   background-color: #26272b
-  padding: 20px 0 20px
-  font-size: 15px
-  line-height: 24px
+  padding: 3.2vh 0 3.2vh
+  font-size: 2.4vh
+  line-height: 3.84vh
   color: #737373
   font-family: Arial,"Helvetica Neue",Helvetica,sans-serif
 
   .container
-    margin-right: -15px
-    margin-left: -15px
+    margin-right: -2.4vh
+    margin-left: -2.4vh
     display: flex
     flex-direction: row
     justify-content: space-around
@@ -79,26 +79,26 @@ footer
 
     .item1
       width: 50%
-      padding-left: 20px
-      padding-right: 20px
-      max-width: 500px
-      max-height: 500px
+      padding-left: 3.2vh
+      padding-right: 3.2vh
+      max-width:  80vh
+      max-height: 80vh
 
     h6
       color: #fff
-      font-size: 16px
+      font-size: 2.56vh
       text-transform: uppercase
-      margin-top: 5px
-      letter-spacing: 2px
+      margin-top: 0.8vh
+      letter-spacing: 0.32vh
 
     ul
-      margin: 0px
-      padding: 0px
+      margin: 0vh
+      padding: 0vh
 
     li
       text-decoration: none
       list-style: none
-      padding-bottom: 10px
+      padding-bottom: 1.6vh
 
   a
     text-decoration: underline
@@ -116,17 +116,21 @@ footer
   .container
     .item2
       width: 25%
-      padding-left: 20px
-      padding-right: 20px
-      max-width: 500px
-      max-height: 500px
+      padding-left: 3.2vh
+      padding-right: 3.2vh
+      max-width: 80vh
+      max-height: 80vh
+      .map
+        width: 19vw
+        height: 23vh
+        border-radius: 8%
 
     .item3
       width: 25%
-      padding-left: 20px
-      padding-right: 20px
-      max-width: 500px
-      max-height: 500px
+      padding-left: 3.2vh
+      padding-right: 3.2vh
+      max-width: 80vh
+      max-height: 80vh
 
       a
         color: #737373
@@ -134,10 +138,10 @@ footer
   hr
     border-top-color: #bbb
     opacity: 0.5
-    margin-top: 20px
-    margin-bottom: 20px
+    margin-top: 3.2vh
+    margin-bottom: 3.2vh
     border: 0
-    border-top: 1px solid #eee
+    border-top: 0.16vh solid #eee
     height: 0
     -webkit-box-sizing: content-box
     -moz-box-sizing: content-box
@@ -150,34 +154,26 @@ footer
       color: #737373
 
 .pre-footer
-  position: relative
-  width: 100%
   background-color: #26272b
   color: #737373
-
-  hr
-    border-top-color: #bbb
-    opacity: 0.5
-    border: 0
-    border-top: 1px solid #eee
-    height: 0
-    -webkit-box-sizing: content-box
-    -moz-box-sizing: content-box
-    box-sizing: content-box
+  height: 38vh
+  display: flex
+  flex-direction: column
+  justify-content: center
 
   .iconholder
-    display: grid
-    grid-template-columns: auto auto auto
-    grid-gap: 50px
+    display: flex
+    justify-content: space-around
     background-color: transparent
     text-align: center
-    margin-left: 18.53%
-    margin-right: 18.53%
 
-    img
-      width: 150px
-      height: 150px
-
+    .companyes
+      width: 15vw
+      height: 20vh
+      background: url(../assets/carousel1.jpg) center no-repeat
+      background-size: cover
     h3
       color: #bbb
+      font-size: 3vh
+    
 </style>

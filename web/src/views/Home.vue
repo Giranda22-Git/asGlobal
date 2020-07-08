@@ -5,7 +5,7 @@
       :CatalogData = "catalogData"
     />
     <section class="ourWorks">
-      <div class="title">Our Works</div>
+      <div class="title">Наши работы</div>
         <hr>
         <theCarousel
           :carouselData = "sliderItems"

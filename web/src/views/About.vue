@@ -25,6 +25,8 @@ export default {
         background: url(../assets/cover1.jpg) center no-repeat
         background-size: cover
         .background
-            background: rgba(0,0,0 ,0.3 )
+            background: rgba(0,0,0 ,0.5 )
             height: 100%
+            display: flex
+            justify-content: center
 </style>

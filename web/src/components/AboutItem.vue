@@ -1,23 +1,17 @@
 <template>
-    <div class="img">
-        <div class="work_environment"></div>
-        <div class="block">
-            <h1>О нас</h1>
-            <div class="text">
-                ihfasioufg ashdsaohasoi iugd ai aidaiud aidasm ipsum 
-                consecteturdolor sit amet adipisicing elit. Quia
-                eveniet ex, officia necessitatibus atque as
-                adipisci voluptatemaxime, mollitia dsada
-                alias, ipsam cupiditate. Teneturillo
-                excepturi doloremque etdasdasddssd
-                possimus labore nulla officiis.
+    <div class="wrapper">
+        <div class="img">
+
+        </div>
+        <div class="contentWrapper">
+            <h1>О Нас</h1>
+            <div class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet delectus consequuntur modi voluptatem deserunt atque exercitationem, ipsum quis non, dignissimos omnis unde corrupti voluptas, quod soluta doloremque vero. Sapiente, doloribus?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             </div>
-            <a href="#" class="button">BUTTON</a>
+            <button>Обратный званок</button>
         </div>
     </div>
-
-    
-    
 </template>
 
 <script>
@@ -25,52 +19,53 @@ export default {
 }
 </script>
 <style lang="sass" scoped>
-    .img
-        display: flex
-        height: 90%
+    .wrapper
         width: 80%
-        margin: 0 auto
+        height: 100%
+        display: flex
         justify-content: space-around
         align-items: center
-    .work_environment
-        height: 50%
-        width: 35%
-        background: url(../assets/work.jpg) center no-repeat
-        background-size: 100%
-    .block
-        display: flex
-        justify-content: center
-        flex-direction: column
-        height: 50vh
-        h1
-            color: black
-            font-size: 4.4vh
-            text-align: center
-        .text
-            width: 40vw
-            height: 40vh
-            font-size: 2.1vh
-            font-family: Arial,"Helvetica Neue",Helvetica,sans-serif
-            line-height: 2vh
-            font-weight: lighter
-            text-align: center
-            color: black
-            margin: 0 auto
-            padding-top: 2%
-            border: 1px solid red
-        .button
+        text-align: center
+        color: white
+        .img
+            width: 45%
+            height: 50%
+            background: url(../assets/work.jpg) center no-repeat
+            background-size: cover
+        .contentWrapper
+            width: 45%
+            height: 38%
+            display: flex
+            flex-direction: column
+            justify-content: space-around
+            align-items: center
+            .description
+                font-size: 2.7vh
+            h1
+                font-size: 3.5vh
+
+        button
             font-size: 1.85vh
-            margin: 0 auto
-            width: 20%
-            margin-top: 4vh
-            text-align: center
-            color: white
+            width: 45%
             height: 4vh
             background-color: #10c9c3
-            text-decoration: none
-            line-height: 4.2vh
-            border-radius: 7%
-
+            line-height: 3.7vh
+            border-radius: 6%
+            color: inherit
+            outline: none
+            cursor: pointer
+    @media (min-width: 0px) and (max-width: 950px)
+        .description
+            font-size: 2.7vw !important
+        h1
+            font-size: 3.4vw !important
+        button
+            font-size: 1.85vw !important
+            width: 80% !important
+        .img
+            height: 38% !important
+            background-size: 200% !important
+            width: 50% !important
     
 
         

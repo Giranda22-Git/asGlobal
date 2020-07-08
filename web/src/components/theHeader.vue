@@ -8,6 +8,17 @@
                 <li class="menuItem">Контакты</li>
                 <li class="menuItem"><a href='tel:' class="tel">8 (777) 777 77 77</a></li>
             </nav>
+            <div class="iconMobile" @click="mobileVision">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-list" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+                <div v-show="isMobileVision" class="menuMobile">
+                    <li class="menuItem">О Нас</li>
+                    <li class="menuItem"><router-link to="/catalog">Каталог</router-link></li>
+                    <li class="menuItem">Контакты</li>
+                    <li class="menuItem"><a href='tel:' class="tel">8 (777) 777 77 77</a></li>
+                </div>
+            </div>
         </div>
     </div>
 </template>
@@ -16,7 +27,15 @@
 export default {
     name: 'Header',
     data: () => ({
-    })
+        isMobileVision: false
+    }),
+    methods: {
+        mobileVision() {
+            if(this.isMobileVision)
+                this.isMobileVision = false
+            else this.isMobileVision = true
+        }
+    }
 }
 </script>
 
@@ -31,23 +50,49 @@ export default {
         z-index: 15
         top: 0
         left: 0
+        display: flex
+        justify-content: center
 
-        .logo
-            background: url('../assets/A&S.png') center no-repeat
-            background-size: cover
-            height: auto
-            width: 8vh
-
-            .logoHref
-                display: block
-                height: 100%
         .nav
-            max-width: 1280px
-            margin: auto
+            width: 80%
             height: 100%
             display: flex
-            flex-direction: row
             justify-content: space-between
+            white-space: nowrap
+
+            .logo
+                background: url('../assets/A&S.png') center no-repeat
+                background-size: cover
+                height: auto
+                width: 8vh
+                .logoHref
+                    display: block
+                    height: 100%
+
+            .iconMobile
+                position: relative
+                cursor: pointer
+                line-height: 9vh
+                .menuMobile
+                    list-style: none
+                    height: auto
+                    width: 40vw
+                    text-align: left
+                    background-color: $headerColor
+                    position: absolute
+                    right: 0
+                    top: 100%
+                    font-size: 4.7vw
+                    padding: 30%
+                    & *
+                        border-bottom: 1px solid silver
+                        line-height: 4.7vh
+                    a
+                        text-decoration: none !important
+                        color: $fontColor
+                        display: block
+                    & *:hover
+                        color: darken(silver, 10%)
 
             .menu
                 display: flex
@@ -67,13 +112,11 @@ export default {
                         text-decoration: none
                     .tel
                         text-decoration: underline
-                        
-                    
-                    
-
-
-
-
-
-
+    @media (min-width: 0px) and (max-width: 800px)
+        .iconMobile
+            display: block !important
+            font-size: 9vw
+            color: white
+        .menu
+            display: none !important
 </style>

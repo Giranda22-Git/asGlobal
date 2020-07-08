@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <theHeader/>
-    <router-view/>
+    <transition name="fade">
+      <router-view/>
+    </transition>
     <theFooter/>
   </div>
 </template>
@@ -22,10 +24,20 @@ export default {
 </script>
 
 <style lang="sass">
+  .fade-enter-active, .fade-leave-active
+    transition-property: opacity
+    transition-duration: .25s
+
+  .fade-enter-active
+    transition-delay: .25s
+
+  .fade-enter, .fade-leave-active
+    opacity: 0
   html, body, h1, ul, li, ol
     margin: 0
     padding: 
-    
+  html
+    scroll-behavior: smooth
   *
     --webkit-appearance: none
 </style>

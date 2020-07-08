@@ -3,9 +3,9 @@
         <div class="nav">
             <div class="logo"><router-link to="/" class="logoHref"></router-link></div>
             <nav class="menu">
-                <li class="menuItem">О Нас</li>
-                <li class="menuItem"><router-link to="/catalog">Каталог</router-link></li>
-                <li class="menuItem">Контакты</li>
+                <li class="menuItem"><a href="/#navAbout">О Нас</a></li>
+                <li class="menuItem"><a href="/#navCatalog">Каталог</a></li>
+                <li class="menuItem"><a href="/#navContacts">Контакты</a></li>
                 <li class="menuItem"><a href='tel:' class="tel">8 (777) 777 77 77</a></li>
             </nav>
             <div class="iconMobile" @click="mobileVision">
@@ -73,6 +73,7 @@ export default {
                 position: relative
                 cursor: pointer
                 line-height: 9vh
+                display: none
                 .menuMobile
                     list-style: none
                     height: auto
@@ -102,6 +103,8 @@ export default {
                 flex-direction: row
                 justify-content: space-evenly
                 align-items: center
+                & *:hover
+                    color: darken(silver, 10%) !important
 
                 .menuItem
                     margin-right: 5%
@@ -112,7 +115,7 @@ export default {
                         text-decoration: none
                     .tel
                         text-decoration: underline
-    @media (min-width: 0px) and (max-width: 800px)
+    @media (min-width: 0px) and (max-width: 600px)
         .iconMobile
             display: block !important
             font-size: 9vw

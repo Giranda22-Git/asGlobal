@@ -1,5 +1,5 @@
 <template>
-    <div class = "block">
+    <div class = "block" id="navAbout">
         <div class="background">
             <AboutItem/>
         </div>

@@ -51,6 +51,7 @@ export default {
             background-color: #10c9c3
             line-height: 3.7vh
             border-radius: 6%
+            border: none
             color: inherit
             outline: none
             cursor: pointer

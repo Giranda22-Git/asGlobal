@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="navContacts">
     <div class="pre-footer">
     <div class="iconholder">
       <div class="adaptive_box">

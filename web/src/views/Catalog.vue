@@ -1,5 +1,5 @@
 <template>
-    <div class="block">
+    <div class="block" id="navCatalog">
         <div class="content">
             <div class="line" 
                 v-for="index in (Math.floor(CatalogData.length / 3)+1)"

@@ -2,11 +2,11 @@
         <div class="product_block">
             <div class="product">
                 <div class="image"
-                v-bind:style="{'background': 'url(' + require('../assets/' + ItemData.Image) + ') center no-repeat', 'background-size': '100%'}"></div>
+                v-bind:style="{'background': 'url(' + require('../assets/' + ItemData.img) + ') center no-repeat', 'background-size': 'cover'}"></div>
                 <div class="text">
-                    {{ ItemData }}
+                    {{ ItemData.Description }}
                 </div>
-                <a href = "#" class="button">Подробнее</a>
+                <button class="button" @click="viewDetails">Подробнее</button>
             </div>
         </div>
 </template>
@@ -20,10 +20,11 @@ export default {
         ItemData: {
             type: Object,
             default: () => {}
-        },
-        ItemModalData: {
-            type: Object,
-            default: () => {}
+        }
+    },
+    methods: {
+        viewDetails(){
+            this.$emit("viewDetails", this.ItemData)
         }
     }
 }
@@ -32,25 +33,30 @@ export default {
 <style lang="sass" scoped>
     $Content_size: 100%
     .product_block
-        width: $Content-size / 3
+        width: $Content-size / 4.1
         height: 75vh
         display: flex
         .product
             border: 1px solid black
             margin: 0 auto
-            margin-top: 5vh
-            width: 17vw
-            height: 70vh
+            width: 100%
+            height: 100%
+            display: flex
+            flex-direction: column
+            justify-content: space-around
+            align-items: center
         .image
-            width: 17vw
-            height: 30vh
+            width: 85%
+            height: 28%
         .text
-            height: 30vh
-            overflow: auto
-            font-size: 2.6vh
+            height: 40%
+            overflow-y: hidden
+            overflow-x: hidden
+            font-size: 2.2vh
             text-align: center
             width: 85%
-            margin: 0 auto
+            &:hover
+                overflow-y: auto
             &::-webkit-scrollbar 
                 width: 3px 
                 height: 3px
@@ -68,15 +74,14 @@ export default {
                 background-color: #999
             &::-webkit-resizer 
                 background-color: #666
-        .button 
+        .button
             display: block
             font-size: 3vh
-            margin: 2vh auto
-            width: 60%
             text-align: center
             color: white
-            height: 5vh !important
             background-color: #98ED00
-            text-decoration: none
-            line-height: 5vh
+            width: 85%
+            height: 8% !important
+            outline: none
+            cursor: pointer
 </style>

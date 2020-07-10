@@ -34,7 +34,7 @@ export default {
         { id: 7, name: 'img4', img: 'carousel4.jpg' }
       ],
       catalogData: [
-        { id: 0, name: 'Catalog Name1', img: 'productimage.jpg', description: 'Catalog Name' },
+        { id: 0, name: 'Натуральный мармолеум', img: 'productimage.jpg', description: 'Catalog Name' },
         { id: 1, name: 'Catalog Name2', img: 'productimage.jpg', description: 'Catalog Name' },
         { id: 2, name: 'Catalog Name3', img: 'productimage.jpg', description: 'Catalog Name' },
         { id: 3, name: 'Catalog Name4', img: 'productimage.jpg', description: 'Catalog Name' },

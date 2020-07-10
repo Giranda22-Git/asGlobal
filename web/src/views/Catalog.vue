@@ -1,11 +1,17 @@
 <template>
     <div class="block" id="navCatalog">
         <div class="content">
-            <catalogItem class="catalogItem"
-                v-for="item in CatalogData"
-                :key="item.id"
-                :ItemData = "item"
-            />
+            <div class="CatalogTitle">
+                <h1>Выберите каталог</h1>
+                <hr>
+            </div>
+            <div class="Catalog">
+                <catalogItem class="catalogItem"
+                    v-for="item in CatalogData"
+                    :key="item.id"
+                    :ItemData = "item"
+                />
+            </div>
         </div>
     </div>
 </template>
@@ -30,17 +36,29 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@320&display=swap')
     $catalogColor: lighten(#26272b, 3.25%)
     .block
         height: auto
         background-color: $catalogColor
-    .content
-        height: auto
-        margin: 0 auto
-        max-width: 80%
-        display: grid
-        grid-template-columns: 1fr 1fr 1fr
-        & *
-            border: .3vw solid transparent
-            height: 30vh
+        .content
+            height: auto
+            margin: 0 auto
+            max-width: 80%
+            .CatalogTitle
+                height: 10vh
+                text-align: center
+                font-size: 1.5vh
+                color: white
+                display: flex
+                flex-direction: column
+                justify-content: center
+                font-family: 'Roboto Slab', serif
+                hr
+                    width: 100%
+            .Catalog
+                display: grid
+                grid-template-columns: 1fr 1fr 1fr
+                & *
+                    height: 30vh
 </style>

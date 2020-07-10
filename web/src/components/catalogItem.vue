@@ -1,10 +1,9 @@
 <template>
-    <div class="block">
+    <router-link :to='{ path: `/products/${ItemData.id}` }' class="Link">
         <div class="img" v-bind:style="{background: 'url(' + require('../assets/' + ItemData.img) + ') center no-repeat', 'background-size': 'cover'}">
-            <router-link :to='{ path: `/products/${ItemData.id}` }' class="Link"></router-link>
-            <div class="catalogName">{{ ItemData.name }}</div>
+            <div class="catalogName"><h4>{{ ItemData.name }}</h4><span>БОЛЬШЕ ИНФОРМАЦИИ</span> </div>
         </div>
-    </div>
+    </router-link>
 </template>
 
 <script>
@@ -24,17 +23,26 @@ export default {
 
 <style lang="sass" scoped>
     $fontColor: black
-    .block
+    .Link
+        display: block
+        height: 100%
+        position: relative
+        z-index: 5
         display: flex
         flex-direction: column
         justify-content: space-around
         align-items: center
+        border: .2vw solid transparent
+        &:hover
+            border: .2vw solid darken(white, 50%)
+            & .catalogName
+                background-color: rgba(255,255,255,.75) !important
         .img
             width: 100%
             height: 100%
             position: relative
+
             .catalogName
-                font-size: 2.4vh
                 text-align: center
                 width: 100%
                 color: $fontColor
@@ -43,8 +51,26 @@ export default {
                 left: 0
                 height: 40%
                 background-color: rgba(255,255,255,.6)
-            .Link
-                display: block
-                height: 100%
+                display: flex
+                flex-direction: column
+                justify-content: center
+                font-family: "Myriad W08 Light",Arial,sans-serif
+                h4
+                    margin: 0
+                    padding: 0
+                    font-weight: 400
+                    font-style: normal
+                    text-rendering: optimizeLegibility
+                    margin-block-end: 20% solid transparent
+                    display: block
+                    margin-block-end: 6%
+                    font-size: 2.1vh
+                span
+                    font-size: 1.4vh
+                    font-weight: 400
+                    text-rendering: optimizeLegibility
+                    font-style: normal
+
+
 
 </style>

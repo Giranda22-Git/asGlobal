@@ -100,17 +100,17 @@ footer
       height: 100%
       display: flex
       flex-direction: column
-      align-items: center
+      box-align: center
       justify-content: space-around
       .text2
         color: #fff
         font-size: 2.56vh
         text-transform: uppercase
-        letter-spacing: 0.32vh 
+        letter-spacing: 0.32vh
         text-align: center
       .map
         width: 100%
-        height: 100%
+        height: 80%
         border-radius: 8%
 
     .item3

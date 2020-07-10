@@ -37,7 +37,7 @@ export default {
         height: 75vh
         display: flex
         .product
-            border: 1px solid black
+            border: .05vw solid darken(white, 50%)
             margin: 0 auto
             width: 100%
             height: 100%
@@ -76,12 +76,14 @@ export default {
                 background-color: #666
         .button
             display: block
-            font-size: 3vh
+            font-size: 2.85vh
             text-align: center
             color: white
-            background-color: #98ED00
+            background-color: darken(#98ED00,20%)
             width: 85%
-            height: 8% !important
+            height: 6.4% !important
             outline: none
             cursor: pointer
+            border: none
+            border-radius: 4%
 </style>

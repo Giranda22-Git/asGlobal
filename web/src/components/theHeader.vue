@@ -54,7 +54,7 @@ export default {
         justify-content: center
 
         .nav
-            width: 80%
+            width: 83%
             height: 100%
             display: flex
             justify-content: space-between
@@ -64,7 +64,7 @@ export default {
                 background: url('../assets/A&S.png') center no-repeat
                 background-size: cover
                 height: auto
-                width: 8vh
+                width: 13vh
                 .logoHref
                     display: block
                     height: 100%

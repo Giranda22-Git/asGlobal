@@ -54,6 +54,7 @@ export default {
                 flex-direction: column
                 justify-content: center
                 font-family: 'Roboto Slab', serif
+                padding-top: 3vh
                 hr
                     width: 100%
             .Catalog

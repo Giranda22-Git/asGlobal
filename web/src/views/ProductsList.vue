@@ -1,4 +1,5 @@
 <template>
+    <div class="block">
         <div class="content">
             Id: {{ $route.params.id }}
             <div class="line"
@@ -32,6 +33,7 @@
                 :SelectedProduct="SelectedProduct"
             />
         </div>
+    </div>
 </template>
 
 <script>
@@ -72,8 +74,11 @@ export default {
 <style lang="sass" scroped>
     // * 
     //     border: 1px solid red
-    
-        
+    $Color: lighten(#26272b, 6.25%)
+    .block
+        height: 100%
+        background-color: $Color
+        color: white
     .content
         margin: 0 auto
         height: 100%

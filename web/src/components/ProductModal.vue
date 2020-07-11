@@ -96,12 +96,4 @@ export default {
                 justify-content: space-around
                 align-items: center
                 text-align: center
-        
-
-
-
-    
-        
-
-
 </style>

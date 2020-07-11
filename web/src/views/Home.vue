@@ -19,6 +19,7 @@
 import About from '@/views/About.vue'
 import Catalog from '@/views/Catalog.vue'
 import theCarousel from '@/components/theCarousel.vue'
+
 export default {
   name: 'Home',
   data(){
@@ -59,6 +60,7 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+
   .ourWorks
     height: 55vh
     display: flex

@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <PreLoader class="canvas"/>
     <theHeader/>
     <transition name="fade">
       <router-view/>
@@ -9,6 +10,7 @@
 </template>
 
 <script>
+import PreLoader from '@/views/Pre-loader.vue'
 import theHeader from '@/components/theHeader.vue'
 import theFooter from '@/components/theFooter.vue'
 
@@ -18,12 +20,20 @@ export default {
   }),
   components: {
     theHeader,
-    theFooter
+    theFooter,
+    PreLoader
   }
 }
 </script>
 
 <style lang="sass">
+  .canvas
+    position: fixed
+    z-index: 100
+    width: 100vw !important
+    height: 100vh !important
+    top: 0
+    left: 0
   .fade-enter-active, .fade-leave-active
     transition-property: opacity
     transition-duration: .25s

@@ -24,7 +24,7 @@ export default {
   mounted() {
     this.init();
     this.animate();
-    setTimeout(this.threeStop, 5000)
+    setTimeout(this.threeStop, 3000)
   },
 
   methods: {
@@ -86,16 +86,18 @@ export default {
   
       this.light = new THREE.SpotLight( 0xffffff );
       this.light.castShadow = true;
-      this.light.position.set( position.x,position.y,position.z )
-      this.light.rotation.set(1.8,1.2,1.8)
+      this.light.position.set( 25,0,5 )
+      this.light.target.position.set( -80,40,0 )
       this.light.shadow.mapSize.width = 50;
       this.light.shadow.mapSize.height = 50;
   
       this.light.shadow.camera.near = 50;
-      this.light.shadow.camera.far = 50;
+      this.light.shadow.camera.far = 100;
       this.light.shadow.camera.fov = 50;
       this.light.intensity = 4
       this.scene.add( this.light );
+      this.scene.add( this.light.target );
+
       let vm = this
       loader.load( 
         '../../9Rabota.glb',
@@ -119,6 +121,8 @@ export default {
       
       this.renderer.setPixelRatio( window.devicePixelRatio );
       this.renderer.setSize( window.innerWidth, window.innerHeight );
+      this.renderer.shadowMap.enabled = true;
+      this.renderer.shadowMap.type = THREE.PCFSoftShadowMap;
       document.querySelector('.canvas').appendChild(this.renderer.domElement)
   
       window.addEventListener( 'resize', this.onWindowResize, false );

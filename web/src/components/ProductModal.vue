@@ -57,7 +57,7 @@ export default {
         result:function(val){
             let elements = String(this.result).split('')
             let dom = document.querySelector('#Calc')
-            document.innerWidth < 500 ? dom.style.width = 40 * elements.length + 'vw !important' : dom.style.width = 1.5 * elements.length + '%'
+            dom.style.width = 1.7 * elements.length + '%'
         }
     }
 }
@@ -134,7 +134,7 @@ export default {
                     width: 100%
                     input
                         outline: none
-                        width: 2%
+                        width: 3%
                         background-color: transparent
                         color: white
                         border: none

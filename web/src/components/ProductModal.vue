@@ -11,7 +11,7 @@
             </div>
             <div class="contentWrapper">
                 <div class="leftContentWrapper"
-                    :style="{'background': 'url(' + require('../assets/' + SelectedProduct.img) + ') center no-repeat', 'background-size': 'cover'}"
+                    :style="{'background': 'url(' + require('../assets/' + SelectedProduct.img) + ') center no-repeat', 'background-size': 'cover', 'width' : '30vw'}"
                 ></div>
                 <div class="rightContentWrapper">
                     <h1 class="productName">
@@ -65,6 +65,7 @@ export default {
 
 <style lang="sass" scoped>
 
+
     .modal-fade-enter,
     .modal-fade-leave-active 
         opacity: 0
@@ -99,6 +100,8 @@ export default {
             height: 94%
             & *
                 width: 50%
+            .leftContentWrapper
+                margin: 0 auto
             .rightContentWrapper
                 display: flex
                 flex-direction: column

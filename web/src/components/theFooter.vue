@@ -141,14 +141,14 @@ footer
     -moz-box-sizing: content-box
     box-sizing: content-box
 
-  .copyright-text
-    font-size: 3vh
-    text-align: center
-    a
-      color: #737373
-      text-decoration: none
-      a:active
-       color: #737373
+.copyright-text
+  font-size: 2vh
+  text-align: center
+  a
+    color: #737373
+    text-decoration: none
+    a:active
+    color: #737373
 .pre-footer
   background-color: #26272b
   color: #737373

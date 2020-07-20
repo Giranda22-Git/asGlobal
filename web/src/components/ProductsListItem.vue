@@ -3,8 +3,9 @@
             <div class="product">
                 <div class="image"
                 v-bind:style="{'background': 'url(' + require('../assets/' + ItemData.img) + ') center no-repeat', 'background-size': 'cover'}"></div>
-                <div class="text">
-                    {{ ItemData.Description }}
+                <div class="text"
+                v-html="ItemData.Description"
+                >
                 </div>
                 <button class="button" @click="viewDetails">Подробнее</button>
             </div>

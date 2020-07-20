@@ -3,27 +3,22 @@
         <div class="content">
             Id: {{ $route.params.id }}
             <div class="line"
-                v-for="index in (Math.floor(ProductListData.length / 4))"
+                v-for="index in (Math.floor(ProductListData.length / 3))"
                 :key = 'index'
             >
                     <ProductsListItem
                     :key="ProductListData[index].id"
-                    :ItemData = "ProductListData[(index * 4) - 4]"
+                    :ItemData = "ProductListData[(index * 3) - 3]"
                     @viewDetails = "viewDetails"
                     />
                     <ProductsListItem
                     :key="ProductListData[index].id + 1"
-                    :ItemData = "ProductListData[(index * 4) - 3]"
+                    :ItemData = "ProductListData[(index * 3) - 2]"
                     @viewDetails = "viewDetails"
                     />
                     <ProductsListItem
                     :key="ProductListData[index].id + 2"
-                    :ItemData = "ProductListData[(index * 4) - 2]"
-                    @viewDetails = "viewDetails"
-                    />
-                    <ProductsListItem
-                    :key="ProductListData[index].id + 3"
-                    :ItemData = "ProductListData[(index * 4) - 1]"
+                    :ItemData = "ProductListData[(index * 3) - 1]"
                     @viewDetails = "viewDetails"
                     />
             </div>
@@ -45,7 +40,7 @@ export default {
         isModalVisible: false,
         SelectedProduct: null,
         ProductListData: [
-            { id: 0, Name: 'productName0', img: 'productimage.jpg', Description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo hic aliquam commodi? Architecto repellendus eaque labore provident quibusdam hic pariatur. At doloremque, autem sapiente facilis aperiam optio beatae magnam maxime perspiciatis aliquid. Numquam vero dolores corrupti pariatur! Saepe iusto eveniet explicabo, qui fugit reprehenderit. Eligendi veniam veritatis sint eos ducimus.', startedPrice:"100" },
+            { id: 0, Name: 'sportline', img: 'sportline.jpg', Description: 'Это специально разработанный гетерогенный ПВХ напольный материал для многофункциональных спортивных и игровых залов.', startedPrice:"100" },
             { id: 1, Name: 'productName1', img: 'productimage.jpg', Description: '2', startedPrice:"100" },
             { id: 2, Name: 'productName2', img: 'productimage.jpg', Description: '3', startedPrice:"100" },
             { id: 3, Name: 'productName3', img: 'productimage.jpg', Description: '4', startedPrice:"100" },

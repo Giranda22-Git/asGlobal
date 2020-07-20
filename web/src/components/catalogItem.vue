@@ -1,6 +1,6 @@
 <template>
-    <router-link :to='{ path: `/products/${ItemData.id}` }' class="Link">
-        <div class="img" v-bind:style="{background: 'url(' + require('../assets/' + ItemData.img) + ') center no-repeat', 'background-size': 'cover'}">
+    <router-link :to='{ path: `/products/${ ItemData._id }` }' class="Link">
+        <div class="img" v-bind:style="{background: 'url(' + require('../assets/' + ItemData.imageName) + ') center no-repeat', 'background-size': 'cover'}">
             <div class="catalogName"><h4>{{ ItemData.name }}</h4><span>БОЛЬШЕ ИНФОРМАЦИИ</span> </div>
         </div>
     </router-link>
@@ -10,7 +10,7 @@
 export default {
     name: 'catalogItem',
     data: () => ({
-        
+
     }),
     props: {
         ItemData: {

@@ -13,7 +13,6 @@ Vue.use(VueRouter)
   {
     path: '/products/:id',
     name: 'ProductsList',
-    props: true,
     component: () => import('../views/ProductsList.vue')
   }
 ]

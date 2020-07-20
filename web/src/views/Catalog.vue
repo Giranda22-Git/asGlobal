@@ -6,9 +6,10 @@
                 <hr>
             </div>
             <div class="Catalog">
+                <catalogItem/>
                 <catalogItem class="catalogItem"
                     v-for="item in CatalogData"
-                    :key="item.id"
+                    :key="item._id"
                     :ItemData = "item"
                 />
             </div>
@@ -21,7 +22,7 @@ import catalogItem from '@/components/catalogItem.vue'
 export default {
     name: 'catalog',
     data: () => ({
-
+        
     }),
     components: {
         catalogItem

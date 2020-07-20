@@ -3,10 +3,18 @@ const bodyParser = require('body-parser')
 const { ObjectID } = require('mongodb')
 const MongoClient = require('mongodb').MongoClient
 const ObjectId = require('mongodb').ObjectID
+const cors = require('cors')
 const PORT = process.env.PORT || 3000
 
 const app = express()
 let db
+
+const corsOptions = {
+  origin: 'http://localhost:8080',
+  optionsSuccessStatus: 200
+}
+
+app.use(cors(corsOptions))
 
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
@@ -31,6 +39,7 @@ async function init(){
       }
       const catalog = {
         name: req.body.name,
+        imageName: req.body.imageName,
         products: req.body.products ? req.body.products : new Array()
       }
       db.collection('Catalogs').insertOne(catalog, (err, result) => {

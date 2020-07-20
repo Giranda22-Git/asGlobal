@@ -11,14 +11,14 @@
             </div>
             <div class="contentWrapper">
                 <div class="leftContentWrapper"
-                    :style="{'background': 'url(' + require('../assets/' + SelectedProduct.img) + ') center no-repeat', 'background-size': 'cover', 'width' : '30vw'}"
+                    :style="{'background': 'url(' + require('../assets/' + SelectedProduct.imageName) + ') center no-repeat', 'background-size': 'cover', 'width' : '30vw'}"
                 ></div>
                 <div class="rightContentWrapper">
                     <h1 class="productName">
-                        {{ SelectedProduct.Name }}
+                        {{ SelectedProduct.name }}
                     </h1>
                     <h4 class="productDescription">
-                        {{ SelectedProduct.Description }}
+                        {{ SelectedProduct.description }}
                     </h4>
                     <div class="productCalc">
                         <label for="Calc">Цена за </label>

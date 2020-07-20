@@ -3,7 +3,7 @@
         <div class="content">
             <ProductsListItem
             v-for="index in ProductListData"
-            :key="index.id"
+            :key="index._id"
             :ItemData = "index"
             @viewDetails = "viewDetails"
             />
@@ -55,7 +55,7 @@ export default {
 </script>
 
 
-<style lang="sass" scroped>
+<style lang="sass" scoped>
     $Color: lighten(#26272b, 6.25%)
     .block
         height: 100%

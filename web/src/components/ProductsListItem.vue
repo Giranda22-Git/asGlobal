@@ -2,12 +2,12 @@
         <div class="product_block" @click="viewDetails">
             <div class="product">
                     <div class="image"
-                    v-bind:style="{'background': 'url(' + require('../assets/' + ItemData.img) + ') center no-repeat', 'background-size': 'cover'}">
-                        <div class="white_block">
-                            <div class="name"
-                            v-html="ItemData.Name"
-                            ></div>
-                            <h4>БОЛЬШЕ ИНФОРМАЦИИ</h4>
+                    v-bind:style="{'background': 'url(' + require('../assets/' + ItemData.imageName) + ') center no-repeat', 'background-size': 'cover'}">
+                    <div class="white_block">
+                        <div class="name"
+                        v-html="ItemData.name"
+                        ></div>
+                        <h4>БОЛЬШЕ ИНФОРМАЦИИ</h4>
                     </div>
                 </div>
                 <!-- <button class="button" @click="viewDetails">Подробнее</button> -->
@@ -16,7 +16,7 @@
 </template>
 
 <script>
-    export default {
+export default {
     name: 'productListItem',
     data: () => ({
     }),
@@ -31,7 +31,7 @@
             this.$emit("viewDetails", this.ItemData)
         }
     }
-    }
+}
 </script>
 
  <style lang="sass" scoped>

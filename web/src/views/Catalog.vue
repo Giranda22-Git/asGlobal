@@ -46,6 +46,8 @@ export default {
             height: auto
             margin: 0 auto
             max-width: 80%
+            display: flex
+            flex-direction: column
             .CatalogTitle
                 height: 10vh
                 text-align: center

@@ -7,6 +7,7 @@
             :ItemData = "index"
             @viewDetails = "viewDetails"
             />
+
             <ProductModal class="modal"
                 v-show="isModalVisible"
                 @close="closeModal"
@@ -17,25 +18,18 @@
 </template>
 
 <script>
+import axios from 'axios'
 import ProductsListItem from '@/components/ProductsListItem.vue'
 import ProductModal from '@/components/ProductModal.vue'
 
 
 export default {
-    name: 'ProductsList1',
+    name: 'ProductsList',
     data: () => ({
         isModalVisible: false,
         SelectedProduct: null,
-        ProductListData: [
-            { id: 0, Name: 'SportLine', img: 'sportline.jpg', Description: 'Это специально разработанный гетерогенный ПВХ напольный материал для многофункциональных спортивных и игровых залов.', startedPrice:"100" },
-            { id: 1, Name: 'productName1', img: 'productimage.jpg', Description: '2', startedPrice:"100" },
-            { id: 2, Name: 'productName2', img: 'productimage.jpg', Description: '3', startedPrice:"100" },
-            { id: 3, Name: 'productName3', img: 'productimage.jpg', Description: '4', startedPrice:"100" },
-            { id: 4, Name: 'productName4', img: 'productimage.jpg', Description: '5', startedPrice:"100" },
-            { id: 5, Name: 'productName5', img: 'productimage.jpg', Description: '6', startedPrice:"100" },
-            { id: 6, Name: 'productName6', img: 'productimage.jpg', Description: '7', startedPrice:"100" },
-            { id: 7, Name: 'productName7', img: 'productimage.jpg', Description: '8', startedPrice:"100" }
-        ]
+
+        ProductListData: null
     }),
     components:{
         ProductsListItem,
@@ -49,6 +43,13 @@ export default {
             this.SelectedProduct = product
             this.isModalVisible = true;
         }
+    },
+    mounted() {
+        axios.get('http://localhost:3000/Catalogs/' + this.$route.params.id)
+        .then( response => {this.ProductListData = response.data.products; console.log(response.data.products)} )
+        .catch(function (error) {
+            console.log(error);
+        })
     }
 }
 </script>

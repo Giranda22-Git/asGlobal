@@ -1,4 +1,4 @@
-<template>
+ <template>
     <transition name="modal-fade">
         <div class="wrapper">
             <div class="head">
@@ -27,11 +27,24 @@
                     </div>
                 </div>
             </div>
+            <div class="bottom_block">
+                <div class="LeftBottomBlock">
+                    <div class="colorPanel">
+                        <ColorItem />
+                        <ColorItem />
+                        <ColorItem />
+                        <ColorItem />
+                        <ColorItem />
+                    </div>
+                </div>
+                <div class="RightBottomBlock"></div>
+            </div>
         </div>
     </transition>
 </template>
 
 <script>
+import ColorItem from '@/components/ColorItem.vue'
 export default {
     name: 'productModal',
     data: () => ({
@@ -59,100 +72,140 @@ export default {
             let dom = document.querySelector('#Calc')
             dom.style.width = 1.7 * elements.length + '%'
         }
+    },
+    components:{
+        ColorItem
     }
 }
 </script>
 
 <style lang="sass" scoped>
 
+.modal-fade-enter,
+.modal-fade-leave-active 
+    opacity: 0
 
-    .modal-fade-enter,
-    .modal-fade-leave-active 
-        opacity: 0
+.modal-fade-enter-active,
+.modal-fade-leave-active 
+    transition: opacity .5s ease
 
-    .modal-fade-enter-active,
-    .modal-fade-leave-active 
-        transition: opacity .5s ease
+.head
+    height: 6%
+    display: flex
+    justify-content: flex-end
+    #close
+        background-color: transparent !important
+        border: none
+        outline: none
+        svg
+            font-size: 3.5vh
+            cursor: pointer
+            color: white
+.wrapper
+    width: 70vw
+    height: 65vh
+    box-shadow: 0 0 38px 6px darken(grey , 5%)
+    background-color: #26272b
+    z-index: 100
 
-    .head
-        height: 6%
+    .contentWrapper
         display: flex
-        justify-content: flex-end
-        #close
-            background-color: transparent !important
-            border: none
-            outline: none
-            svg
-                font-size: 3.5vh
-                cursor: pointer
-                color: white
-
-    .wrapper
-        width: 70vw
-        height: 45vh
-        box-shadow: 0 0 38px 6px darken(grey , 5%)
-        background-color: #26272b
-        z-index: 100
-
-        .contentWrapper
+        justify-content: space-between
+        height: 40vh
+        & *
+            width: 50%
+        .leftContentWrapper
+            margin: 0 auto
+        .rightContentWrapper
             display: flex
-            justify-content: space-between
-            height: 94%
-            & *
-                width: 50%
-            .leftContentWrapper
-                margin: 0 auto
-            .rightContentWrapper
-                display: flex
-                flex-direction: column
-                justify-content: space-around
-                align-items: center
-                text-align: center
-                h1
+            flex-direction: column
+            justify-content: space-around
+            align-items: center
+            text-align: center
+            h1
 
-                    width: 100%
-                    font-size: 4vh
-                h4
-                    max-height: 60%
-                    overflow: auto
-                    width: 100%
-                    ::-webkit-scrollbar 
-                        width: 3px 
-                        height: 3px
-                    ::-webkit-scrollbar-button 
-                        background-color: #666
-                    ::-webkit-scrollbar-track
-                        background-color: #999
-                    ::-webkit-scrollbar-track-piece 
-                        background-color: #ffffff
-                    ::-webkit-scrollbar-thumb 
-                        height: 50px
-                        background-color: #666
-                        border-radius: 3px
-                    ::-webkit-scrollbar-corner 
-                        background-color: #999
-                    ::-webkit-resizer 
-                        background-color: #666
-                .productCalc
-                    width: 100%
-                    input
-                        outline: none
-                        width: 3%
-                        background-color: transparent
-                        color: white
-                        border: none
-                        box-sizing: border-box
-                
-                @media screen and ( max-width: 500px )
-                    h1
-                        font-size: 5vw
-                    .leftContentWrapper
-                        background-size: cover !important
-                    svg
-                        font-size: 5vw !important
-                    .wrapper
-                        height: 60vh !important
-                    input 
-                        width: 18% !important
-                        font-size: 4vw
+                width: 100%
+                font-size: 4vh
+            h4
+                max-height: 60%
+                overflow: auto
+                width: 100%
+                ::-webkit-scrollbar 
+                    width: 3px 
+                    height: 3px
+                ::-webkit-scrollbar-button 
+                    background-color: #666
+                ::-webkit-scrollbar-track
+                    background-color: #999
+                ::-webkit-scrollbar-track-piece 
+                    background-color: #ffffff
+                ::-webkit-scrollbar-thumb 
+                    height: 50px
+                    background-color: #666
+                    border-radius: 3px
+                ::-webkit-scrollbar-corner 
+                    background-color: #999
+                ::-webkit-resizer 
+                    background-color: #666
+            .productCalc
+                width: 100%
+                input
+                    outline: none
+                    width: 3%
+                    background-color: transparent
+                    color: white
+                    border: none
+                    box-sizing: border-box
+    .bottom_block
+        height: 20vh
+        width: 100%
+        display: flex
+        flex-direction: row
+        .LeftBottomBlock
+            width: 50%
+            height: 100%
+            display: flex
+            justify-content: center
+            align-items: center
+            .colorPanel
+                background-color: lighten(#26272b, 4%)
+                width: 30vw
+                display: grid
+                grid-template-columns: 1fr 1fr 1fr 1fr
+                grid-gap: .5vw
+                height: 82%
+                overflow: auto
+                grid-template-rows: 1fr
+                &::-webkit-scrollbar 
+                    width: 3px 
+                    height: 3px
+                &::-webkit-scrollbar-button 
+                    background-color: #666
+                &::-webkit-scrollbar-track
+                    background-color: #999
+                &::-webkit-scrollbar-track-piece 
+                    background-color: #ffffff
+                &::-webkit-scrollbar-thumb 
+                    height: 50px
+                    background-color: #666
+                    border-radius: 3px
+                &::-webkit-scrollbar-corner 
+                    background-color: #999
+                &::-webkit-resizer 
+                    background-color: #666
+        .RightBottomBlock
+            width: 50%
+            height: 100%
+@media screen and ( max-width: 500px )
+    h1
+        font-size: 5vw
+        .leftContentWrapper
+        background-size: cover !important
+        svg
+            font-size: 5vw !important
+        .wrapper
+            height: 60vh !important
+        input 
+        width: 18% !important
+        font-size: 4vw
 </style>

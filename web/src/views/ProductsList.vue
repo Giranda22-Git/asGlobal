@@ -1,27 +1,12 @@
 <template>
     <div class="block">
         <div class="content">
-            Id: {{ $route.params.id }}
-            <div class="line"
-                v-for="index in (Math.floor(ProductListData.length / 3))"
-                :key = 'index'
-            >
-                    <ProductsListItem
-                    :key="ProductListData[index].id"
-                    :ItemData = "ProductListData[(index * 3) - 3]"
-                    @viewDetails = "viewDetails"
-                    />
-                    <ProductsListItem
-                    :key="ProductListData[index].id + 1"
-                    :ItemData = "ProductListData[(index * 3) - 2]"
-                    @viewDetails = "viewDetails"
-                    />
-                    <ProductsListItem
-                    :key="ProductListData[index].id + 2"
-                    :ItemData = "ProductListData[(index * 3) - 1]"
-                    @viewDetails = "viewDetails"
-                    />
-            </div>
+            <ProductsListItem
+            v-for="index in ProductListData"
+            :key="index.id"
+            :ItemData = "index"
+            @viewDetails = "viewDetails"
+            />
             <ProductModal class="modal"
                 v-show="isModalVisible"
                 @close="closeModal"
@@ -34,13 +19,15 @@
 <script>
 import ProductsListItem from '@/components/ProductsListItem.vue'
 import ProductModal from '@/components/ProductModal.vue'
+
+
 export default {
     name: 'ProductsList1',
     data: () => ({
         isModalVisible: false,
         SelectedProduct: null,
         ProductListData: [
-            { id: 0, Name: 'sportline', img: 'sportline.jpg', Description: 'Это специально разработанный гетерогенный ПВХ напольный материал для многофункциональных спортивных и игровых залов.', startedPrice:"100" },
+            { id: 0, Name: 'SportLine', img: 'sportline.jpg', Description: 'Это специально разработанный гетерогенный ПВХ напольный материал для многофункциональных спортивных и игровых залов.', startedPrice:"100" },
             { id: 1, Name: 'productName1', img: 'productimage.jpg', Description: '2', startedPrice:"100" },
             { id: 2, Name: 'productName2', img: 'productimage.jpg', Description: '3', startedPrice:"100" },
             { id: 3, Name: 'productName3', img: 'productimage.jpg', Description: '4', startedPrice:"100" },
@@ -66,45 +53,28 @@ export default {
 }
 </script>
 
+
 <style lang="sass" scroped>
-    // * 
-    //     border: 1px solid red
     $Color: lighten(#26272b, 6.25%)
     .block
         height: 100%
         background-color: $Color
         color: white
-    .content
-        margin: 0 auto
-        height: 100%
-        width: 80%
-        display: flex
-        flex-direction: column
-        justify-content: space-around
-        .line
-            height: 80vh
-            display: flex
-            flex-direction: row
-            justify-content: space-around
+        .content
+            height: auto
+            max-width: 80%
+            margin: 0 auto
+            display: grid
+            grid-template-columns: 1fr 1fr 1fr
+            grid-gap: .4vw
+            
             &:first-child
                 margin-top: 7vh
         .modal
             position: fixed
             left: 15%
-            top: 20%
-            
-        @media (max-width: 800px)
-            .line
-                flex-direction: column !important
-                height: 300vh
-                & *
-                    width: 90% !important
-                    margin: 0 auto
+            top: 16%        
     @media (min-width: 800px) and (max-width: 1280px)
         .content
             width: 100% !important
-        .line
-            height: 55vh !important
-            & *
-                height: 50vh !important
 </style>

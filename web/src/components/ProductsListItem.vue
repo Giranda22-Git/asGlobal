@@ -1,19 +1,22 @@
 <template>
-        <div class="product_block">
+        <div class="product_block" @click="viewDetails">
             <div class="product">
-                <div class="image"
-                v-bind:style="{'background': 'url(' + require('../assets/' + ItemData.img) + ') center no-repeat', 'background-size': 'cover'}"></div>
-                <div class="text"
-                v-html="ItemData.Description"
-                >
+                    <div class="image"
+                    v-bind:style="{'background': 'url(' + require('../assets/' + ItemData.img) + ') center no-repeat', 'background-size': 'cover'}">
+                        <div class="white_block">
+                            <div class="name"
+                            v-html="ItemData.Name"
+                            ></div>
+                            <h4>БОЛЬШЕ ИНФОРМАЦИИ</h4>
+                    </div>
                 </div>
-                <button class="button" @click="viewDetails">Подробнее</button>
+                <!-- <button class="button" @click="viewDetails">Подробнее</button> -->
             </div>
         </div>
 </template>
 
 <script>
-export default {
+    export default {
     name: 'productListItem',
     data: () => ({
     }),
@@ -28,18 +31,19 @@ export default {
             this.$emit("viewDetails", this.ItemData)
         }
     }
-}
+    }
 </script>
 
-<style lang="sass" scoped>
-    $Content_size: 100%
+ <style lang="sass" scoped>
+    // *
+    //     border: 1px solid red
     .product_block
-        width: $Content-size / 4.1
-        height: 75vh
+        width: 100%
+        height: 34vh
         display: flex
+        cursor: pointer
         .product
             border: .05vw solid darken(white, 50%)
-            margin: 0 auto
             width: 100%
             height: 100%
             display: flex
@@ -47,44 +51,30 @@ export default {
             justify-content: space-around
             align-items: center
         .image
-            width: 85%
-            height: 28%
-        .text
-            height: 40%
-            overflow-y: hidden
-            overflow-x: hidden
-            font-size: 2.2vh
-            text-align: center
-            width: 85%
-            &:hover
-                overflow-y: auto
-            &::-webkit-scrollbar 
-                width: 3px 
-                height: 3px
-            &::-webkit-scrollbar-button 
-                background-color: #666
-            &::-webkit-scrollbar-track
-                background-color: #999
-            &::-webkit-scrollbar-track-piece 
-                background-color: #ffffff
-            &::-webkit-scrollbar-thumb 
-                height: 50px
-                background-color: #666
-                border-radius: 3px
-            &::-webkit-scrollbar-corner 
-                background-color: #999
-            &::-webkit-resizer 
-                background-color: #666
-        .button
-            display: block
-            font-size: 2.85vh
-            text-align: center
-            color: white
-            background-color: darken(#98ED00,20%)
-            width: 85%
-            height: 6.4% !important
-            outline: none
-            cursor: pointer
-            border: none
-            border-radius: 4%
-</style>
+            width: 100%
+            height: 100%
+            .white_block
+                height: 40%
+                color: black
+                width: 100%
+                background-color: rgba(255,255,255,.6)
+                display: flex
+                flex-direction: column
+                justify-content: space-around                
+                .name
+                    font-family: "Myriad W08 Light",Arial,sans-serif
+                    text-align: center 
+                    font-size: 3vh
+                    font-weight: 400
+                    text-rendering: optimizeLegibility
+                    font-style: normal
+                h4
+                    font-family: "Myriad W08 Light",Arial,sans-serif
+                    font-size: 2vh
+                    text-align: center
+                    font-weight: 400
+        .image:hover
+            border: .2vw solid darken(white, 50%)
+            & .white_block
+                background-color: rgba(255,255,255,.75) !important
+    </style>

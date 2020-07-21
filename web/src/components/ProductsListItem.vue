@@ -38,7 +38,6 @@ export default {
     // *
     //     border: 1px solid red
     .product_block
-        width: 100%
         height: 34vh
         display: flex
         cursor: pointer

@@ -10,7 +10,7 @@ export default {
 }
 </script>
 
-<style lang="sass" scroped>
+<style lang="sass" scoped>
     .color_block
         height: 14vh
         background-color: white

@@ -42,6 +42,7 @@ async function init(){
         imageName: req.body.imageName,
         products: req.body.products ? req.body.products : new Array()
       }
+      console.log(catalog.imageName, req.body.imageName)
       db.collection('Catalogs').insertOne(catalog, (err, result) => {
         if (err) return res.status(200).send(err)
         res.send(result)

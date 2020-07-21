@@ -2,6 +2,7 @@
     <div class="block">
         <div class="content">
             <ProductsListItem
+            class="productItem"
             v-for="index in ProductListData"
             :key="index._id"
             :ItemData = "index"
@@ -67,15 +68,16 @@ export default {
             margin: 0 auto
             display: grid
             grid-template-columns: 1fr 1fr 1fr
-            grid-gap: .4vw
-            
-            &:first-child
-                margin-top: 7vh
+            margin-top: 7vh
+            & .productItem
+                height: 20vw
         .modal
             position: fixed
             left: 15%
             top: 16%        
-    @media (min-width: 800px) and (max-width: 1280px)
+    @media screen and (max-width: 500px)
         .content
             width: 100% !important
+        .modal
+            top: 8% !important
 </style>

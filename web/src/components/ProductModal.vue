@@ -30,11 +30,11 @@
             <div class="bottom_block">
                 <div class="LeftBottomBlock">
                     <div class="colorPanel">
-                        <ColorItem />
-                        <ColorItem />
-                        <ColorItem />
-                        <ColorItem />
-                        <ColorItem />
+                        <ColorItem class="colorItem"
+                          v-for="item in SelectedProduct.Colors"
+                          :key="item.Code"
+                          :Color="item"
+                        />
                     </div>
                 </div>
                 <div class="RightBottomBlock"></div>
@@ -70,7 +70,7 @@ export default {
         result:function(val){
             let elements = String(this.result).split('')
             let dom = document.querySelector('#Calc')
-            dom.style.width = 1.7 * elements.length + '%'
+            window.innerWidth <= 500 ? dom.style.width = (3 * elements.length) + 1 + '%' : dom.style.width = 1.20 * elements.length + '%'
         }
     },
     components:{
@@ -130,6 +130,7 @@ export default {
                 max-height: 60%
                 overflow: auto
                 width: 100%
+                margin: 0
                 ::-webkit-scrollbar 
                     width: 3px 
                     height: 3px
@@ -172,10 +173,10 @@ export default {
                 width: 30vw
                 display: grid
                 grid-template-columns: 1fr 1fr 1fr 1fr
-                grid-gap: .5vw
                 height: 82%
                 overflow: auto
                 grid-template-rows: 1fr
+                grid-gap: 1vw
                 &::-webkit-scrollbar 
                     width: 3px 
                     height: 3px
@@ -200,20 +201,45 @@ export default {
   h1
     font-size: 5vw
   svg
-    font-size: 5vw !important
+    font-size: 7vw !important
   .wrapper
-    height: 60vh !important
+    height: 90vh !important
     .contentWrapper
       flex-direction: column
-      height: 100%
+      justify-content: flex-start
+      height: 60%
       & *
         width: 100%
       .leftContentWrapper
-        height: 25%
+        height: 30%
         width: 100% !important
+        background-size: cover !important
       .rightContentWrapper
         height: 70%
-  input 
-    width: 18% !important
-    font-size: 4vw
+        justify-content: flex-start
+        h1
+          margin-top: 3%
+          border-bottom: 1px solid silver
+          height: 17%
+        h4
+          margin-top: 5%
+          font-size: 4.4vw
+          text-align: justify-all
+          width: 90%
+          height: 80% !important
+        input
+          margin-top: 7%
+    .bottom_block
+      height: 34%
+      flex-direction: column
+      & *
+        width: 100% !important
+      .LeftBottomBlock
+        height: 57% !important
+        .colorPanel
+          grid-template-columns: 1fr 1fr !important
+      .RightBottomBlock
+        height: 43% !important
+      
+
 </style>

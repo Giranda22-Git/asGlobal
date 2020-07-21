@@ -75,7 +75,9 @@ export default {
             position: fixed
             left: 15%
             top: 16%        
-    @media (min-width: 800px) and (max-width: 1280px)
+    @media screen and (max-width: 500px)
         .content
             width: 100% !important
+        .modal
+            top: 8% !important
 </style>

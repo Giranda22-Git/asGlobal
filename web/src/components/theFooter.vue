@@ -73,7 +73,7 @@ footer
   color: #737373
   font-family: Arial,"Helvetica Neue",Helvetica,sans-serif
   width: 100vw
-  height: 50vh
+  height: 37vh
   word-wrap: break-word
   .container
     width: 100%
@@ -144,6 +144,7 @@ footer
 .copyright-text
   font-size: 2vh
   text-align: center
+  margin: 0
   a
     color: #737373
     text-decoration: none

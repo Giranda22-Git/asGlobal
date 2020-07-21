@@ -45,7 +45,7 @@ export default {
     opacity: 0
   html, body, h1, ul, li, ol
     margin: 0
-    padding: 
+    padding: 0
   html
     scroll-behavior: smooth
   *

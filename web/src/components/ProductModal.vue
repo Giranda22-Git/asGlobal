@@ -37,7 +37,20 @@
                         <ColorItem />
                     </div>
                 </div>
-                <div class="RightBottomBlock"></div>
+                <div class="RightBottomBlock">
+                    <div class="string">
+                        <div class="first_column">Толщина</div>
+                        <div class="second_column">4,3 mm / 6 mm</div>
+                    </div>
+                    <div class="string">
+                        <div class="first_column">Толщина слоя износа</div>
+                        <div class="second_column">0,6 mm / 1 mm</div>
+                    </div>
+                    <div class="string">
+                        <div class="first_column">Длина х Ширина</div>
+                        <div class="second_column">18 m x 200 cm <br>25 m x 200 cm</div>
+                    </div>
+                </div>
             </div>
         </div>
     </transition>
@@ -80,7 +93,6 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-
 .modal-fade-enter,
 .modal-fade-leave-active 
     opacity: 0
@@ -160,13 +172,13 @@ export default {
         height: 20vh
         width: 100%
         display: flex
-        flex-direction: row
+        align-items: center
         .LeftBottomBlock
             width: 50%
             height: 100%
             display: flex
             justify-content: center
-            align-items: center
+             align-items: center
             .colorPanel
                 background-color: lighten(#26272b, 4%)
                 width: 30vw
@@ -195,7 +207,26 @@ export default {
                     background-color: #666
         .RightBottomBlock
             width: 50%
-            height: 100%
+            height: 80%
+            display: flex
+            justify-content: space-evenly
+            align-items: center
+            flex-direction: column
+            .string
+                display: flex
+                width: 100%
+                justify-content: space-around
+                &:nth-child(2n)
+                    background-color: darken(silver, 30%)
+                &:nth-child(2n+1)
+                    background-color: lighten(#26272b, 5%)
+                & *
+                    width: 50%
+                    text-align: left
+                    padding: 1%
+                &:last-child .first_column
+                    line-height: 210%
+                    
 @media screen and ( max-width: 500px )
     h1
         font-size: 5vw

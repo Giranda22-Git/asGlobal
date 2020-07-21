@@ -197,15 +197,23 @@ export default {
             width: 50%
             height: 100%
 @media screen and ( max-width: 500px )
-    h1
-        font-size: 5vw
-        .leftContentWrapper
-        background-size: cover !important
-        svg
-            font-size: 5vw !important
-        .wrapper
-            height: 60vh !important
-        input 
-        width: 18% !important
-        font-size: 4vw
+  h1
+    font-size: 5vw
+  svg
+    font-size: 5vw !important
+  .wrapper
+    height: 60vh !important
+    .contentWrapper
+      flex-direction: column
+      height: 100%
+      & *
+        width: 100%
+      .leftContentWrapper
+        height: 25%
+        width: 100% !important
+      .rightContentWrapper
+        height: 70%
+  input 
+    width: 18% !important
+    font-size: 4vw
 </style>

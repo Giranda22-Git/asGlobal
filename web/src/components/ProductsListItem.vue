@@ -1,16 +1,15 @@
 <template>
         <div class="product_block" @click="viewDetails">
             <div class="product">
-                    <div class="image"
-                    v-bind:style="{'background': 'url(' + require('../assets/' + ItemData.imageName) + ') center no-repeat', 'background-size': 'cover'}">
-                    <div class="white_block">
+                <div class="white_block">
                         <div class="name"
                         v-html="ItemData.name"
                         ></div>
                         <h4>БОЛЬШЕ ИНФОРМАЦИИ</h4>
                     </div>
+                <div class="image"
+                v-bind:style="{'background': 'url(' + require('../assets/' + ItemData.imageName) + ') center no-repeat', 'background-size': 'cover'}">
                 </div>
-                <!-- <button class="button" @click="viewDetails">Подробнее</button> -->
             </div>
         </div>
 </template>
@@ -35,46 +34,45 @@ export default {
 </script>
 
  <style lang="sass" scoped>
-    // *
-    //     border: 1px solid red
     .product_block
-        width: 100%
-        height: 34vh
-        display: flex
         cursor: pointer
+        border: .2vw solid transparent
+        &:hover
+            border: .2vw solid darken(white, 50%)
+            & .white_block
+                background-color: rgba(255,255,255,.75) !important
         .product
-            border: .05vw solid darken(white, 50%)
             width: 100%
             height: 100%
             display: flex
             flex-direction: column
             justify-content: space-around
             align-items: center
-        .image
-            width: 100%
-            height: 100%
+            position: relative
             .white_block
-                height: 40%
+                height: 35%
                 color: black
                 width: 100%
                 background-color: rgba(255,255,255,.6)
                 display: flex
                 flex-direction: column
-                justify-content: space-around                
+                justify-content: space-evenly
+                position: absolute
+                top: 0
+                left: 0
+                font-family: "Myriad W08 Light",Arial,sans-serif
+                font-style: normal
                 .name
-                    font-family: "Myriad W08 Light",Arial,sans-serif
-                    text-align: center 
-                    font-size: 3vh
+                    text-align: center
+                    font-size: 2.6vh
                     font-weight: 400
                     text-rendering: optimizeLegibility
-                    font-style: normal
                 h4
-                    font-family: "Myriad W08 Light",Arial,sans-serif
-                    font-size: 2vh
+                    font-size: 1.5vh
                     text-align: center
                     font-weight: 400
-        .image:hover
-            border: .2vw solid darken(white, 50%)
-            & .white_block
-                background-color: rgba(255,255,255,.75) !important
+                    margin: 0
+        .image
+            width: 100%
+            height: 100%
     </style>

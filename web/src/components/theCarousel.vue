@@ -68,11 +68,9 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-    $itemCount: 3
+    $itemCount: 1
     .wrapper
         width: 100vw
-        max-height: 310px
-
         .CarouselContainer
             height: 100%
             width: 100%

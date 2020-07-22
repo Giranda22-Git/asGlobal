@@ -25,6 +25,7 @@ export default {
         height: 14vh
         background-color: black
         position: relative
+        cursor: pointer
         &:hover
             outline: .3vw solid darken(white, 50%)
             & .white_block
@@ -38,6 +39,8 @@ export default {
             left: 0
             color: black
             text-align: center
-            font-size: 4.3vw
+            font-size: 4vh
             line-height: 160%
+        @media screen and ( max-width: 500px)
+            font-size: 4.3vw !important
 </style>

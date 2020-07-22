@@ -224,7 +224,7 @@ async function init(){
           res.sendStatus(500)
         })
       }
-
+    })
     // OurWorks
 
     app.get('/OurWorks', (req, res) => {
@@ -312,6 +312,7 @@ async function init(){
           res.send(result)
         }
       )
+
     })
   }
   catch(err){

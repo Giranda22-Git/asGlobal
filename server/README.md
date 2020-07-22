@@ -1,5 +1,6 @@
 ### SERVER DATA Structure
-# example!!!
+## example!!!
+# Catalogs
 {
     "type": "Collection"
     "Catalogs": [
@@ -31,6 +32,28 @@
         }
     ]
 }
+# OurWorks
+{
+    "type": "OurWorks"
+    "OurWorks": [
+        {
+            "name": "Product and m2"
+            "address": "image address"
+            "imageName": "work.jpg"
+        }
+    ]
+}
+
+# Partners
+{
+    "type": "Partners"
+    "Partners": [
+        {
+            "name": "Company name"
+            "imageName": "Company logo"
+        }
+    ]
+}
 
 ### requests
 # Catalogs
@@ -46,3 +69,15 @@
     get '/Catalogs/:idC/products/:idP'
     put '/Catalogs/:idC/products/:idP'
     delete '/Catalogs/:idC/products/:idP'
+
+# Partners
+    get '/Partners'
+    post '/Partners'
+    get '/Partners/:id'
+    delete '/Partners/:id'
+
+# OurWorks
+    get '/OurWorks'
+    post '/OurWorks'
+    get '/OurWorks/:id'
+    delete '/OurWorks/:id'

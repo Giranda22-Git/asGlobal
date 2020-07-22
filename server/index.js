@@ -32,6 +32,8 @@ async function init(){
       })
     })
 
+    // Catalogs
+
     app.post('/Catalogs', (req, res) => {
       res.setHeader('Content-Type', 'application/json')
       if (req.body.products) {
@@ -93,6 +95,8 @@ async function init(){
         }
       )
     })
+
+    // Products
 
     app.get('/products', (req, res) => {
       res.setHeader('Content-Type', 'application/json')
@@ -205,6 +209,95 @@ async function init(){
           }
         )
       })
+    })
+
+    // OurWorks
+
+    app.get('/OurWorks', (req, res) => {
+      res.setHeader('Content-Type', 'application/json')
+
+      db.collection('OurWorks').find().toArray((err, docs) => {
+        if (err) return res.sendStatus(500)
+        res.send(docs)
+      })
+    })
+
+    app.get('/OurWorks/:id', (req, res) => {
+      res.setHeader('Content-Type', 'application/json')
+      
+      db.collection('OurWorks').findOne( { _id: ObjectID( req.params.id ) }, (err, doc) => {
+        if (err) return res.sendStatus(500)
+        res.send(doc)
+      })
+    })
+
+    app.post('/OurWorks', (req, res) => {
+      res.setHeader('Content-Type', 'application/json')
+      const OurWork = {
+        name: req.body.name,
+        address: req.body.address,
+        imageName: req.body.imageName
+      }
+      db.collection('OurWorks').insertOne(OurWork, (err, result) => {
+        if (err) return res.status(200).send(err)
+        res.send(result)
+      })
+    })
+    
+    app.delete('/OurWorks/:id', (req, res) => {
+      res.setHeader('Content-Type', 'application/json')
+      
+      db.collection('OurWorks').deleteOne( 
+        { _id: ObjectID( req.params.id ) },
+        (err, result) => {
+          if (err) return res.sendStatus(500)
+          res.send(result)
+        }
+      )
+    })
+
+    // Partners
+
+    app.get('/Partners', (req, res) => {
+      res.setHeader('Content-Type', 'application/json')
+
+      db.collection('Partners').find().toArray((err, docs) => {
+        if (err) return res.sendStatus(500)
+        res.send(docs)
+      })
+    })
+
+    app.get('/Partners/:id', (req, res) => {
+      res.setHeader('Content-Type', 'application/json')
+      
+      db.collection('Partners').findOne( { _id: ObjectID( req.params.id ) }, (err, doc) => {
+        if (err) return res.sendStatus(500)
+        res.send(doc)
+      })
+    })
+
+    app.post('/Partners', (req, res) => {
+      res.setHeader('Content-Type', 'application/json')
+      const Partners = {
+        name: req.body.name,
+        imageName: req.body.imageName
+      }
+      db.collection('Partners').insertOne(Partners, (err, result) => {
+        if (err) return res.status(200).send(err)
+        res.send(result)
+      })
+    })
+
+    app.delete('/Partners/:id', (req, res) => {
+      res.setHeader('Content-Type', 'application/json')
+      
+      db.collection('Partners').deleteOne( 
+        { _id: ObjectID( req.params.id ) },
+        (err, result) => {
+          if (err) return res.sendStatus(500)
+          res.send(result)
+        }
+      )
     })
   }
   catch(err){

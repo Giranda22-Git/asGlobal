@@ -5,6 +5,7 @@
     "Catalogs": [
         {
             "name": "Напольные Покрытия"
+            "imageName" : "work.jpg"
             "products": [
                 {
                     "name": "Плитка"
@@ -13,6 +14,18 @@
                     "
                     "startedPrice": "600"
                     "imageName": "work.jpg"
+                    "table": [
+                        {
+                            "name": "Толщина"
+                            "result": "3.5 mm"
+                        }
+                    ]
+                    "Colors": [
+                        {
+                            "imageName": "work.jpg"
+                            "Code": "22093"
+                        }
+                    ]
                 }
             ]
         }

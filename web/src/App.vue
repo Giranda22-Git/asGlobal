@@ -48,6 +48,7 @@ export default {
     padding: 0
   html
     scroll-behavior: smooth
+    overflow-x: hidden
   *
     --webkit-appearance: none
 </style>

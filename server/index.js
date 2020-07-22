@@ -4,6 +4,7 @@ const { ObjectID } = require('mongodb')
 const MongoClient = require('mongodb').MongoClient
 const ObjectId = require('mongodb').ObjectID
 const cors = require('cors')
+const e = require('express')
 const PORT = process.env.PORT || 3000
 
 const app = express()
@@ -40,9 +41,10 @@ async function init(){
       const catalog = {
         name: req.body.name,
         imageName: req.body.imageName,
-        products: req.body.products ? req.body.products : new Array()
+        products: req.body.products ? req.body.products : new Array(),
+        table: req.body.table,
+        colors: req.body.colors
       }
-      console.log(catalog.imageName, req.body.imageName)
       db.collection('Catalogs').insertOne(catalog, (err, result) => {
         if (err) return res.status(200).send(err)
         res.send(result)
@@ -69,7 +71,7 @@ async function init(){
 
     app.put('/Catalogs/:id', (req, res) => {
       res.setHeader('Content-Type', 'application/json')
-      
+
       db.collection('Catalogs').updateOne(
         { _id: ObjectID( req.params.id ) },
         {$set:{ name: req.body.name }},
@@ -130,7 +132,7 @@ async function init(){
 
         db.collection('Catalogs').updateOne(
           { _id: ObjectID( req.params.id ) },
-          {$set:{ products: result}},
+          {$set:{ products: result }},
           (err, result) => {
             if (err){ return res.sendStatus(500) }
             res.send(result)
@@ -163,8 +165,13 @@ async function init(){
 
         if(req.body.product.imageName != undefined) newProduct.imageName = req.body.product.imageName
         else newProduct.imageName = product.imageName
+
+        if(req.body.product.colors != undefined) newProduct.colors = req.body.product.colors
+        else newProduct.colors = product.colors
+
+        if(req.body.product.table != undefined) newProduct.table = req.body.product.table
+        else newProduct.table = product.table
         newProduct._id = product._id
-        console.log(result)
         result.push(newProduct)
 
         db.collection('Catalogs').updateOne(

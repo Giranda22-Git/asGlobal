@@ -1,70 +1,54 @@
 <template>
-  <div id="navContacts">
-    <div class="pre-footer">
-    <div class="iconholder">
-      <div class="adaptive_box">
-          <div class="design_block">
-              <div class="companyes"></div>
-              <h3>ui / ux design</h3>
-          </div>
-          <div class="design_block">
-              <div class="companyes"></div>
-              <h3>web development</h3>
-          </div>
+<div id="navContacts">
+  <footer>
+    <div class="container">
+      <div class="item1">
+        <h6 class="text1">О нас</h6>
+        <p>Scanfcode.com CODE WANTS TO BE SIMPLE is an initiative to help the upcoming programmers</p>
       </div>
-      <div class="adaptive_box">
-          <div class="design_block">
-              <div class="companyes"></div>
-              <h3>app / mobile</h3>
-          </div>
-          <div class="design_block">
-              <div class="companyes"></div>
-              <h3>comp / company</h3>
-          </div>
+      <div class="item2">
+        <h6 class="text2">Карта</h6>
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2905.9766212365!2d76.95019401534026!3d43.25191177913711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836eed571604b7%3A0x246629b09901c308!2z0YPQu9C40YbQsCDQmtCw0YDQsNGB0LDQuSDQkdCw0YLRi9GA0LAsINCQ0LvQvNCw0YLRiyAwNTAwMDA!5e0!3m2!1sru!2skz!4v1593599792589!5m2!1sru!2skz" width="100%" height="100%" frameborder="0" class="map" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+      </div>
+      <div class="item3"> 
+        <h6 class="text3">Контакты</h6>
+        <div class="cont">
+          <a href="tel:">8 (000) XXX XXX </a> <br>
+          <a href="mailto:">wdwdw@ffwfw.com</a><br>
+          <a>Lorem ipsum dolor sit.</a><br>
+        </div> 
       </div>
     </div>
-  </div>
-<footer>
-      <div class="container">
-          <div class="item1">
-              <h6 class="text1">О нас</h6>
-              <p>Scanfcode.com CODE WANTS TO BE SIMPLE is an initiative to help the upcoming programmers</p>
-          </div>
-          <div class="item2">
-              <h6 class="text2">Карта</h6>
-              <div class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2905.9766212365!2d76.95019401534026!3d43.25191177913711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836eed571604b7%3A0x246629b09901c308!2z0YPQu9C40YbQsCDQmtCw0YDQsNGB0LDQuSDQkdCw0YLRi9GA0LAsINCQ0LvQvNCw0YLRiyAwNTAwMDA!5e0!3m2!1sru!2skz!4v1593599792589!5m2!1sru!2skz" width="100%" height="100%" frameborder="0" class="map" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-              </div>
-          </div>
-          <div class="item3"> 
-              <h6 class="text3">Контакты</h6>
-              <div class="cont">
-                  <a href="tel:">8 (000) XXX XXX </a> <br>
-                  <a href="mailto:">wdwdw@ffwfw.com</a><br>
-                  <a>Lorem ipsum dolor sit.</a><br>
-              </div> 
-          </div>
-      </div>
-      <hr>
-      <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
-          <a href="#">ТOОИПО "sitePunk"</a>.
-      </p>
-</footer>
+    <hr>
+    <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
+      <a href="#">ТOОИПО "sitePunk"</a>.
+    </p>
+  </footer>
 </div>
 </template>
 
 <script>
+import axios from 'axios'
 export default {
     name: 'theFooter', 
     data: () => ({
-
-    })
+      partners: new Array()
+    }),
+    mounted(){
+      axios.get('http://localhost:3000/Partners')
+      .then( response => this.partners = response.data )
+      .catch(function (error) {
+        console.log(error);
+      })
+    }
 }
 </script>
 
 <style lang="sass" scoped>
 *
-  // border: 1px solid red
+  border: 1px solid red
   --webkit-box-sizing: border-box
 footer
   background-color: #26272b

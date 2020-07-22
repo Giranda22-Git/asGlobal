@@ -173,8 +173,8 @@ async function init(){
         if(req.body.product.colors != undefined) newProduct.colors = req.body.product.colors
         else newProduct.colors = product.colors
 
-        if(req.body.product.table != undefined) newProduct.table = req.body.product.table
-        else newProduct.table = product.table
+        if(req.body.product.default != undefined) newProduct.default = req.body.product.default
+        else newProduct.default = product.default
         newProduct._id = product._id
         result.push(newProduct)
 

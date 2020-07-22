@@ -210,6 +210,20 @@ async function init(){
         )
       })
     })
+    app.post('/admin', (req, res) => {
+      res.setHeader('Content-Type', 'application/json')
+      const login = req.body.login
+      const password = req.body.password
+     
+      if (login != null || password != null) {
+         db.collection('admin').find().toArray((err, docs) => {
+          if (err) return res.sendStatus(500)
+          if (docs[0].login == login && docs[0].password == password) {
+            return res.sendStatus(200)
+          }
+          res.sendStatus(500)
+        })
+      }
 
     // OurWorks
 

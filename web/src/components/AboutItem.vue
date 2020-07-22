@@ -1,13 +1,11 @@
 <template>
     <div class="wrapper">
-        <div class="img">
-
-        </div>
+        <div class="img"></div>
         <div class="contentWrapper">
             <h1>О Нас</h1>
             <div class="description">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet delectus consequuntur modi voluptatem deserunt atque exercitationem, ipsum quis non, dignissimos omnis unde corrupti voluptas, quod soluta doloremque vero. Sapiente, doloribus?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Lorem ipsum dolor sit amet consectetur 
             </div>
             <button>Обратный званок</button>
         </div>
@@ -56,18 +54,19 @@ export default {
             outline: none
             cursor: pointer
     @media (min-width: 0px) and (max-width: 950px)
-        .description
-            font-size: 2.7vw !important
-        h1
-            font-size: 3.4vw !important
-        button
-            font-size: 1.85vw !important
-            width: 80% !important
-        .img
-            height: 38% !important
-            background-size: 200% !important
-            width: 50% !important
-    
-
-        
+        .wrapper
+            flex-direction: column !important
+            justify-content: center !important
+            .contentWrapper
+                width: 90% !important
+                .description
+                    font-size: 2.2vh !important
+                    text-align: justify-all
+                h1
+                    font-size: 3.2vh !important
+            button
+                font-size: 2vh !important
+                width: 80% !important
+            .img
+                display: none !important
 </style>

@@ -14,6 +14,11 @@ Vue.use(VueRouter)
     path: '/products/:id',
     name: 'ProductsList',
     component: () => import('../views/ProductsList.vue')
+  },
+  {
+    path: '/admin',
+    name: 'adminPanel',
+    component: () => import('../views/adminPanel.vue')
   }
 ]
 

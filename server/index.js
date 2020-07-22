@@ -4,6 +4,7 @@ const { ObjectID } = require('mongodb')
 const MongoClient = require('mongodb').MongoClient
 const ObjectId = require('mongodb').ObjectID
 const cors = require('cors')
+const e = require('express')
 const PORT = process.env.PORT || 3000
 
 const app = express()
@@ -31,6 +32,8 @@ async function init(){
       })
     })
 
+    // Catalogs
+
     app.post('/Catalogs', (req, res) => {
       res.setHeader('Content-Type', 'application/json')
       if (req.body.products) {
@@ -40,9 +43,10 @@ async function init(){
       const catalog = {
         name: req.body.name,
         imageName: req.body.imageName,
-        products: req.body.products ? req.body.products : new Array()
+        products: req.body.products ? req.body.products : new Array(),
+        table: req.body.table,
+        colors: req.body.colors
       }
-      console.log(catalog.imageName, req.body.imageName)
       db.collection('Catalogs').insertOne(catalog, (err, result) => {
         if (err) return res.status(200).send(err)
         res.send(result)
@@ -69,7 +73,7 @@ async function init(){
 
     app.put('/Catalogs/:id', (req, res) => {
       res.setHeader('Content-Type', 'application/json')
-      
+
       db.collection('Catalogs').updateOne(
         { _id: ObjectID( req.params.id ) },
         {$set:{ name: req.body.name }},
@@ -91,6 +95,8 @@ async function init(){
         }
       )
     })
+
+    // Products
 
     app.get('/products', (req, res) => {
       res.setHeader('Content-Type', 'application/json')
@@ -130,7 +136,7 @@ async function init(){
 
         db.collection('Catalogs').updateOne(
           { _id: ObjectID( req.params.id ) },
-          {$set:{ products: result}},
+          {$set:{ products: result }},
           (err, result) => {
             if (err){ return res.sendStatus(500) }
             res.send(result)
@@ -163,8 +169,13 @@ async function init(){
 
         if(req.body.product.imageName != undefined) newProduct.imageName = req.body.product.imageName
         else newProduct.imageName = product.imageName
+
+        if(req.body.product.colors != undefined) newProduct.colors = req.body.product.colors
+        else newProduct.colors = product.colors
+
+        if(req.body.product.table != undefined) newProduct.table = req.body.product.table
+        else newProduct.table = product.table
         newProduct._id = product._id
-        console.log(result)
         result.push(newProduct)
 
         db.collection('Catalogs').updateOne(
@@ -213,6 +224,94 @@ async function init(){
           res.sendStatus(500)
         })
       }
+
+    // OurWorks
+
+    app.get('/OurWorks', (req, res) => {
+      res.setHeader('Content-Type', 'application/json')
+
+      db.collection('OurWorks').find().toArray((err, docs) => {
+        if (err) return res.sendStatus(500)
+        res.send(docs)
+      })
+    })
+
+    app.get('/OurWorks/:id', (req, res) => {
+      res.setHeader('Content-Type', 'application/json')
+      
+      db.collection('OurWorks').findOne( { _id: ObjectID( req.params.id ) }, (err, doc) => {
+        if (err) return res.sendStatus(500)
+        res.send(doc)
+      })
+    })
+
+    app.post('/OurWorks', (req, res) => {
+      res.setHeader('Content-Type', 'application/json')
+      const OurWork = {
+        name: req.body.name,
+        address: req.body.address,
+        imageName: req.body.imageName
+      }
+      db.collection('OurWorks').insertOne(OurWork, (err, result) => {
+        if (err) return res.status(200).send(err)
+        res.send(result)
+      })
+    })
+    
+    app.delete('/OurWorks/:id', (req, res) => {
+      res.setHeader('Content-Type', 'application/json')
+      
+      db.collection('OurWorks').deleteOne( 
+        { _id: ObjectID( req.params.id ) },
+        (err, result) => {
+          if (err) return res.sendStatus(500)
+          res.send(result)
+        }
+      )
+    })
+
+    // Partners
+
+    app.get('/Partners', (req, res) => {
+      res.setHeader('Content-Type', 'application/json')
+
+      db.collection('Partners').find().toArray((err, docs) => {
+        if (err) return res.sendStatus(500)
+        res.send(docs)
+      })
+    })
+
+    app.get('/Partners/:id', (req, res) => {
+      res.setHeader('Content-Type', 'application/json')
+      
+      db.collection('Partners').findOne( { _id: ObjectID( req.params.id ) }, (err, doc) => {
+        if (err) return res.sendStatus(500)
+        res.send(doc)
+      })
+    })
+
+    app.post('/Partners', (req, res) => {
+      res.setHeader('Content-Type', 'application/json')
+      const Partners = {
+        name: req.body.name,
+        imageName: req.body.imageName
+      }
+      db.collection('Partners').insertOne(Partners, (err, result) => {
+        if (err) return res.status(200).send(err)
+        res.send(result)
+      })
+    })
+
+    app.delete('/Partners/:id', (req, res) => {
+      res.setHeader('Content-Type', 'application/json')
+      
+      db.collection('Partners').deleteOne( 
+        { _id: ObjectID( req.params.id ) },
+        (err, result) => {
+          if (err) return res.sendStatus(500)
+          res.send(result)
+        }
+      )
     })
   }
   catch(err){

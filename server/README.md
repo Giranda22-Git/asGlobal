@@ -1,10 +1,12 @@
 ### SERVER DATA Structure
-# example!!!
+## example!!!
+# Catalogs
 {
     "type": "Collection"
     "Catalogs": [
         {
             "name": "Напольные Покрытия"
+            "imageName" : "work.jpg"
             "products": [
                 {
                     "name": "Плитка"
@@ -13,8 +15,42 @@
                     "
                     "startedPrice": "600"
                     "imageName": "work.jpg"
+                    "table": [
+                        {
+                            "name": "Толщина"
+                            "result": "3.5 mm"
+                        }
+                    ]
+                    "Colors": [
+                        {
+                            "imageName": "work.jpg"
+                            "Code": "22093"
+                        }
+                    ]
                 }
             ]
+        }
+    ]
+}
+# OurWorks
+{
+    "type": "OurWorks"
+    "OurWorks": [
+        {
+            "name": "Product and m2"
+            "address": "image address"
+            "imageName": "work.jpg"
+        }
+    ]
+}
+
+# Partners
+{
+    "type": "Partners"
+    "Partners": [
+        {
+            "name": "Company name"
+            "imageName": "Company logo"
         }
     ]
 }
@@ -33,3 +69,15 @@
     get '/Catalogs/:idC/products/:idP'
     put '/Catalogs/:idC/products/:idP'
     delete '/Catalogs/:idC/products/:idP'
+
+# Partners
+    get '/Partners'
+    post '/Partners'
+    get '/Partners/:id'
+    delete '/Partners/:id'
+
+# OurWorks
+    get '/OurWorks'
+    post '/OurWorks'
+    get '/OurWorks/:id'
+    delete '/OurWorks/:id'

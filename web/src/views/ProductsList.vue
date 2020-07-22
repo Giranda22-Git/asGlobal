@@ -78,6 +78,9 @@ export default {
     @media screen and (max-width: 500px)
         .content
             width: 100% !important
+            grid-template-columns: 1fr !important
+            .productItem
+                height: 27vh !important
         .modal
             top: 8% !important
 </style>

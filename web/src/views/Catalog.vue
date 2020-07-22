@@ -65,4 +65,8 @@ export default {
                 grid-template-columns: 1fr 1fr 1fr
                 & *
                     height: 30vh
+    @media screen and ( max-width: 500px)
+        .Catalog
+            grid-template-columns: 1fr !important
+        
 </style>

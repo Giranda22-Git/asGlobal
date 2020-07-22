@@ -20,11 +20,6 @@
                     <h4 class="productDescription">
                         {{ SelectedProduct.description }}
                     </h4>
-                    <div class="productCalc">
-                        <label for="Calc">Цена за </label>
-                        <input v-model="result" type="text" id="Calc">
-                        <span> &#1084;&#178; = {{ Price }} &#8376;</span>
-                    </div>
                 </div>
             </div>
             <div class="bottom_block">
@@ -160,15 +155,6 @@ export default {
                     background-color: #999
                 ::-webkit-resizer 
                     background-color: #666
-            .productCalc
-                width: 100%
-                input
-                    outline: none
-                    width: 3%
-                    background-color: transparent
-                    color: white
-                    border: none
-                    box-sizing: border-box
     .bottom_block
         height: 20vh
         width: 100%
@@ -231,6 +217,8 @@ export default {
 @media screen and ( max-width: 500px )
   h1
     font-size: 5vw
+    & *
+        border: 1px solid red
   svg
     font-size: 7vw !important
   .wrapper
@@ -258,17 +246,16 @@ export default {
           text-align: justify-all
           width: 90%
           height: 80% !important
-        input
-          margin-top: 7%
     .bottom_block
       height: 34%
       flex-direction: column
       & *
         width: 100% !important
       .LeftBottomBlock
-        height: 57% !important
+        height: 15vh !important
         .colorPanel
           grid-template-columns: 1fr 1fr !important
+          height: 90% !important
       .RightBottomBlock
         height: 43% !important
       

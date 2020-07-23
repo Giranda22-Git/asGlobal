@@ -39,7 +39,7 @@ export default {
             left: 0
             color: black
             text-align: center
-            font-size: 4vh
+            font-size: 2.6vh
             line-height: 160%
         @media screen and ( max-width: 500px)
             font-size: 4.3vw !important

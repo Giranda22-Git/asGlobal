@@ -1,0 +1,213 @@
+
+{
+	"product": {
+		"Colors": [{
+				"imageName": "spheraessence.jpg",
+				"Code": "50500",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 2005-Y20R"
+				},{
+				"name": "Lrv",
+				"result": "59%"
+			}]
+			},
+			 {
+					"imageName": "spheraessence50501.jpg",
+					"Code": "50501",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 3500-N"
+				},{
+				"name": "Lrv",
+				"result": "41%"
+			}]
+			},
+			 {
+					"imageName": "spheraessence50502.jpg",
+					"Code": "50502",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 2000-N"
+				},{
+				"name": "Lrv",
+				"result": "53%"
+			}]
+			},
+			 {
+					"imageName": "spheraessence50503.jpg",
+					"Code": "50503",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 4502-B"
+				},{
+				"name": "Lrv",
+				"result": "39%"
+			}]
+			},
+			 {
+					"imageName": "spheraessence50504.jpg",
+					"Code": "50504",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 2010-Y20R"
+				},{
+				"name": "Lrv",
+				"result": "48%"
+			}]
+			},
+			 {
+					"imageName": "spheraessence50505.jpg",
+					"Code": "50505",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 4010-Y30R"
+				},{
+				"name": "Lrv",
+				"result": "32%"
+			}]
+			},
+			 {
+					"imageName": "spheraessence50506.jpg",
+					"Code": "50506",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 5502-B"
+				},{
+				"name": "Lrv",
+				"result": "21%"
+			}]
+			},
+			 {
+					"imageName": "spheraessence50507.jpg",
+					"Code": "50507",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 2020-R90B"
+				},{
+				"name": "Lrv",
+				"result": "45%"
+			}]
+			},
+			 {
+					"imageName": "spheraessence50508.jpg",
+					"Code": "50508",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 3030-R80B"
+				},{
+				"name": "Lrv",
+				"result": "26%"
+			}]
+			},
+			 {
+					"imageName": "spheraessence50509.jpg",
+					"Code": "50509",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 1030-B90G"
+				},{
+				"name": "Lrv",
+				"result": "52%"
+			}]
+			},
+			 {
+					"imageName": "spheraessence50510.jpg",
+					"Code": "50510",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 1500-N"
+				},{
+				"name": "Lrv",
+				"result": "62%"
+			}]
+			},
+			 {
+					"imageName": "spheraessence5511.jpg",
+					"Code": "50511",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 4030-B90G"
+				},{
+				"name": "Lrv",
+				"result": "25%"
+			}]
+			},
+			 {
+					"imageName": "spheraessence5512.jpg",
+					"Code": "50512",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 1500-N"
+				},{
+				"name": "Lrv",
+				"result": "62%"
+			}]
+			},
+			 {
+					"imageName": "spheraessence50513.jpg",
+					"Code": "50513",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 2502-G"
+				},{
+				"name": "Lrv",
+				"result": "50%"
+			}]
+			},
+			 {
+					"imageName": "spheraessence50514.jpg",
+					"Code": "50514",
+				"table":[{
+				"name": "Ncs",
+				"result": "S600-N"
+				},{
+				"name": "Lrv",
+				"result": "18%"
+			}]
+			},
+			 {
+					"imageName": "spheraessence50515.jpg",
+					"Code": "50515",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 1040-G60Y"
+				},{
+				"name": "Lrv",
+				"result": "60%"
+			}]
+			},
+			 {
+					"imageName": "spheraessence50516.jpg",
+					"Code": "50516",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 1040-Y"
+				},{
+				"name": "Lrv",
+				"result": "58%"
+			}]
+			},
+			 {
+					"imageName": "spheraessence50517.jpg",
+					"Code": "50517",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 3500-N"
+				},{
+				"name": "Lrv",
+				"result": "26%"
+			}]
+			}
+		],
+		"default": [
+			{
+				"name": "Толщина",
+				"result": "2 mm"
+			},{
+				"name": "Длина х Ширина",
+				"result": "±26 m x 200 cm"
+			}
+		]
+	}
+}

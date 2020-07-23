@@ -29,21 +29,25 @@
                           v-for="item in SelectedProduct.Colors"
                           :key="item.Code"
                           :Color="item"
+                          @viewColor="viewColor"
                         />
                     </div>
                 </div>
                 <div class="RightBottomBlock">
                     <div class="string">
-                        <div class="first_column">Толщина</div>
-                        <div class="second_column">4,3 mm / 6 mm</div>
+                      <div class="first_column">Толщина</div>
+                      <div class="second_column">4,3 mm / 6 mm</div>
                     </div>
                     <div class="string">
-                        <div class="first_column">Толщина слоя износа</div>
-                        <div class="second_column">0,6 mm / 1 mm</div>
+                      <div class="first_column">Толщина слоя износа</div>
+                      <div class="second_column">0,6 mm / 1 mm</div>
                     </div>
-                    <div class="string">
-                        <div class="first_column">Длина х Ширина</div>
-                        <div class="second_column">18 m x 200 cm <br>25 m x 200 cm</div>
+                    <div class="string"
+                      v-for="(item, index) in SelectedProduct.table"
+                      :key="index"
+                      >
+                      <div class="first_column"> {{ item.name }} </div>
+                      <div class="second_column"> {{ item.result }} </div>
                     </div>
                 </div>
             </div>
@@ -55,31 +59,21 @@
 import ColorItem from '@/components/ColorItem.vue'
 export default {
     name: 'productModal',
-    data: () => ({
-        result: 1
-    }),
     props: {
-        SelectedProduct: {
-            type: Object,
-            default: () => {}
-        }
+      SelectedProduct: {
+        type: Object,
+        default: () => {}
+      }
     },
-    computed: {
-        Price: function() {
-            return new Intl.NumberFormat().format(this.result * this.SelectedProduct.startedPrice)
-        }
+    data: function() {
+      return {
+
+      }
     },
     methods: {
       close() {
         this.$emit('close');
-      }
-    },
-    watch:{
-        result:function(val){
-            let elements = String(this.result).split('')
-            let dom = document.querySelector('#Calc')
-            window.innerWidth <= 500 ? dom.style.width = (3 * elements.length) + 1 + '%' : dom.style.width = 1.20 * elements.length + '%'
-        }
+      },
     },
     components:{
         ColorItem
@@ -88,6 +82,8 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+*
+    border: 1px solid red
 .modal-fade-enter,
 .modal-fade-leave-active 
     opacity: 0
@@ -160,12 +156,13 @@ export default {
         width: 100%
         display: flex
         align-items: center
+        justify-content: center
         .LeftBottomBlock
             width: 50%
             height: 100%
             display: flex
             justify-content: center
-             align-items: center
+            align-items: center
             .colorPanel
                 background-color: lighten(#26272b, 4%)
                 width: 30vw
@@ -174,7 +171,7 @@ export default {
                 height: 82%
                 overflow: auto
                 grid-template-rows: 1fr
-                grid-gap: 1vw
+                grid-gap: 0.2vw
                 &::-webkit-scrollbar 
                     width: 3px 
                     height: 3px

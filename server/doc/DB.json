@@ -1,19 +1,3546 @@
 [{
   "_id": {
-    "$oid": "5f19442ddcdc4a2ea001d962"
+    "$oid": "5f169640634f312e98e723be"
   },
-  "name": "forbo",
-  "imageName": "forbo.svg"
+  "name": "Спортивный линолеум",
+  "imageName": "vinil.jpg",
+  "products": [
+    {
+      "Colors": [
+        {
+          "imageName": "sportline.jpg",
+          "Code": "05040"
+        },
+        {
+          "imageName": "sportline01070.jpg",
+          "Code": "01070"
+        },
+        {
+          "imageName": "sportline00570.jpg",
+          "Code": "00570"
+        },
+        {
+          "imageName": "sportline02070.jpg",
+          "Code": "02070"
+        },
+        {
+          "imageName": "sportline03040.jpg",
+          "Code": "03040"
+        },
+        {
+          "imageName": "sportline05030.jpg",
+          "Code": "05030"
+        },
+        {
+          "imageName": "sportline02040.jpg",
+          "Code": "02040"
+        },
+        {
+          "imageName": "sportline07601.jpg",
+          "Code": "07601"
+        },
+        {
+          "imageName": "sportline07603.jpg",
+          "Code": "07603"
+        },
+        {
+          "imageName": "sportline07701.jpg",
+          "Code": "07701"
+        },
+        {
+          "imageName": "sportline07702.jpg",
+          "Code": "01070"
+        },
+        {
+          "imageName": "sportline04502.jpg",
+          "Code": "04502"
+        }
+      ],
+      "table": [
+        {
+          "name": "Толщина",
+          "result": "4,3 mm / 6 mm"
+        },
+        {
+          "name": "Толщина слоя износа",
+          "result": "0,6 mm / 1 mm"
+        },
+        {
+          "name": "Длина х Ширина",
+          "result": "18 m x 200 cm <br> 25 m x 200 cm"
+        }
+      ],
+      "name": "sportline ",
+      "description": "Это специально разработанный гетерогенный ПВХ напольный материал для многофункциональных спортивных и игровых залов.",
+      "startedPrice": "600",
+      "imageName": "sportline.jpg",
+      "colors": null,
+      "_id": {
+        "$oid": "5f169640634f312e98e723bd"
+      }
+    }
+  ]
 },{
   "_id": {
-    "$oid": "5f1944b9dcdc4a2ea001d963"
+    "$oid": "5f169864634f312e98e723c2"
   },
-  "name": "Homa",
-  "imageName": "kley.jpg"
+  "name": "Гомогенное покрытие",
+  "imageName": "spheracatalog.jpg",
+  "products": [
+    {
+      "Colors": [
+        {
+          "imageName": "spheraenergetic.jpg",
+          "Code": "51215",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 7000-N"
+            },
+            {
+              "name": "Lrv",
+              "result": "14%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic50215.jpg",
+          "Code": "50215",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 7000-N"
+            },
+            {
+              "name": "Lrv",
+              "result": "14%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic50213.jpg",
+          "Code": "50213",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 0540-G50Y"
+            },
+            {
+              "name": "Lrv",
+              "result": "68%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic50214.jpg",
+          "Code": "50214",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1060-G60Y"
+            },
+            {
+              "name": "Lrv",
+              "result": "55%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic50218.jpg",
+          "Code": "50218",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1020-B50G"
+            },
+            {
+              "name": "Lrv",
+              "result": "59%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic50217.jpg",
+          "Code": "50217",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 3020-B10G"
+            },
+            {
+              "name": "Lrv",
+              "result": "35%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic51212.jpg",
+          "Code": "51212",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 4502-Y"
+            },
+            {
+              "name": "Lrv",
+              "result": "29%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic50212.jpg",
+          "Code": "50212",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 4502-Y"
+            },
+            {
+              "name": "Lrv",
+              "result": "29%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic50210.jpg",
+          "Code": "50210",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1070-Y20R"
+            },
+            {
+              "name": "Lrv",
+              "result": "40%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic50207.jpg",
+          "Code": "50207",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 6020-R80B"
+            },
+            {
+              "name": "Lrv",
+              "result": "11%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic50240.jpg",
+          "Code": "50240",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 4055-R70B"
+            },
+            {
+              "name": "Lrv",
+              "result": "8%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic50223.jpg",
+          "Code": "50223",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2015-B"
+            },
+            {
+              "name": "Lrv",
+              "result": "46%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic51216.jpg",
+          "Code": "51216",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 4502-G"
+            },
+            {
+              "name": "Lrv",
+              "result": "26%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic50216.jpg",
+          "Code": "50216",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 4502-G"
+            },
+            {
+              "name": "Lrv",
+              "result": "26%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic50231.jpg",
+          "Code": "50231",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1015-Y70R"
+            },
+            {
+              "name": "Lrv",
+              "result": "61%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic50227.jpg",
+          "Code": "50227",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2050-Y50R"
+            },
+            {
+              "name": "Lrv",
+              "result": "31%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic50234.jpg",
+          "Code": "50234",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1510-R40B"
+            },
+            {
+              "name": "Lrv",
+              "result": "56%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic50219.jpg",
+          "Code": "50219",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 5005-R20B"
+            },
+            {
+              "name": "Lrv",
+              "result": "24%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic51202.jpg",
+          "Code": "51202",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 3502-G"
+            },
+            {
+              "name": "Lrv",
+              "result": "38%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic50202.jpg",
+          "Code": "50202",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 3502-G"
+            },
+            {
+              "name": "Lrv",
+              "result": "38%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic50208.jpg",
+          "Code": "50208",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1005-Y"
+            },
+            {
+              "name": "Lrv",
+              "result": "70%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic50225.jpg",
+          "Code": "50225",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 5020-Y50R"
+            },
+            {
+              "name": "Lrv",
+              "result": "21%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic50209.jpg",
+          "Code": "50209",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 4010-Y30R"
+            },
+            {
+              "name": "Lrv",
+              "result": "31%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic50206.jpg",
+          "Code": "50206",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 6005-Y20R"
+            },
+            {
+              "name": "Lrv",
+              "result": "18%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic51229.jpg",
+          "Code": "51229",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2005-B80G"
+            },
+            {
+              "name": "Lrv",
+              "result": "52%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic50229.jpg",
+          "Code": "50229",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2005-B80G"
+            },
+            {
+              "name": "Lrv",
+              "result": "52%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic50230.jpg",
+          "Code": "50230",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1002-G"
+            },
+            {
+              "name": "Lrv",
+              "result": "68%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic50232.jpg",
+          "Code": "50232",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 6030-R50B"
+            },
+            {
+              "name": "Lrv",
+              "result": "7%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic50224.jpg",
+          "Code": "50224",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 5050-Y80R"
+            },
+            {
+              "name": "Lrv",
+              "result": "25%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic50237.jpg",
+          "Code": "50237",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 3010-Y10R"
+            },
+            {
+              "name": "Lrv",
+              "result": "41%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic51236.jpg",
+          "Code": "51236",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 4010-G30Y"
+            },
+            {
+              "name": "Lrv",
+              "result": "30%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic50236.jpg",
+          "Code": "50236",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 4010-G30Y"
+            },
+            {
+              "name": "Lrv",
+              "result": "30%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic50239.jpg",
+          "Code": "50239",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1515-B"
+            },
+            {
+              "name": "Lrv",
+              "result": "58%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic50235.jpg",
+          "Code": "50235",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 6030-B30G"
+            },
+            {
+              "name": "Lrv",
+              "result": "10%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic51211.jpg",
+          "Code": "51211",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2502-Y"
+            },
+            {
+              "name": "Lrv",
+              "result": "49%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic50211.jpg",
+          "Code": "50211",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2502-Y "
+            },
+            {
+              "name": "Lrv",
+              "result": "49%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic51200.jpg",
+          "Code": "51200",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1002-G"
+            },
+            {
+              "name": "Lrv",
+              "result": "79%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic50200.jpg",
+          "Code": "50200",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1002-G"
+            },
+            {
+              "name": "Lrv",
+              "result": "79%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic50204.jpg",
+          "Code": "50204",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 5020-B"
+            },
+            {
+              "name": "Lrv",
+              "result": "17%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic50203.jpg",
+          "Code": "50203",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 8502-B"
+            },
+            {
+              "name": "Lrv",
+              "result": "7%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic50201.jpg",
+          "Code": "50201",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1060-G90Y"
+            },
+            {
+              "name": "Lrv",
+              "result": "64%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic50228.jpg",
+          "Code": "50228",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 4050-R"
+            },
+            {
+              "name": "Lrv",
+              "result": "11%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic51222.jpg",
+          "Code": "51222",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 0603-G80Y"
+            },
+            {
+              "name": "Lrv",
+              "result": "76%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic50222.jpg",
+          "Code": "50222",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 0603-G80Y"
+            },
+            {
+              "name": "Lrv",
+              "result": "76%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic50220.jpg",
+          "Code": "50220",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 0907-B80G"
+            },
+            {
+              "name": "Lrv",
+              "result": "70%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic50238.jpg",
+          "Code": "50238",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1020-G20Y"
+            },
+            {
+              "name": "Lrv",
+              "result": "66%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic51226.jpg",
+          "Code": "51226",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 7000-N"
+            },
+            {
+              "name": "Lrv",
+              "result": "14%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic50226.jpg",
+          "Code": "50226",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1500-N"
+            },
+            {
+              "name": "Lrv",
+              "result": "67%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic50205.jpg",
+          "Code": "50205",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2002-B50G"
+            },
+            {
+              "name": "Lrv",
+              "result": "57%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic51221.jpg",
+          "Code": "51221",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2005-Y"
+            },
+            {
+              "name": "Lrv",
+              "result": "56%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic50221.jpg",
+          "Code": "50221",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2005-Y"
+            },
+            {
+              "name": "Lrv",
+              "result": "56%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraenergetic50233.jpg",
+          "Code": "50233",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2005-G20Y"
+            },
+            {
+              "name": "Lrv",
+              "result": "55%"
+            }
+          ]
+        }
+      ],
+      "default": [
+        {
+          "name": "Толщина",
+          "result": "2 mm"
+        },
+        {
+          "name": "Длина х Ширина",
+          "result": "±26 m x 200 cm"
+        }
+      ],
+      "name": "sphera energetic",
+      "description": "Наше гомогенное виниловое напольное покрытие Sphera добавит стиль и характер вашим полам. Коллекция Sphera Energetic раздвигает границы, дает возможность гомогенному винилу выглядеть по-разному. Energetic предлагает интересную палитру цветов с небольшими вставками. Прозрачные гранулы позволяют добиться глубины, а также отлично скрывают грязь.",
+      "startedPrice": "600",
+      "imageName": "spheraenergetic.jpg",
+      "colors": null,
+      "_id": {
+        "$oid": "5f169932634f312e98e723c3"
+      }
+    },
+    {
+      "Colors": [
+        {
+          "imageName": "spheraelement.jpg",
+          "Code": "50002",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1500-N"
+            },
+            {
+              "name": "Lrv",
+              "result": "63%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50007.jpg",
+          "Code": "50007",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1502-B50G"
+            },
+            {
+              "name": "Lrv",
+              "result": "63%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50012.jpg",
+          "Code": "50012",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1502-G50Y"
+            },
+            {
+              "name": "Lrv",
+              "result": "66%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50017.jpg",
+          "Code": "50017",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1502-Y"
+            },
+            {
+              "name": "Lrv",
+              "result": "62%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50022.jpg",
+          "Code": "50022",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1005-Y10R"
+            },
+            {
+              "name": "Lrv",
+              "result": "70%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50027.jpg",
+          "Code": "50027",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1500-N"
+            },
+            {
+              "name": "Lrv",
+              "result": "65%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50003.jpg",
+          "Code": "50003",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2000-N"
+            },
+            {
+              "name": "Lrv",
+              "result": "53%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50008.jpg",
+          "Code": "50008",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2502-B"
+            },
+            {
+              "name": "Lrv",
+              "result": "47%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50013.jpg",
+          "Code": "50013",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2502-G"
+            },
+            {
+              "name": "Lrv",
+              "result": "43%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50018.jpg",
+          "Code": "50018",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2005-Y30R"
+            },
+            {
+              "name": "Lrv",
+              "result": "49%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50023.jpg",
+          "Code": "50023",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2010-Y30R"
+            },
+            {
+              "name": "Lrv",
+              "result": "53%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50028.jpg",
+          "Code": "50028",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2002-Y50R"
+            },
+            {
+              "name": "Lrv",
+              "result": "47%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50004.jpg",
+          "Code": "50004",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 3500-N"
+            },
+            {
+              "name": "Lrv",
+              "result": "36%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50014.jpg",
+          "Code": "50014",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 4502-Y"
+            },
+            {
+              "name": "Lrv",
+              "result": "27%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50009.jpg",
+          "Code": "50009",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 4502-B"
+            },
+            {
+              "name": "Lrv",
+              "result": "27%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50019.jpg",
+          "Code": "50019",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 4005-Y20R"
+            },
+            {
+              "name": "Lrv",
+              "result": "36%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50024.jpg",
+          "Code": "50024",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 3010-Y30R"
+            },
+            {
+              "name": "Lrv",
+              "result": "38%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50029.jpg",
+          "Code": "50029",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 3502-Y"
+            },
+            {
+              "name": "Lrv",
+              "result": "34%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50005.jpg",
+          "Code": "50005",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 5000-N"
+            },
+            {
+              "name": "Lrv",
+              "result": "24%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50010.jpg",
+          "Code": "50010",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 5502-B"
+            },
+            {
+              "name": "Lrv",
+              "result": "17%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50015.jpg",
+          "Code": "50015",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 5502-Y "
+            },
+            {
+              "name": "Lrv",
+              "result": "19%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50020.jpg",
+          "Code": "50020",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 5005-Y50R "
+            },
+            {
+              "name": "Lrv",
+              "result": "23%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50030.jpg",
+          "Code": "50030",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 5005-Y80R"
+            },
+            {
+              "name": "Lrv",
+              "result": "21%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50006.jpg",
+          "Code": "50006",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 6500-N"
+            },
+            {
+              "name": "Lrv",
+              "result": "15%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50011.jpg",
+          "Code": "50011",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 7502-B"
+            },
+            {
+              "name": "Lrv",
+              "result": "10%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50016.jpg",
+          "Code": "50016",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 6502-Y"
+            },
+            {
+              "name": "Lrv",
+              "result": "15%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50021.jpg",
+          "Code": "50021",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 7005-Y50R"
+            },
+            {
+              "name": "Lrv",
+              "result": "15%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50026.jpg",
+          "Code": "50026",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 6005-Y20R"
+            },
+            {
+              "name": "Lrv",
+              "result": "15%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50031.jpg",
+          "Code": "50031",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 6502-R"
+            },
+            {
+              "name": "Lrv",
+              "result": "15%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50032.jpg",
+          "Code": "50032",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S2005-R30B"
+            },
+            {
+              "name": "Lrv",
+              "result": "56%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50036.jpg",
+          "Code": "50036",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1510-R90B"
+            },
+            {
+              "name": "Lrv",
+              "result": "60%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50043.jpg",
+          "Code": "50043",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1005-B80G"
+            },
+            {
+              "name": "Lrv",
+              "result": "64%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50000.jpg",
+          "Code": "50000",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1002-G50Y"
+            },
+            {
+              "name": "Lrv",
+              "result": "72%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50047.jpg",
+          "Code": "50047",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 0907-G60Y"
+            },
+            {
+              "name": "Lrv",
+              "result": "69%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50051.jpg",
+          "Code": "50051",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1505-Y"
+            },
+            {
+              "name": "Lrv",
+              "result": "67%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50033.jpg",
+          "Code": "50033",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 5010-R50B"
+            },
+            {
+              "name": "Lrv",
+              "result": "20%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50037.jpg",
+          "Code": "50037",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2030-R80B"
+            },
+            {
+              "name": "Lrv",
+              "result": "36%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50040.jpg",
+          "Code": "50040",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1020-B"
+            },
+            {
+              "name": "Lrv",
+              "result": "58%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50044.jpg",
+          "Code": "50044",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1020-B70G "
+            },
+            {
+              "name": "Lrv",
+              "result": "60%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50052.jpg",
+          "Code": "50052",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1015-G80Y"
+            },
+            {
+              "name": "Lrv",
+              "result": "69%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50034.jpg",
+          "Code": "50034",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 4040-R80B"
+            },
+            {
+              "name": "Lrv",
+              "result": "13%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50038.jpg",
+          "Code": "50038",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 4030-R80B"
+            },
+            {
+              "name": "Lrv",
+              "result": "19%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50041.jpg",
+          "Code": "50041",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 4020-R90B"
+            },
+            {
+              "name": "Lrv",
+              "result": "24%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50045.jpg",
+          "Code": "50045",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2030-B90G"
+            },
+            {
+              "name": "Lrv",
+              "result": "40%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50049.jpg",
+          "Code": "50049",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2050-G70Y"
+            },
+            {
+              "name": "Lrv",
+              "result": "47%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50053.jpg",
+          "Code": "50053",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1060-Y"
+            },
+            {
+              "name": "Lrv",
+              "result": "62%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50035.jpg",
+          "Code": "50035",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 5020-R50B"
+            },
+            {
+              "name": "Lrv",
+              "result": "13%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50039.jpg",
+          "Code": "50039",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 5030-R80B"
+            },
+            {
+              "name": "Lrv",
+              "result": "10%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50042.jpg",
+          "Code": "50042",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 4050-R90B"
+            },
+            {
+              "name": "Lrv",
+              "result": "13%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50046.jpg",
+          "Code": "50046",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 4040-B10G"
+            },
+            {
+              "name": "Lrv",
+              "result": "16%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50050.jpg",
+          "Code": "50050",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 4010-G30Y"
+            },
+            {
+              "name": "Lrv",
+              "result": "30%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50054.jpg",
+          "Code": "50054",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2040-Y10R"
+            },
+            {
+              "name": "Lrv",
+              "result": "42%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50058.jpg",
+          "Code": "50058",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 3060-R"
+            },
+            {
+              "name": "Lrv",
+              "result": "1%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50061.jpg",
+          "Code": "50061",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 5040-Y70R"
+            },
+            {
+              "name": "Lrv",
+              "result": "14%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50060.jpg",
+          "Code": "50060",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 4030-Y50R"
+            },
+            {
+              "name": "Lrv",
+              "result": "22%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50056.jpg",
+          "Code": "50056",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1505-Y30R"
+            },
+            {
+              "name": "Lrv",
+              "result": "43%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50059.jpg",
+          "Code": "50059",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2020-Y20R"
+            },
+            {
+              "name": "Lrv",
+              "result": "46%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50055.jpg",
+          "Code": "50055",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1505-Y30R"
+            },
+            {
+              "name": "Lrv",
+              "result": "65%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50057.jpg",
+          "Code": "50057",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2060-Y40R"
+            },
+            {
+              "name": "Lrv",
+              "result": "33%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50001.jpg",
+          "Code": "50001",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 8502-B"
+            },
+            {
+              "name": "Lrv",
+              "result": "6%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50025.jpg",
+          "Code": "50025",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 5010-Y30R"
+            },
+            {
+              "name": "Lrv",
+              "result": "23%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraelement50048.jpg",
+          "Code": "50048",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1020-G50Y"
+            },
+            {
+              "name": "Lrv",
+              "result": "64%"
+            }
+          ]
+        }
+      ],
+      "default": [
+        {
+          "name": "Толщина",
+          "result": "2 mm"
+        },
+        {
+          "name": "Длина х Ширина",
+          "result": "±26 m x 200 cm"
+        }
+      ],
+      "name": "sphera element",
+      "description": "Forbo Sphera устанавливает новые стандарты в гомогенных виниловых покрытиях, благодяря своим дизайнам, технологичности и производительности. Коллекция Sphera Element представлена в 62 цветах, которые гармонично сочитаются с другими покрытиями компании Форбо.",
+      "startedPrice": "600",
+      "imageName": "spheraelement.jpg",
+      "colors": null,
+      "_id": {
+        "$oid": "5f169864634f312e98e723c1"
+      }
+    },
+    {
+      "Colors": [
+        {
+          "imageName": "spheraevolution.jpg",
+          "Code": "504323",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1002-G50Y"
+            },
+            {
+              "name": "Lrv",
+              "result": "79%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraevolution50430.jpg",
+          "Code": "50430",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2060-B"
+            },
+            {
+              "name": "Lrv",
+              "result": "25%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraevolution50434.jpg",
+          "Code": "50434",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": " S 3010-G30Y"
+            },
+            {
+              "name": "Lrv",
+              "result": "36%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraevolution50436.jpg",
+          "Code": "50436",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2060-B"
+            },
+            {
+              "name": "Lrv",
+              "result": "25%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraevolution50438.jpg",
+          "Code": "50438",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2060-B"
+            },
+            {
+              "name": "Lrv",
+              "result": "25%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraevolution50440.jpg",
+          "Code": "50440",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1502-R"
+            },
+            {
+              "name": "Lrv",
+              "result": "58%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraevolution50443.jpg",
+          "Code": "50443",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2060-B"
+            },
+            {
+              "name": "Lrv",
+              "result": "25%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraevolution50431.jpg",
+          "Code": "50431",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2060-B"
+            },
+            {
+              "name": "Lrv",
+              "result": "25%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraevolution50435.jpg",
+          "Code": "50435",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2060-B"
+            },
+            {
+              "name": "Lrv",
+              "result": "25%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraevolution50437.jpg",
+          "Code": "50437",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 5005-Y80R"
+            },
+            {
+              "name": "Lrv",
+              "result": "23%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraevolution50439.jpg",
+          "Code": "50439",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 5030-Y70R"
+            },
+            {
+              "name": "Lrv",
+              "result": "15%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraevolution50441.jpg",
+          "Code": "50441",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 5020-Y50R"
+            },
+            {
+              "name": "Lrv",
+              "result": "22%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraevolution50471.jpg",
+          "Code": "50471",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 7502-N"
+            },
+            {
+              "name": "Lrv",
+              "result": "10%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraevolution50470.jpg",
+          "Code": "50470",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 7502-B"
+            },
+            {
+              "name": "Lrv",
+              "result": "8%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraevolution50472.jpg",
+          "Code": "50472",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 8502-B"
+            },
+            {
+              "name": "Lrv",
+              "result": "8%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraevolution50473.jpg",
+          "Code": "50473",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 7502-B"
+            },
+            {
+              "name": "Lrv",
+              "result": "8%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraevolution50474.jpg",
+          "Code": "50474",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S8502-R"
+            },
+            {
+              "name": "Lrv",
+              "result": "8%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraevolution50475.jpg",
+          "Code": "50475",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 8000-N"
+            },
+            {
+              "name": "Lrv",
+              "result": "8%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraevolution50401.jpg",
+          "Code": "50401",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1002-G50Y"
+            },
+            {
+              "name": "Lrv",
+              "result": "71%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraevolution50400.jpg",
+          "Code": "50400",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2002-G"
+            },
+            {
+              "name": "Lrv",
+              "result": "59%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraevolution50402.jpg",
+          "Code": "50402",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2002-G50Y"
+            },
+            {
+              "name": "Lrv",
+              "result": "57%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraevolution50405.jpg",
+          "Code": "50405",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1502-Y50R"
+            },
+            {
+              "name": "Lrv",
+              "result": "60%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraevolution50404.jpg",
+          "Code": "50404",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2005-Y20R"
+            },
+            {
+              "name": "Lrv",
+              "result": "61%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraevolution50403.jpg",
+          "Code": "50403",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1505-Y30R"
+            },
+            {
+              "name": "Lrv",
+              "result": "63%"
+            }
+          ]
+        }
+      ],
+      "default": [
+        {
+          "name": "Толщина",
+          "result": "2 mm"
+        },
+        {
+          "name": "Длина х Ширина",
+          "result": "±26 m x 200 cm"
+        }
+      ],
+      "name": "sphera evolution",
+      "description": "Sphera Evolution представляет выразительный инновационный дизайн в гомогенном виниле. Интересное сочетание сфер, гранул и цветных пигментов обеспечивает яркий визуальный эффект, которого до сих пор не знало гомогенное напольное покрытие.",
+      "startedPrice": "600",
+      "imageName": "spheraevolution.jpg",
+      "colors": null,
+      "_id": {
+        "$oid": "5f1699ea634f312e98e723c4"
+      }
+    },
+    {
+      "Colors": [
+        {
+          "imageName": "spheraessence.jpg",
+          "Code": "50500",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2005-Y20R"
+            },
+            {
+              "name": "Lrv",
+              "result": "59%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraessence50501.jpg",
+          "Code": "50501",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 3500-N"
+            },
+            {
+              "name": "Lrv",
+              "result": "41%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraessence50502.jpg",
+          "Code": "50502",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2000-N"
+            },
+            {
+              "name": "Lrv",
+              "result": "53%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraessence50503.jpg",
+          "Code": "50503",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 4502-B"
+            },
+            {
+              "name": "Lrv",
+              "result": "39%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraessence50504.jpg",
+          "Code": "50504",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2010-Y20R"
+            },
+            {
+              "name": "Lrv",
+              "result": "48%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraessence50505.jpg",
+          "Code": "50505",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 4010-Y30R"
+            },
+            {
+              "name": "Lrv",
+              "result": "32%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraessence50506.jpg",
+          "Code": "50506",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 5502-B"
+            },
+            {
+              "name": "Lrv",
+              "result": "21%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraessence50507.jpg",
+          "Code": "50507",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2020-R90B"
+            },
+            {
+              "name": "Lrv",
+              "result": "45%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraessence50508.jpg",
+          "Code": "50508",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 3030-R80B"
+            },
+            {
+              "name": "Lrv",
+              "result": "26%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraessence50509.jpg",
+          "Code": "50509",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1030-B90G"
+            },
+            {
+              "name": "Lrv",
+              "result": "52%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraessence50510.jpg",
+          "Code": "50510",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1500-N"
+            },
+            {
+              "name": "Lrv",
+              "result": "62%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraessence5511.jpg",
+          "Code": "50511",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 4030-B90G"
+            },
+            {
+              "name": "Lrv",
+              "result": "25%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraessence5512.jpg",
+          "Code": "50512",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1500-N"
+            },
+            {
+              "name": "Lrv",
+              "result": "62%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraessence50513.jpg",
+          "Code": "50513",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2502-G"
+            },
+            {
+              "name": "Lrv",
+              "result": "50%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraessence50514.jpg",
+          "Code": "50514",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S600-N"
+            },
+            {
+              "name": "Lrv",
+              "result": "18%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraessence50515.jpg",
+          "Code": "50515",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1040-G60Y"
+            },
+            {
+              "name": "Lrv",
+              "result": "60%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraessence50516.jpg",
+          "Code": "50516",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1040-Y"
+            },
+            {
+              "name": "Lrv",
+              "result": "58%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraessence50517.jpg",
+          "Code": "50517",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 3500-N"
+            },
+            {
+              "name": "Lrv",
+              "result": "26%"
+            }
+          ]
+        }
+      ],
+      "default": [
+        {
+          "name": "Толщина",
+          "result": "2 mm"
+        },
+        {
+          "name": "Длина х Ширина",
+          "result": "±26 m x 200 cm"
+        }
+      ],
+      "name": "sphera essence",
+      "description": "Созданный с использованием новейшей технологии на передовом специализированном производстве, гомогенное виниловое покрытие Sphera Essence предлагает интересные и стильные дизайны для различных сфер применения.Цветовая гамма из 18 оттенков состоит из нейтральных и естественных тонов, подкрепленных свежими акцентными цветами.",
+      "startedPrice": "600",
+      "imageName": "spheraessence.jpg",
+      "colors": null,
+      "_id": {
+        "$oid": "5f169a5e634f312e98e723c5"
+      }
+    }
+  ]
 },{
   "_id": {
-    "$oid": "5f1944e4dcdc4a2ea001d964"
+    "$oid": "5f17e27a808b883bf03a718f"
   },
-  "name": "VEITAN",
-  "imageName": "veitan.png"
+  "name": "Токопроводящие полы",
+  "imageName": "tokoprovod.jpg",
+  "products": [
+    {
+      "Colors": [
+        {
+          "imageName": "spheraec.jpg",
+          "Code": "450000",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1502-G50Y"
+            },
+            {
+              "name": "Lrv",
+              "result": "63%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraec450003.jpg",
+          "Code": "450003",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2500-N"
+            },
+            {
+              "name": "Lrv",
+              "result": "48%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraec450005.jpg",
+          "Code": "450005",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 4502-B"
+            },
+            {
+              "name": "Lrv",
+              "result": "23%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraec450008.jpg",
+          "Code": "450008",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2502-B"
+            },
+            {
+              "name": "Lrv",
+              "result": "42%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraec450007.jpg",
+          "Code": "450007",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2002-B50G"
+            },
+            {
+              "name": "Lrv",
+              "result": "55%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraec450017.jpg",
+          "Code": "450017",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1500-N"
+            },
+            {
+              "name": "Lrv",
+              "result": "56%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraec450018.jpg",
+          "Code": "450018",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2502-Y"
+            },
+            {
+              "name": "Lrv",
+              "result": "46%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraec450032.jpg",
+          "Code": "450032",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2005-R50B"
+            },
+            {
+              "name": "Lrv",
+              "result": "50%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraec450034.jpg",
+          "Code": "450034",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 5030-R30B"
+            },
+            {
+              "name": "Lrv",
+              "result": "13%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraec450037.jpg",
+          "Code": "450037",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2030-R90B"
+            },
+            {
+              "name": "Lrv",
+              "result": "35%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraec450036.jpg",
+          "Code": "450036",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1510-R90B"
+            },
+            {
+              "name": "Lrv",
+              "result": "54%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraec450050.jpg",
+          "Code": "450050",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 4010-G10Y"
+            },
+            {
+              "name": "Lrv",
+              "result": "28%"
+            }
+          ]
+        },
+        {
+          "imageName": "spheraec450049.jpg",
+          "Code": "450049",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2050-G60Y"
+            },
+            {
+              "name": "Lrv",
+              "result": "42%"
+            }
+          ]
+        }
+      ],
+      "default": [
+        {
+          "name": "Толщина",
+          "result": "2 mm"
+        },
+        {
+          "name": "Длина х Ширина",
+          "result": "±26 m x 200 cm"
+        }
+      ],
+      "name": "sphera ec",
+      "description": "Коллекция Sphera ЕС представляет собой гомогенное виниловое напольное покрытие с токопроводящими свойствами. Чтобы обеспечить постоянную надежную работу покрытия мы добавили определенное количество угольно черных гранул. Гранулы под мрамор делают внешний вид мягче и придают дизайну уникальность. Покрытие представлено в 13 цветах, матовая поверхность легко моется.",
+      "startedPrice": "600",
+      "imageName": "spheraec.jpg",
+      "colors": null,
+      "_id": {
+        "$oid": "5f17e27a808b883bf03a718d"
+      }
+    },
+    {
+      "Colors": [
+        {
+          "imageName": "spherasd.jpg",
+          "Code": "550000",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1502-G50Y"
+            },
+            {
+              "name": "Lrv",
+              "result": "65%"
+            }
+          ]
+        },
+        {
+          "imageName": "spherasd550003.jpg",
+          "Code": "550003",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2500-N"
+            },
+            {
+              "name": "Lrv",
+              "result": "52%"
+            }
+          ]
+        },
+        {
+          "imageName": "spherasd550005.jpg",
+          "Code": "550005",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 4502-B"
+            },
+            {
+              "name": "Lrv",
+              "result": "27%"
+            }
+          ]
+        },
+        {
+          "imageName": "spherasd550008.jpg",
+          "Code": "550008",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2502-B"
+            },
+            {
+              "name": "Lrv",
+              "result": "47%"
+            }
+          ]
+        },
+        {
+          "imageName": "spherasd550007.jpg",
+          "Code": "550007",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2002-B50G"
+            },
+            {
+              "name": "Lrv",
+              "result": "55%"
+            }
+          ]
+        },
+        {
+          "imageName": "spherasd550017.jpg",
+          "Code": "550017",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1500-N"
+            },
+            {
+              "name": "Lrv",
+              "result": "56%"
+            }
+          ]
+        },
+        {
+          "imageName": "spherasd550018.jpg",
+          "Code": "550018",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2502-Y"
+            },
+            {
+              "name": "Lrv",
+              "result": "46%"
+            }
+          ]
+        },
+        {
+          "imageName": "spherasd550023.jpg",
+          "Code": "550023",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2005-Y40R"
+            },
+            {
+              "name": "Lrv",
+              "result": "51%"
+            }
+          ]
+        },
+        {
+          "imageName": "spherasd550032.jpg",
+          "Code": "550032",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2005-R50B"
+            },
+            {
+              "name": "Lrv",
+              "result": "53%"
+            }
+          ]
+        },
+        {
+          "imageName": "spherasd550034.jpg",
+          "Code": "550034",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 5030-R30B"
+            },
+            {
+              "name": "Lrv",
+              "result": "17%"
+            }
+          ]
+        },
+        {
+          "imageName": "spherasd550037.jpg",
+          "Code": "550037",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2030-R90B"
+            },
+            {
+              "name": "Lrv",
+              "result": "38%"
+            }
+          ]
+        },
+        {
+          "imageName": "spherasd550036.jpg",
+          "Code": "550036",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 1510-R90B"
+            },
+            {
+              "name": "Lrv",
+              "result": "57%"
+            }
+          ]
+        },
+        {
+          "imageName": "spherasd550050.jpg",
+          "Code": "550050",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 4010-G10Y"
+            },
+            {
+              "name": "Lrv",
+              "result": "31%"
+            }
+          ]
+        },
+        {
+          "imageName": "spherasd550049.jpg",
+          "Code": "550049",
+          "table": [
+            {
+              "name": "Ncs",
+              "result": "S 2050-G60Y"
+            },
+            {
+              "name": "Lrv",
+              "result": "46%"
+            }
+          ]
+        }
+      ],
+      "default": [
+        {
+          "name": "Толщина",
+          "result": "2 mm"
+        },
+        {
+          "name": "Длина х Ширина",
+          "result": "±26 m x 200 cm"
+        }
+      ],
+      "name": "sphera sd",
+      "description": "Коллекция Sphera SD – это напольное покрытие с токорассеивающими свойствами. Чтобы обеспечить постоянную надежную работу покрытия мы добавили определенное количество токорассеивающих гранул. Уникальная структура тиснения гарантирует легкость в уборке и матовую поверхность.Хорошо сбалансированная палитра состоит из 14 цветов.",
+      "startedPrice": "600",
+      "imageName": "spherasd.jpg",
+      "colors": null,
+      "_id": {
+        "$oid": "5f17e27a808b883bf03a718e"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5f17e94b808b883bf03a7192"
+  },
+  "name": "Промышленные Клеи",
+  "imageName": "kley.jpg",
+  "products": []
+},{
+  "_id": {
+    "$oid": "5f17f707808b883bf03a7193"
+  },
+  "name": "Ковровая плитка",
+  "imageName": "cover.jpg",
+  "products": [
+    {
+      "Colors": [
+        {
+          "imageName": "tessera.jpg",
+          "Code": "2100/2100PL",
+          "table": [
+            {
+              "name": "Длина х Ширина",
+              "result": "50 cm x 50 cm <br> 100 cm x 25 cm"
+            },
+            {
+              "name": "Высота ворса",
+              "result": "2,9m"
+            },
+            {
+              "name": "Lrv",
+              "result": "4%"
+            }
+          ]
+        },
+        {
+          "imageName": "tessera2101.jpg",
+          "Code": "2101",
+          "table": [
+            {
+              "name": "Длина х Ширина",
+              "result": "50 cm x 50 cm"
+            },
+            {
+              "name": "Высота ворса",
+              "result": "2,9m"
+            },
+            {
+              "name": "Lrv",
+              "result": "5%"
+            }
+          ]
+        },
+        {
+          "imageName": "tessera2102.jpg",
+          "Code": "2102",
+          "table": [
+            {
+              "name": "Длина х Ширина",
+              "result": "50 cm x 50 cm"
+            },
+            {
+              "name": "Высота ворса",
+              "result": "2,9m"
+            },
+            {
+              "name": "Lrv",
+              "result": "8%"
+            }
+          ]
+        },
+        {
+          "imageName": "tessera2103.jpg",
+          "Code": "2103/2103PL",
+          "table": [
+            {
+              "name": "Длина х Ширина",
+              "result": "50 cm x 50 cm <br> 100 cm x 25 cm"
+            },
+            {
+              "name": "Высота ворса",
+              "result": "2,9m"
+            },
+            {
+              "name": "Lrv",
+              "result": "13%"
+            }
+          ]
+        },
+        {
+          "imageName": "tessera2104.jpg",
+          "Code": "2104/2104PL",
+          "table": [
+            {
+              "name": "Длина х Ширина",
+              "result": "50 cm x 50 cm <br> 100 cm x 25 cm"
+            },
+            {
+              "name": "Высота ворса",
+              "result": "2,9m"
+            },
+            {
+              "name": "Lrv",
+              "result": "9%"
+            }
+          ]
+        },
+        {
+          "imageName": "tessera2105.jpg",
+          "Code": "2105",
+          "table": [
+            {
+              "name": "Длина х Ширина",
+              "result": "50 cm x 50 cm"
+            },
+            {
+              "name": "Высота ворса",
+              "result": "2,9m"
+            },
+            {
+              "name": "Lrv",
+              "result": "9%"
+            }
+          ]
+        },
+        {
+          "imageName": "tessera2106.jpg",
+          "Code": "2106",
+          "table": [
+            {
+              "name": "Длина х Ширина",
+              "result": "50 cm x 50 cm"
+            },
+            {
+              "name": "Высота ворса",
+              "result": "2,9m"
+            },
+            {
+              "name": "Lrv",
+              "result": "14%"
+            }
+          ]
+        },
+        {
+          "imageName": "tessera2107.jpg",
+          "Code": "2107/2107PL",
+          "table": [
+            {
+              "name": "Длина х Ширина",
+              "result": "50 cm x 50 cm <br> 100 cm x 25 cm"
+            },
+            {
+              "name": "Высота ворса",
+              "result": "2,9m"
+            },
+            {
+              "name": "Lrv",
+              "result": "7%"
+            }
+          ]
+        },
+        {
+          "imageName": "tessera2108.jpg",
+          "Code": "2108/2108PL",
+          "table": [
+            {
+              "name": "Длина х Ширина",
+              "result": "50 cm x 50 cm <br> 100 cm x 25 cm"
+            },
+            {
+              "name": "Высота ворса",
+              "result": "2,9m"
+            },
+            {
+              "name": "Lrv",
+              "result": "13%"
+            }
+          ]
+        },
+        {
+          "imageName": "tessera2109.jpg",
+          "Code": "2109",
+          "table": [
+            {
+              "name": "Длина х Ширина",
+              "result": "50 cm x 50 cm"
+            },
+            {
+              "name": "Высота ворса",
+              "result": "2,9m"
+            },
+            {
+              "name": "Lrv",
+              "result": "17%"
+            }
+          ]
+        },
+        {
+          "imageName": "tessera2110.jpg",
+          "Code": "2110",
+          "table": [
+            {
+              "name": "Длина х Ширина",
+              "result": "50 cm x 50 cm"
+            },
+            {
+              "name": "Высота ворса",
+              "result": "2,9m"
+            },
+            {
+              "name": "Lrv",
+              "result": "21%"
+            }
+          ]
+        },
+        {
+          "imageName": "tessera2111.jpg",
+          "Code": "2111",
+          "table": [
+            {
+              "name": "Длина х Ширина",
+              "result": "50 cm x 50 cm"
+            },
+            {
+              "name": "Высота ворса",
+              "result": "2,9m"
+            },
+            {
+              "name": "Lrv",
+              "result": "24%"
+            }
+          ]
+        },
+        {
+          "imageName": "tessera2112.jpg",
+          "Code": "2112/2112PL",
+          "table": [
+            {
+              "name": "Длина х Ширина",
+              "result": "50 cm x 50 cm <br> 100 cm x 25 cm"
+            },
+            {
+              "name": "Высота ворса",
+              "result": "2,9m"
+            },
+            {
+              "name": "Lrv",
+              "result": "28%"
+            }
+          ]
+        },
+        {
+          "imageName": "tessera2113.jpg",
+          "Code": "2113",
+          "table": [
+            {
+              "name": "Длина х Ширина",
+              "result": "50 cm x 50 cm"
+            },
+            {
+              "name": "Высота ворса",
+              "result": "2,9m"
+            },
+            {
+              "name": "Lrv",
+              "result": "22%"
+            }
+          ]
+        },
+        {
+          "imageName": "tessera2114.jpg",
+          "Code": "2114",
+          "table": [
+            {
+              "name": "Длина х Ширина",
+              "result": "50 cm x 50 cm"
+            },
+            {
+              "name": "Высота ворса",
+              "result": "2,9m"
+            },
+            {
+              "name": "Lrv",
+              "result": "24%"
+            }
+          ]
+        },
+        {
+          "imageName": "tessera2115.jpg",
+          "Code": "2115",
+          "table": [
+            {
+              "name": "Длина х Ширина",
+              "result": "50 cm x 50 cm"
+            },
+            {
+              "name": "Высота ворса",
+              "result": "2,9m"
+            },
+            {
+              "name": "Lrv",
+              "result": "27%"
+            }
+          ]
+        },
+        {
+          "imageName": "tessera2117.jpg",
+          "Code": "2117",
+          "table": [
+            {
+              "name": "Длина х Ширина",
+              "result": "50 cm x 50 cm"
+            },
+            {
+              "name": "Высота ворса",
+              "result": "2,9m"
+            },
+            {
+              "name": "Lrv",
+              "result": "7%"
+            }
+          ]
+        },
+        {
+          "imageName": "tessera2116.jpg",
+          "Code": "2116",
+          "table": [
+            {
+              "name": "Длина х Ширина",
+              "result": "50 cm x 50 cm"
+            },
+            {
+              "name": "Высота ворса",
+              "result": "2,9m"
+            },
+            {
+              "name": "Lrv",
+              "result": "9%"
+            }
+          ]
+        },
+        {
+          "imageName": "tessera2118.jpg",
+          "Code": "2118/2118PL",
+          "table": [
+            {
+              "name": "Длина х Ширина",
+              "result": "50 cm x 50 cm <br> 100 cm x 25 cm"
+            },
+            {
+              "name": "Высота ворса",
+              "result": "2,9m"
+            },
+            {
+              "name": "Lrv",
+              "result": "5%"
+            }
+          ]
+        },
+        {
+          "imageName": "tessera2122.jpg",
+          "Code": "2122/2122PL",
+          "table": [
+            {
+              "name": "Длина х Ширина",
+              "result": "50 cm x 50 cm <br> 100 cm x 25 cm"
+            },
+            {
+              "name": "Высота ворса",
+              "result": "2,9m"
+            },
+            {
+              "name": "Lrv",
+              "result": "7%"
+            }
+          ]
+        },
+        {
+          "imageName": "tessera2121.jpg",
+          "Code": "2121",
+          "table": [
+            {
+              "name": "Длина х Ширина",
+              "result": "50 cm x 50 cm"
+            },
+            {
+              "name": "Высота ворса",
+              "result": "2,9m"
+            },
+            {
+              "name": "Lrv",
+              "result": "14%"
+            }
+          ]
+        },
+        {
+          "imageName": "tessera2125.jpg",
+          "Code": "2125",
+          "table": [
+            {
+              "name": "Длина х Ширина",
+              "result": "50 cm x 50 cm"
+            },
+            {
+              "name": "Высота ворса",
+              "result": "2,9m"
+            },
+            {
+              "name": "Lrv",
+              "result": "15%"
+            }
+          ]
+        },
+        {
+          "imageName": "tessera2120.jpg",
+          "Code": "2120/2120PL",
+          "table": [
+            {
+              "name": "Длина х Ширина",
+              "result": "50 cm x 50 cm <br> 100 cm x 25 cm"
+            },
+            {
+              "name": "Высота ворса",
+              "result": "2,9m"
+            },
+            {
+              "name": "Lrv",
+              "result": "20%"
+            }
+          ]
+        },
+        {
+          "imageName": "tessera2129.jpg",
+          "Code": "2129/2129PL",
+          "table": [
+            {
+              "name": "Длина х Ширина",
+              "result": "50 cm x 50 cm <br> 100 cm x 25 cm"
+            },
+            {
+              "name": "Высота ворса",
+              "result": "2,9m"
+            },
+            {
+              "name": "Lrv",
+              "result": "16%"
+            }
+          ]
+        },
+        {
+          "imageName": "tessera2119.jpg",
+          "Code": "2119/2119PL",
+          "table": [
+            {
+              "name": "Длина х Ширина",
+              "result": "50 cm x 50 cm <br> 100 cm x 25 cm"
+            },
+            {
+              "name": "Высота ворса",
+              "result": "2,9m"
+            },
+            {
+              "name": "Lrv",
+              "result": "7%"
+            }
+          ]
+        },
+        {
+          "imageName": "tessera2126.jpg",
+          "Code": "2126",
+          "table": [
+            {
+              "name": "Длина х Ширина",
+              "result": "50 cm x 50 cm"
+            },
+            {
+              "name": "Высота ворса",
+              "result": "2,9m"
+            },
+            {
+              "name": "Lrv",
+              "result": "8%"
+            }
+          ]
+        },
+        {
+          "imageName": "tessera2130.jpg",
+          "Code": "2108/2130PL",
+          "table": [
+            {
+              "name": "Длина х Ширина",
+              "result": "50 cm x 50 cm <br> 100 cm x 25 cm"
+            },
+            {
+              "name": "Высота ворса",
+              "result": "2,9m"
+            },
+            {
+              "name": "Lrv",
+              "result": "12%"
+            }
+          ]
+        },
+        {
+          "imageName": "tessera2124.jpg",
+          "Code": "2124",
+          "table": [
+            {
+              "name": "Длина х Ширина",
+              "result": "50 cm x 50 cm"
+            },
+            {
+              "name": "Высота ворса",
+              "result": "2,9m"
+            },
+            {
+              "name": "Lrv",
+              "result": "20%"
+            }
+          ]
+        },
+        {
+          "imageName": "tessera2128.jpg",
+          "Code": "2128",
+          "table": [
+            {
+              "name": "Длина х Ширина",
+              "result": "50 cm x 50 cm"
+            },
+            {
+              "name": "Высота ворса",
+              "result": "2,9m"
+            },
+            {
+              "name": "Lrv",
+              "result": "31%"
+            }
+          ]
+        },
+        {
+          "imageName": "tessera2127.jpg",
+          "Code": "2127",
+          "table": [
+            {
+              "name": "Длина х Ширина",
+              "result": "50 cm x 50 cm"
+            },
+            {
+              "name": "Высота ворса",
+              "result": "2,9m"
+            },
+            {
+              "name": "Lrv",
+              "result": "13%"
+            }
+          ]
+        },
+        {
+          "imageName": "tessera3100.jpg",
+          "Code": "3100/3100PL",
+          "table": [
+            {
+              "name": "Длина х Ширина",
+              "result": "50 cm x 50 cm <br> 100 cm x 25 cm"
+            },
+            {
+              "name": "Высота ворса",
+              "result": "2,9m"
+            },
+            {
+              "name": "Lrv",
+              "result": "6%"
+            }
+          ]
+        },
+        {
+          "imageName": "tessera3107.jpg",
+          "Code": "3107/3107PL",
+          "table": [
+            {
+              "name": "Длина х Ширина",
+              "result": "50 cm x 50 cm <br> 100 cm x 25 cm"
+            },
+            {
+              "name": "Высота ворса",
+              "result": "2,9m"
+            },
+            {
+              "name": "Lrv",
+              "result": "6%"
+            }
+          ]
+        },
+        {
+          "imageName": "tessera3103.jpg",
+          "Code": "3103",
+          "table": [
+            {
+              "name": "Длина х Ширина",
+              "result": "50 cm x 50 cm"
+            },
+            {
+              "name": "Высота ворса",
+              "result": "2,9m"
+            },
+            {
+              "name": "Lrv",
+              "result": "10%"
+            }
+          ]
+        },
+        {
+          "imageName": "tessera3105.jpg",
+          "Code": "3103",
+          "table": [
+            {
+              "name": "Длина х Ширина",
+              "result": "50 cm x 50 cm"
+            },
+            {
+              "name": "Высота ворса",
+              "result": "2,9m"
+            },
+            {
+              "name": "Lrv",
+              "result": "17%"
+            }
+          ]
+        },
+        {
+          "imageName": "tessera2123.jpg",
+          "Code": "2123/2123PL",
+          "table": [
+            {
+              "name": "Длина х Ширина",
+              "result": "50 cm x 50 cm <br> 100 cm x 25 cm"
+            },
+            {
+              "name": "Высота ворса",
+              "result": "2,9m"
+            },
+            {
+              "name": "Lrv",
+              "result": "23%"
+            }
+          ]
+        },
+        {
+          "imageName": "tessera2131.jpg",
+          "Code": "2131/2131PL",
+          "table": [
+            {
+              "name": "Длина х Ширина",
+              "result": "50 cm x 50 cm <br> 100 cm x 25 cm"
+            },
+            {
+              "name": "Высота ворса",
+              "result": "2,9m"
+            },
+            {
+              "name": "Lrv",
+              "result": "18%"
+            }
+          ]
+        },
+        {
+          "imageName": "tessera3101.jpg",
+          "Code": "3101/3101PL",
+          "table": [
+            {
+              "name": "Длина х Ширина",
+              "result": "50 cm x 50 cm <br> 100 cm x 25 cm"
+            },
+            {
+              "name": "Высота ворса",
+              "result": "2,9m"
+            },
+            {
+              "name": "Lrv",
+              "result": "9%"
+            }
+          ]
+        },
+        {
+          "imageName": "tessera3104.jpg",
+          "Code": "3104",
+          "table": [
+            {
+              "name": "Длина х Ширина",
+              "result": "50 cm x 50 cm"
+            },
+            {
+              "name": "Высота ворса",
+              "result": "2,9m"
+            },
+            {
+              "name": "Lrv",
+              "result": "17%"
+            }
+          ]
+        },
+        {
+          "imageName": "tessera3102.jpg",
+          "Code": "3102/3102PL",
+          "table": [
+            {
+              "name": "Длина х Ширина",
+              "result": "50 cm x 50 cm <br> 100 cm x 25 cm"
+            },
+            {
+              "name": "Высота ворса",
+              "result": "2,9m"
+            },
+            {
+              "name": "Lrv",
+              "result": "21%"
+            }
+          ]
+        },
+        {
+          "imageName": "tessera3106.jpg",
+          "Code": "3106",
+          "table": [
+            {
+              "name": "Длина х Ширина",
+              "result": "50 cm x 50 cm"
+            },
+            {
+              "name": "Высота ворса",
+              "result": "2,9m"
+            },
+            {
+              "name": "Lrv",
+              "result": "14%"
+            }
+          ]
+        }
+      ],
+      "default": [
+        {
+          "name": "Толщина",
+          "result": "5,8 mm"
+        }
+      ],
+      "name": "tessera layout & outline",
+      "description": "Ковровая плитка Tessera Layout и Outline – это современная палитра из 32-х цветов с 8-ю направленными полосками, которая предлагает широкие возможности для вдохновения в любом напольном интерьере.",
+      "startedPrice": "600",
+      "imageName": "tessera.jpg",
+      "colors": null,
+      "_id": {
+        "$oid": "5f17f780808b883bf03a7194"
+      }
+    }
+  ]
 }]

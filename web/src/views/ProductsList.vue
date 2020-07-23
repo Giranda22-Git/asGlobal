@@ -28,7 +28,7 @@ export default {
     name: 'ProductsList',
     data: () => ({
         isModalVisible: false,
-        SelectedProduct: null,
+        SelectedProduct: Object,
 
         ProductListData: null
     }),

@@ -10,9 +10,11 @@
                 </button>
             </div>
             <div class="contentWrapper">
+                <transition name="modal-image">
                 <div class="leftContentWrapper"
-                    :style="{'background': 'url(' + require('../assets/' + SelectedProduct.imageName) + ') center no-repeat', 'background-size': 'cover', 'width' : '30vw'}"
+                    :style="{'background': 'url(' + require('../assets/' + SelectedProduct.Colors[currentColor].imageName) + ') center no-repeat', 'background-size': 'cover', 'width' : '30vw'}"
                 ></div>
+                </transition>
                 <div class="rightContentWrapper">
                     <h1 class="productName">
                         {{ SelectedProduct.name }}
@@ -26,28 +28,28 @@
                 <div class="LeftBottomBlock">
                     <div class="colorPanel">
                         <ColorItem class="colorItem"
-                          v-for="item in SelectedProduct.Colors"
+                          v-for="(item, index) in SelectedProduct.Colors"
                           :key="item.Code"
                           :Color="item"
-                          @viewColor="viewColor"
+                          :index="index"
+                          @switchIndex="switchColor"
                         />
                     </div>
                 </div>
                 <div class="RightBottomBlock">
-                    <div class="string">
-                      <div class="first_column">Толщина</div>
-                      <div class="second_column">4,3 mm / 6 mm</div>
-                    </div>
-                    <div class="string">
-                      <div class="first_column">Толщина слоя износа</div>
-                      <div class="second_column">0,6 mm / 1 mm</div>
+                    <div class="string" 
+                      v-for="item in SelectedProduct.default"
+                      :key="item.name"
+                      >
+                      <div class="first_column" v-html="item.name"></div>
+                      <div class="second_column" v-html="item.result"></div>
                     </div>
                     <div class="string"
-                      v-for="(item, index) in SelectedProduct.table"
-                      :key="index"
+                      v-for="item in SelectedProduct.Colors[currentColor].table"
+                      :key="item.name"
                       >
-                      <div class="first_column"> {{ item.name }} </div>
-                      <div class="second_column"> {{ item.result }} </div>
+                      <div class="first_column" v-html="item.name"></div>
+                      <div class="second_column" v-html="item.result"></div>
                     </div>
                 </div>
             </div>
@@ -63,17 +65,29 @@ export default {
       SelectedProduct: {
         type: Object,
         default: () => {}
+      },
+      trigger: {
+        type: Boolean,
+        default: false
       }
     },
     data: function() {
       return {
-
+        currentColor: 0
+      }
+    },
+    watch: {
+      trigger: function(value) {
+        this.currentColor = 0
       }
     },
     methods: {
       close() {
         this.$emit('close');
       },
+      switchColor(index) {
+        this.currentColor = index
+      }
     },
     components:{
         ColorItem
@@ -82,15 +96,17 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-*
-    border: 1px solid red
 .modal-fade-enter,
 .modal-fade-leave-active 
-    opacity: 0
+  opacity: 0
 
 .modal-fade-enter-active,
 .modal-fade-leave-active 
-    transition: opacity .5s ease
+  transition: opacity .5s ease
+
+.modal-image-enter-active,
+.modal-image-leave-active 
+  transition: background .5s ease
 
 .head
     height: 6%

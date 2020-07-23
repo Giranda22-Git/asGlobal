@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     <div class="topContent"
-      :style="{'background': 'url(' + require('../assets/' + Partner.imageName) + ') center no-repeat', 'background-size': 'cover'}"
+      :style="{'background': 'url(' + require('../assets/' + Partner.imageName) + ') center no-repeat', 'background-size': '100%'}"
     >
     </div>
     <div class="bottomContent">
@@ -31,7 +31,6 @@ export default {
     flex-direction: column
     justify-content: space-around
     align-items: center
-    background-color: #26272b
     .topContent
       width: 90%
       height: 60%
@@ -39,4 +38,6 @@ export default {
       height: 30%
       width: 100%
       text-align: center
+      font-size: 3vh
+      color: white
 </style>

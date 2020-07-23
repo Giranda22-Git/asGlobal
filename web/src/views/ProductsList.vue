@@ -13,6 +13,7 @@
                 v-show="isModalVisible"
                 @close="closeModal"
                 :SelectedProduct="SelectedProduct"
+                :trigger="isModalVisible"
             />
         </div>
     </div>
@@ -28,8 +29,7 @@ export default {
     name: 'ProductsList',
     data: () => ({
         isModalVisible: false,
-        SelectedProduct: Object,
-
+        SelectedProduct: null,
         ProductListData: null
     }),
     components:{

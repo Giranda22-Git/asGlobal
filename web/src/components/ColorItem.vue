@@ -1,5 +1,5 @@
 <template>
-    <div class="colorBlock" @click="viewColor"
+    <div class="colorBlock" @click="switchIndex"
         :style="{'background': 'url(' + require('../assets/' + Color.imageName) + ') center no-repeat', 'background-size': 'cover'}"
     >
         <div class="whiteBlock">
@@ -15,14 +15,21 @@ export default {
         Color: {
             type: Object,
             default: () => {}
+        },
+        index: {
+            type: Number,
+            default: 0
+        }
+    },
+    methods: {
+        switchIndex() {
+            this.$emit('switchIndex', this.index);
         }
     }
 }
 </script>
 
 <style lang="sass" scoped>
-    *
-        border: 1px solid red
     .colorBlock
         height: 14vh
         background-color: black

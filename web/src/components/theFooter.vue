@@ -4,9 +4,9 @@
     <div class="fontWrapper">
       <Partners
         class="Partners"
-      />
-      <Partners
-        class="Partners"
+        v-for="item in partners"
+        :key="item._id"
+        :Partner="item"
       />
     </div>
   </div>
@@ -67,6 +67,7 @@ export default {
   height: 35vh
   display: flex
   justify-content: center
+  background-color: #26272b
   .fontWrapper
     display: grid
     grid-template-columns: 1fr 1fr 1fr 1fr

@@ -1,0 +1,535 @@
+
+{
+	"product": {
+		"Colors": [{
+				"imageName": "tessera.jpg",
+				"Code": "2100/2100PL",
+				"table":[{
+					"name": "Длина х Ширина",
+				"result": "50 cm x 50 cm <br> 100 cm x 25 cm"
+				},{
+					"name": "Высота ворса",
+				"result": "2,9m"
+				},{
+				"name": "Lrv",
+				"result": "4%"
+			}]
+			},
+			 {
+					"imageName": "tessera2101.jpg",
+					"Code": "2101",
+					"table":[{
+					"name": "Длина х Ширина",
+				"result": "50 cm x 50 cm"
+				},{
+					"name": "Высота ворса",
+				"result": "2,9m"
+				},{
+				"name": "Lrv",
+				"result": "5%"
+			}]
+			},
+			 {
+					"imageName": "tessera2102.jpg",
+					"Code": "2102",
+					"table":[{
+					"name": "Длина х Ширина",
+				"result": "50 cm x 50 cm"
+				},{
+					"name": "Высота ворса",
+				"result": "2,9m"
+				},{
+				"name": "Lrv",
+				"result": "8%"
+			}]
+			},{
+				"imageName": "tessera2103.jpg",
+				"Code": "2103/2103PL",
+				"table":[{
+					"name": "Длина х Ширина",
+				"result": "50 cm x 50 cm <br> 100 cm x 25 cm"
+				},{
+					"name": "Высота ворса",
+				"result": "2,9m"
+				},{
+				"name": "Lrv",
+				"result": "13%"
+			}]
+			},{
+				"imageName": "tessera2104.jpg",
+				"Code": "2104/2104PL",
+				"table":[{
+					"name": "Длина х Ширина",
+				"result": "50 cm x 50 cm <br> 100 cm x 25 cm"
+				},{
+					"name": "Высота ворса",
+				"result": "2,9m"
+				},{
+				"name": "Lrv",
+				"result": "9%"
+			}]
+			},{
+					"imageName": "tessera2105.jpg",
+					"Code": "2105",
+					"table":[{
+					"name": "Длина х Ширина",
+				"result": "50 cm x 50 cm"
+				},{
+					"name": "Высота ворса",
+				"result": "2,9m"
+				},{
+				"name": "Lrv",
+				"result": "9%"
+			}]
+			},{
+					"imageName": "tessera2106.jpg",
+					"Code": "2106",
+					"table":[{
+					"name": "Длина х Ширина",
+				"result": "50 cm x 50 cm"
+				},{
+					"name": "Высота ворса",
+				"result": "2,9m"
+				},{
+				"name": "Lrv",
+				"result": "14%"
+			}]
+			},{
+				"imageName": "tessera2107.jpg",
+				"Code": "2107/2107PL",
+				"table":[{
+					"name": "Длина х Ширина",
+				"result": "50 cm x 50 cm <br> 100 cm x 25 cm"
+				},{
+					"name": "Высота ворса",
+				"result": "2,9m"
+				},{
+				"name": "Lrv",
+				"result": "7%"
+			}]
+			},{
+				"imageName": "tessera2108.jpg",
+				"Code": "2108/2108PL",
+				"table":[{
+					"name": "Длина х Ширина",
+				"result": "50 cm x 50 cm <br> 100 cm x 25 cm"
+				},{
+					"name": "Высота ворса",
+				"result": "2,9m"
+				},{
+				"name": "Lrv",
+				"result": "13%"
+			}]
+			},{
+					"imageName": "tessera2109.jpg",
+					"Code": "2109",
+					"table":[{
+					"name": "Длина х Ширина",
+				"result": "50 cm x 50 cm"
+				},{
+					"name": "Высота ворса",
+				"result": "2,9m"
+				},{
+				"name": "Lrv",
+				"result": "17%"
+			}]
+			},{
+					"imageName": "tessera2110.jpg",
+					"Code": "2110",
+					"table":[{
+					"name": "Длина х Ширина",
+				"result": "50 cm x 50 cm"
+				},{
+					"name": "Высота ворса",
+				"result": "2,9m"
+				},{
+				"name": "Lrv",
+				"result": "21%"
+			}]
+			},{
+					"imageName": "tessera2111.jpg",
+					"Code": "2111",
+					"table":[{
+					"name": "Длина х Ширина",
+				"result": "50 cm x 50 cm"
+				},{
+					"name": "Высота ворса",
+				"result": "2,9m"
+				},{
+				"name": "Lrv",
+				"result": "24%"
+			}]
+			},{
+				"imageName": "tessera2112.jpg",
+				"Code": "2112/2112PL",
+				"table":[{
+					"name": "Длина х Ширина",
+				"result": "50 cm x 50 cm <br> 100 cm x 25 cm"
+				},{
+					"name": "Высота ворса",
+				"result": "2,9m"
+				},{
+				"name": "Lrv",
+				"result": "28%"
+			}]
+			},{
+					"imageName": "tessera2113.jpg",
+					"Code": "2113",
+					"table":[{
+					"name": "Длина х Ширина",
+				"result": "50 cm x 50 cm"
+				},{
+					"name": "Высота ворса",
+				"result": "2,9m"
+				},{
+				"name": "Lrv",
+				"result": "22%"
+			}]
+			},{
+					"imageName": "tessera2114.jpg",
+					"Code": "2114",
+					"table":[{
+					"name": "Длина х Ширина",
+				"result": "50 cm x 50 cm"
+				},{
+					"name": "Высота ворса",
+				"result": "2,9m"
+				},{
+				"name": "Lrv",
+				"result": "24%"
+			}]
+			},{
+					"imageName": "tessera2115.jpg",
+					"Code": "2115",
+					"table":[{
+					"name": "Длина х Ширина",
+				"result": "50 cm x 50 cm"
+				},{
+					"name": "Высота ворса",
+				"result": "2,9m"
+				},{
+				"name": "Lrv",
+				"result": "27%"
+			}]
+			},{
+					"imageName": "tessera2117.jpg",
+					"Code": "2117",
+					"table":[{
+					"name": "Длина х Ширина",
+				"result": "50 cm x 50 cm"
+				},{
+					"name": "Высота ворса",
+				"result": "2,9m"
+				},{
+				"name": "Lrv",
+				"result": "7%"
+			}]
+			},{
+					"imageName": "tessera2116.jpg",
+					"Code": "2116",
+					"table":[{
+					"name": "Длина х Ширина",
+				"result": "50 cm x 50 cm"
+				},{
+					"name": "Высота ворса",
+				"result": "2,9m"
+				},{
+				"name": "Lrv",
+				"result": "9%"
+			}]
+			},{
+				"imageName": "tessera2118.jpg",
+				"Code": "2118/2118PL",
+				"table":[{
+					"name": "Длина х Ширина",
+				"result": "50 cm x 50 cm <br> 100 cm x 25 cm"
+				},{
+					"name": "Высота ворса",
+				"result": "2,9m"
+				},{
+				"name": "Lrv",
+				"result": "5%"
+			}]
+			},{
+				"imageName": "tessera2122.jpg",
+				"Code": "2122/2122PL",
+				"table":[{
+					"name": "Длина х Ширина",
+				"result": "50 cm x 50 cm <br> 100 cm x 25 cm"
+				},{
+					"name": "Высота ворса",
+				"result": "2,9m"
+				},{
+				"name": "Lrv",
+				"result": "7%"
+			}]
+			},{
+					"imageName": "tessera2121.jpg",
+					"Code": "2121",
+					"table":[{
+					"name": "Длина х Ширина",
+				"result": "50 cm x 50 cm"
+				},{
+					"name": "Высота ворса",
+				"result": "2,9m"
+				},{
+				"name": "Lrv",
+				"result": "14%"
+			}]
+			},{
+					"imageName": "tessera2125.jpg",
+					"Code": "2125",
+					"table":[{
+					"name": "Длина х Ширина",
+				"result": "50 cm x 50 cm"
+				},{
+					"name": "Высота ворса",
+				"result": "2,9m"
+				},{
+				"name": "Lrv",
+				"result": "15%"
+			}]
+			},{
+				"imageName": "tessera2120.jpg",
+				"Code": "2120/2120PL",
+				"table":[{
+					"name": "Длина х Ширина",
+				"result": "50 cm x 50 cm <br> 100 cm x 25 cm"
+				},{
+					"name": "Высота ворса",
+				"result": "2,9m"
+				},{
+				"name": "Lrv",
+				"result": "20%"
+			}]
+			},{
+				"imageName": "tessera2129.jpg",
+				"Code": "2129/2129PL",
+				"table":[{
+					"name": "Длина х Ширина",
+				"result": "50 cm x 50 cm <br> 100 cm x 25 cm"
+				},{
+					"name": "Высота ворса",
+				"result": "2,9m"
+				},{
+				"name": "Lrv",
+				"result": "16%"
+			}]
+			},{
+				"imageName": "tessera2119.jpg",
+				"Code": "2119/2119PL",
+				"table":[{
+					"name": "Длина х Ширина",
+				"result": "50 cm x 50 cm <br> 100 cm x 25 cm"
+				},{
+					"name": "Высота ворса",
+				"result": "2,9m"
+				},{
+				"name": "Lrv",
+				"result": "7%"
+			}]
+			},{
+					"imageName": "tessera2126.jpg",
+					"Code": "2126",
+					"table":[{
+					"name": "Длина х Ширина",
+				"result": "50 cm x 50 cm"
+				},{
+					"name": "Высота ворса",
+				"result": "2,9m"
+				},{
+				"name": "Lrv",
+				"result": "8%"
+			}]
+			},{
+				"imageName": "tessera2130.jpg",
+				"Code": "2108/2130PL",
+				"table":[{
+					"name": "Длина х Ширина",
+				"result": "50 cm x 50 cm <br> 100 cm x 25 cm"
+				},{
+					"name": "Высота ворса",
+				"result": "2,9m"
+				},{
+				"name": "Lrv",
+				"result": "12%"
+			}]
+			},{
+					"imageName": "tessera2124.jpg",
+					"Code": "2124",
+					"table":[{
+					"name": "Длина х Ширина",
+				"result": "50 cm x 50 cm"
+				},{
+					"name": "Высота ворса",
+				"result": "2,9m"
+				},{
+				"name": "Lrv",
+				"result": "20%"
+			}]
+			},{
+					"imageName": "tessera2128.jpg",
+					"Code": "2128",
+					"table":[{
+					"name": "Длина х Ширина",
+				"result": "50 cm x 50 cm"
+				},{
+					"name": "Высота ворса",
+				"result": "2,9m"
+				},{
+				"name": "Lrv",
+				"result": "31%"
+			}]
+			},{
+					"imageName": "tessera2127.jpg",
+					"Code": "2127",
+					"table":[{
+					"name": "Длина х Ширина",
+				"result": "50 cm x 50 cm"
+				},{
+					"name": "Высота ворса",
+				"result": "2,9m"
+				},{
+				"name": "Lrv",
+				"result": "13%"
+			}]
+			},{
+				"imageName": "tessera3100.jpg",
+				"Code": "3100/3100PL",
+				"table":[{
+					"name": "Длина х Ширина",
+				"result": "50 cm x 50 cm <br> 100 cm x 25 cm"
+				},{
+					"name": "Высота ворса",
+				"result": "2,9m"
+				},{
+				"name": "Lrv",
+				"result": "6%"
+			}]
+			},{
+				"imageName": "tessera3107.jpg",
+				"Code": "3107/3107PL",
+				"table":[{
+					"name": "Длина х Ширина",
+				"result": "50 cm x 50 cm <br> 100 cm x 25 cm"
+				},{
+					"name": "Высота ворса",
+				"result": "2,9m"
+				},{
+				"name": "Lrv",
+				"result": "6%"
+			}]
+			},{
+					"imageName": "tessera3103.jpg",
+					"Code": "3103",
+					"table":[{
+					"name": "Длина х Ширина",
+				"result": "50 cm x 50 cm"
+				},{
+					"name": "Высота ворса",
+				"result": "2,9m"
+				},{
+				"name": "Lrv",
+				"result": "10%"
+			}]
+			},{
+					"imageName": "tessera3105.jpg",
+					"Code": "3103",
+					"table":[{
+					"name": "Длина х Ширина",
+				"result": "50 cm x 50 cm"
+				},{
+					"name": "Высота ворса",
+				"result": "2,9m"
+				},{
+				"name": "Lrv",
+				"result": "17%"
+			}]
+			},{
+				"imageName": "tessera2123.jpg",
+				"Code": "2123/2123PL",
+				"table":[{
+					"name": "Длина х Ширина",
+				"result": "50 cm x 50 cm <br> 100 cm x 25 cm"
+				},{
+					"name": "Высота ворса",
+				"result": "2,9m"
+				},{
+				"name": "Lrv",
+				"result": "23%"
+			}]
+			},{
+				"imageName": "tessera2131.jpg",
+				"Code": "2131/2131PL",
+				"table":[{
+					"name": "Длина х Ширина",
+				"result": "50 cm x 50 cm <br> 100 cm x 25 cm"
+				},{
+					"name": "Высота ворса",
+				"result": "2,9m"
+				},{
+				"name": "Lrv",
+				"result": "18%"
+			}]
+			},{
+				"imageName": "tessera3101.jpg",
+				"Code": "3101/3101PL",
+				"table":[{
+					"name": "Длина х Ширина",
+				"result": "50 cm x 50 cm <br> 100 cm x 25 cm"
+				},{
+					"name": "Высота ворса",
+				"result": "2,9m"
+				},{
+				"name": "Lrv",
+				"result": "9%"
+			}]
+			},{
+					"imageName": "tessera3104.jpg",
+					"Code": "3104",
+					"table":[{
+					"name": "Длина х Ширина",
+				"result": "50 cm x 50 cm"
+				},{
+					"name": "Высота ворса",
+				"result": "2,9m"
+				},{
+				"name": "Lrv",
+				"result": "17%"
+			}]
+			},{
+				"imageName": "tessera3102.jpg",
+				"Code": "3102/3102PL",
+				"table":[{
+					"name": "Длина х Ширина",
+				"result": "50 cm x 50 cm <br> 100 cm x 25 cm"
+				},{
+					"name": "Высота ворса",
+				"result": "2,9m"
+				},{
+				"name": "Lrv",
+				"result": "21%"
+			}]
+			},{
+					"imageName": "tessera3106.jpg",
+					"Code": "3106",
+					"table":[{
+					"name": "Длина х Ширина",
+				"result": "50 cm x 50 cm"
+				},{
+					"name": "Высота ворса",
+				"result": "2,9m"
+				},{
+				"name": "Lrv",
+				"result": "14%"
+			}]
+			}
+		],
+		"default": [
+			{
+				"name": "Толщина",
+				"result": "5,8 mm"
+			}
+		]
+	}
+}

@@ -48,7 +48,6 @@ export default {
 
 <style lang="sass" scoped>
 *
-  border: 1px solid red
   --webkit-box-sizing: border-box
 footer
   background-color: #26272b

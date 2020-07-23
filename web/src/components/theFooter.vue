@@ -1,5 +1,15 @@
 <template>
 <div id="navContacts">
+  <div class="PartnersWrapper">
+    <div class="fontWrapper">
+      <Partners
+        class="Partners"
+      />
+      <Partners
+        class="Partners"
+      />
+    </div>
+  </div>
   <footer>
     <div class="container">
       <div class="item1">
@@ -31,6 +41,7 @@
 
 <script>
 import axios from 'axios'
+import Partners from '@/components/Partners.vue'
 export default {
     name: 'theFooter', 
     data: () => ({
@@ -42,14 +53,27 @@ export default {
       .catch(function (error) {
         console.log(error);
       })
+    },
+    components: {
+      Partners
     }
 }
 </script>
 
 <style lang="sass" scoped>
 *
-  border: 1px solid red
   --webkit-box-sizing: border-box
+.PartnersWrapper
+  height: 35vh
+  display: flex
+  justify-content: center
+  .fontWrapper
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr 1fr
+    grid-template-rows: 1fr
+    grid-column-gap: 1%
+    width: 80%
+    height: 100%
 footer
   background-color: #26272b
   font-size: 2.4vh
@@ -134,56 +158,7 @@ footer
     text-decoration: none
     a:active
     color: #737373
-.pre-footer
-  background-color: #26272b
-  color: #737373
-  height: 38vh
-  display: flex
-  flex-direction: row
-  justify-content: center
-  .iconholder
-    display: flex
-    justify-content: space-around
-    align-items: center
-    background-color: transparent
-    text-align: center
-    width: 90%
-    height: 100%
-    margin: 0 auto
-    .adaptive_box
-      width: 50%
-      height: 100%
-      display: flex
-      flex-direction: row
-      justify-content: space-around
-      .design_block
-        width: 30%
-        height: 100%
-        display: flex
-        flex-direction: column
-        align-items: center
-        justify-content: center
-        .companyes
-          width: 90%
-          height: 50%
-          background: url(../assets/carousel1.jpg) center no-repeat
-          background-size: cover    
-    h3
-      color: #bbb
-      font-size: 3vh
-      display: block
-      height: 15%
-      text-align: center
-      line-height: 6vw
 @media screen and ( max-width: 480px )
-  .iconholder
-    flex-direction: column
-    h3
-      font-size: 4.6vw !important
-    .adaptive_box
-      width: 100% !important
-      .design_block
-        width: 100% !important
   .item1
     height: 58vh
     width: 20% !important

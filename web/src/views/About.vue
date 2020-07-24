@@ -2,16 +2,19 @@
     <div class = "block" id="navAbout">
         <div class="background">
             <AboutItem/>
+            <AboutModal/>
         </div>
     </div>
 </template>
 
 <script>
 import AboutItem from '@/components/AboutItem.vue'
+import AboutModal from '@/components/AboutModal.vue'
 export default {
     name: "About",
     components:{
-        AboutItem
+        AboutItem,
+        AboutModal
     }
 }
 </script>

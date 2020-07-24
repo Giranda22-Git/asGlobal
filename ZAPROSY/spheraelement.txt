@@ -1,0 +1,697 @@
+
+{
+	"product": {
+		"Colors": [{
+				"imageName": "spheraelement50002.jpg",
+				"Code": "50002",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 1500-N"
+				},{
+				"name": "Lrv",
+				"result": "63%"
+			}]
+			},
+			 {
+					"imageName": "spheraelement50007.jpg",
+					"Code": "50007",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 1502-B50G"
+				},{
+				"name": "Lrv",
+				"result": "63%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50012.jpg",
+					"Code":"50012",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 1502-G50Y"
+				},{
+				"name": "Lrv",
+				"result": "66%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50017.jpg",
+					"Code": "50017",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 1502-Y"
+				},{
+				"name": "Lrv",
+				"result": "62%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50022.jpg",
+					"Code": "50022",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 1005-Y10R"
+				},{
+				"name": "Lrv",
+				"result": "70%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50027.jpg",
+					"Code": "50027",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 1500-N"
+				},{
+				"name": "Lrv",
+				"result": "65%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50003.jpg",
+					"Code": "50003",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 2000-N"
+				},{
+				"name": "Lrv",
+				"result": "53%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50008.jpg",
+					"Code": "50008",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 2502-B"
+				},{
+				"name": "Lrv",
+				"result": "47%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50013.jpg",
+					"Code": "50013",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 2502-G"
+				},{
+				"name": "Lrv",
+				"result": "43%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50018.jpg",
+					"Code": "50018",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 2005-Y30R"
+				},{
+				"name": "Lrv",
+				"result": "49%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50023.jpg",
+					"Code": "50023",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 2010-Y30R"
+				},{
+				"name": "Lrv",
+				"result": "53%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50028.jpg",
+					"Code": "50028",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 2002-Y50R"
+				},{
+				"name": "Lrv",
+				"result": "47%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50004.jpg",
+					"Code": "50004",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 3500-N"
+				},{
+				"name": "Lrv",
+				"result": "36%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50014.jpg",
+					"Code": "50014",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 4502-Y"
+				},{
+				"name": "Lrv",
+				"result": "27%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50009.jpg",
+					"Code": "50009",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 4502-B"
+				},{
+				"name": "Lrv",
+				"result": "27%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50019.jpg",
+					"Code": "50019",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 4005-Y20R"
+				},{
+				"name": "Lrv",
+				"result": "36%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50024.jpg",
+					"Code": "50024",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 3010-Y30R"
+				},{
+				"name": "Lrv",
+				"result": "38%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50029.jpg",
+					"Code": "50029",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 3502-Y"
+				},{
+				"name": "Lrv",
+				"result": "34%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50005.jpg",
+					"Code": "50005",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 5000-N"
+				},{
+				"name": "Lrv",
+				"result": "24%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50010.jpg",
+					"Code": "50010",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 5502-B"
+				},{
+				"name": "Lrv",
+				"result": "17%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50015.jpg",
+					"Code": "50015",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 5502-Y "
+				},{
+				"name": "Lrv",
+				"result": "19%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50020.jpg",
+					"Code": "50020",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 5005-Y50R "
+				},{
+				"name": "Lrv",
+				"result": "23%"
+			}]
+			},
+			{
+					"imageName": "spheraelement550030.jpg",
+					"Code": "50030",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 5005-Y80R"
+				},{
+				"name": "Lrv",
+				"result": "21%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50006.jpg",
+					"Code": "50006",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 6500-N"
+				},{
+				"name": "Lrv",
+				"result": "15%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50011.jpg",
+					"Code": "50011",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 7502-B"
+				},{
+				"name": "Lrv",
+				"result": "10%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50016.jpg",
+					"Code": "50016",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 6502-Y"
+				},{
+				"name": "Lrv",
+				"result": "15%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50021.jpg",
+					"Code": "50021",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 7005-Y50R"
+				},{
+				"name": "Lrv",
+				"result": "15%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50026.jpg",
+					"Code": "50026",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 6005-Y20R"
+				},{
+				"name": "Lrv",
+				"result": "15%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50031.jpg",
+					"Code": "50031",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 6502-R"
+				},{
+				"name": "Lrv",
+				"result": "15%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50032.jpg",
+					"Code": "50032",
+				"table":[{
+				"name": "Ncs",
+				"result": "S2005-R30B"
+				},{
+				"name": "Lrv",
+				"result": "56%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50036.jpg",
+					"Code": "50036",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 1510-R90B"
+				},{
+				"name": "Lrv",
+				"result": "60%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50043.jpg",
+					"Code": "50043",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 1005-B80G"
+				},{
+				"name": "Lrv",
+				"result": "64%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50000.jpg",
+					"Code": "50000",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 1002-G50Y"
+				},{
+				"name": "Lrv",
+				"result": "72%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50047.jpg",
+					"Code": "50047",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 0907-G60Y"
+				},{
+				"name": "Lrv",
+				"result": "69%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50051.jpg",
+					"Code": "50051",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 1505-Y"
+				},{
+				"name": "Lrv",
+				"result": "67%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50033.jpg",
+					"Code": "50033",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 5010-R50B"
+				},{
+				"name": "Lrv",
+				"result": "20%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50037.jpg",
+					"Code": "50037",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 2030-R80B"
+				},{
+				"name": "Lrv",
+				"result": "36%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50040.jpg",
+					"Code": "50040",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 1020-B"
+				},{
+				"name": "Lrv",
+				"result": "58%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50044.jpg",
+					"Code": "50044",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 1020-B70G "
+				},{
+				"name": "Lrv",
+				"result": "60%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50052.jpg",
+					"Code": "50052",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 1015-G80Y"
+				},{
+				"name": "Lrv",
+				"result": "69%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50034.jpg",
+					"Code": "50034",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 4040-R80B"
+				},{
+				"name": "Lrv",
+				"result": "13%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50038.jpg",
+					"Code": "50038",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 4030-R80B"
+				},{
+				"name": "Lrv",
+				"result": "19%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50041.jpg",
+					"Code": "50041",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 4020-R90B"
+				},{
+				"name": "Lrv",
+				"result": "24%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50045.jpg",
+					"Code": "50045",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 2030-B90G"
+				},{
+				"name": "Lrv",
+				"result": "40%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50049.jpg",
+					"Code": "50049",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 2050-G70Y"
+				},{
+				"name": "Lrv",
+				"result": "47%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50053.jpg",
+					"Code": "50053",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 1060-Y"
+				},{
+				"name": "Lrv",
+				"result": "62%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50035.jpg",
+					"Code": "50035",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 5020-R50B"
+				},{
+				"name": "Lrv",
+				"result": "13%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50039.jpg",
+					"Code": "50039",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 5030-R80B"
+				},{
+				"name": "Lrv",
+				"result": "10%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50042.jpg",
+					"Code": "50042",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 4050-R90B"
+				},{
+				"name": "Lrv",
+				"result": "13%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50046.jpg",
+					"Code": "50046",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 4040-B10G"
+				},{
+				"name": "Lrv",
+				"result": "16%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50050.jpg",
+					"Code": "50050",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 4010-G30Y"
+				},{
+				"name": "Lrv",
+				"result": "30%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50054.jpg",
+					"Code": "50054",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 2040-Y10R"
+				},{
+				"name": "Lrv",
+				"result": "42%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50058.jpg",
+					"Code": "50058",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 3060-R"
+				},{
+				"name": "Lrv",
+				"result": "1%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50061.jpg",
+					"Code": "50061",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 5040-Y70R"
+				},{
+				"name": "Lrv",
+				"result": "14%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50060.jpg",
+					"Code": "50060",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 4030-Y50R"
+				},{
+				"name": "Lrv",
+				"result": "22%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50056.jpg",
+					"Code": "50056",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 1505-Y30R"
+				},{
+				"name": "Lrv",
+				"result": "43%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50059.jpg",
+					"Code": "50059",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 2020-Y20R"
+				},{
+				"name": "Lrv",
+				"result": "46%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50055.jpg",
+					"Code": "50055",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 1505-Y30R"
+				},{
+				"name": "Lrv",
+				"result": "65%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50057.jpg",
+					"Code": "50057",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 2060-Y40R"
+				},{
+				"name": "Lrv",
+				"result": "33%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50001.jpg",
+					"Code": "50001",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 8502-B"
+				},{
+				"name": "Lrv",
+				"result": "6%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50025.jpg",
+					"Code": "50025",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 5010-Y30R"
+				},{
+				"name": "Lrv",
+				"result": "23%"
+			}]
+			},
+			{
+					"imageName": "spheraelement50048.jpg",
+					"Code": "50048",
+				"table":[{
+				"name": "Ncs",
+				"result": "S 1020-G50Y"
+				},{
+				"name": "Lrv",
+				"result": "64%"
+			}]
+			}
+		],
+		"default": [
+			{
+				"name": "Толщина",
+				"result": "2 mm"
+			},{
+				"name": "Длина х Ширина",
+				"result": "±26 m x 200 cm"
+			}
+		]
+	}
+}

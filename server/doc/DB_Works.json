@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "5f1abb073589bb10c0642a3f"
+  },
+  "name": "продукт: Marmoleum 2600м²",
+  "address": "г. Актау, Дом встреч",
+  "imageName": "rulet1.png"
+},{
+  "_id": {
+    "$oid": "5f1abe863589bb10c0642a41"
+  },
+  "name": "продукт: ковровая плитка Tessera Acrobat 2000м², Marmoleum 400м², кубообразный потолок 5200м²",
+  "address": "г. Алматы, Jýsan Bank",
+  "imageName": "rulet3.png"
+},{
+  "_id": {
+    "$oid": "5f1ac2533589bb10c0642a42"
+  },
+  "name": "продукт: отбойник 500 п/м",
+  "address": "г. Тараз, Медицинский центр",
+  "imageName": "rulet4.png"
+},{
+  "_id": {
+    "$oid": "5f1ac2af3589bb10c0642a43"
+  },
+  "name": "продукт: ковровая плитка Tessera outline&layout 500м², грильято 500м²",
+  "address": "г. Алматы, гипермаркет OBI",
+  "imageName": "rulet2.png"
+},{
+  "_id": {
+    "$oid": "5f1ac6aa3589bb10c0642a45"
+  },
+  "name": "Спортивные объекты 50000м²",
+  "address": "",
+  "imageName": "rulet5.png"
+}]

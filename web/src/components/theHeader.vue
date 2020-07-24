@@ -6,7 +6,7 @@
                 <li class="menuItem"><a href="/#navAbout">О Нас</a></li>
                 <li class="menuItem"><a href="/#navCatalog">Каталог</a></li>
                 <li class="menuItem"><a href="/#navContacts">Контакты</a></li>
-                <li class="menuItem"><a href='tel:' class="tel">8 (777) 777 77 77</a></li>
+                <li class="menuItem"><a href='tel:' class="tel">+7 (701) 533 91 95</a></li>
             </nav>
             <div class="iconMobile" @click="mobileVision">
                 <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-list" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -16,7 +16,7 @@
                     <li class="menuItem"><a href="/#navAbout">О Нас</a></li>
                     <li class="menuItem"><a href="/#navCatalog">Каталог</a></li>
                     <li class="menuItem"><a href="/#navContacts">Контакты</a></li>
-                    <li class="menuItem"><a href='tel:' class="tel">8 (777) 777 77 77</a></li>
+                    <li class="menuItem"><a href='tel:' class="tel">+7 (701) 533 91 95</a></li>
                 </div>
             </div>
         </div>

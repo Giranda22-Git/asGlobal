@@ -253,6 +253,7 @@ export default {
           margin-top: 3%
           border-bottom: 1px solid silver
           height: 17%
+          font-size: 7.3vw
         h4
           margin-top: 5%
           font-size: 4.4vw

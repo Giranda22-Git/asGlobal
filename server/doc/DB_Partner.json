@@ -16,4 +16,22 @@
   },
   "name": "VEITAN",
   "imageName": "veitan.png"
+},{
+  "_id": {
+    "$oid": "5f1a97ec3589bb10c0642a37"
+  },
+  "name": "Tarkett",
+  "imageName": "tarkett_logo.png"
+},{
+  "_id": {
+    "$oid": "5f1a98243589bb10c0642a38"
+  },
+  "name": "Tarkett",
+  "imageName": "Tarkett_logo.png"
+},{
+  "_id": {
+    "$oid": "5f1a98843589bb10c0642a39"
+  },
+  "name": "Armstrong",
+  "imageName": "armstrong_logo.png"
 }]

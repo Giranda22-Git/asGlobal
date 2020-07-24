@@ -9,7 +9,7 @@
         <hr>
         <theCarousel
           :carouselData = "sliderItems"
-          :interval = "3000"
+          :interval = "5000"
         />
     </section>
   </div>
@@ -37,7 +37,7 @@ export default {
     })
 
     axios.get('http://localhost:3000/OurWorks')
-    .then( response => this.sliderItems = response.data )
+    .then( response => {this.sliderItems = response.data} )
     .catch(function (error) {
       console.log(error);
     })

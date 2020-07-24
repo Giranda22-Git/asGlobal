@@ -14,7 +14,7 @@
     <div class="container">
       <div class="item1">
         <h6 class="text1">О нас</h6>
-        <p>Scanfcode.com CODE WANTS TO BE SIMPLE is an initiative to help the upcoming programmers</p>
+        <p>AS Global - это компания занимающиеся продажей отделочных материалов со своей бригадой</p>
       </div>
       <div class="item2">
         <h6 class="text2">Карта</h6>
@@ -25,9 +25,9 @@
       <div class="item3"> 
         <h6 class="text3">Контакты</h6>
         <div class="cont">
-          <a href="tel:">8 (000) XXX XXX </a> <br>
-          <a href="mailto:">wdwdw@ffwfw.com</a><br>
-          <a>Lorem ipsum dolor sit.</a><br>
+          <a href="tel:">+7 (701) 533 91 95</a> <br>
+          <a href="mailto:">info@as-global.kz</a><br>
+          
         </div> 
       </div>
     </div>
@@ -137,6 +137,7 @@ footer
       .cont
         width: 100%
         text-align: center
+        color: #737373
       a
         color: #737373
 

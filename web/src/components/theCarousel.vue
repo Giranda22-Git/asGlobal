@@ -55,9 +55,10 @@ export default {
     },
     methods: {
         nextSlide() {
-            if (this.currentSlideIndex < this.carouselData.length - 4)
+            if (this.currentSlideIndex < this.carouselData.length - 1)
                 this.currentSlideIndex++
             else this.currentSlideIndex = 0
+          console.log(this.currentSlideIndex)
         },
         prevSlide() {
             if (this.currentSlideIndex > 0)

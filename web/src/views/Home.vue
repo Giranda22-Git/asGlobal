@@ -9,7 +9,7 @@
         <hr>
         <theCarousel
           :carouselData = "sliderItems"
-          :interval = "5000"
+          :interval = "10000"
         />
     </section>
   </div>

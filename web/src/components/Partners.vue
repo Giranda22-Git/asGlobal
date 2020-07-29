@@ -1,43 +1,55 @@
 <template>
   <div class="wrapper">
-    <div class="topContent"
-      :style="{'background': 'url(' + require('../assets/' + Partner.imageName) + ') center no-repeat', 'background-size': '100%'}"
-    >
-    </div>
-    <div class="bottomContent">
-      {{ Partner.name }}
-    </div>
+      <div class="CarouselContainer">
+          <div class="CarouselTracker">
+              <PartnerItem class="theCarouselItem"
+                  v-for="item in PartnerData"
+                  :key="item.id"
+                  :Partner="item"
+                  :style="{ 'transform': 'translateX(-' + 100 * currentSlideIndex + '%)','transition': 'all ease 1s'}"
+              />
+          </div>
+      </div>
   </div>
+  
 </template>
 
 <script>
+import PartnerItem from '@/components/PartnerItem.vue'
 export default {
   name: "Partners",
   data: () => ({
-
   }),
   props: {
-    Partner: {
-      type: Object,
-      default: () => {}
+    PartnerData: {
+      type: Array,
+      default: []
+    },
+    currentSlideIndex: {
+      type: Number,
+      default: 0
     }
+  },
+  components: {
+    PartnerItem
   }
 }
 </script>
 
 <style lang="sass" scoped>
-  .wrapper
-    display: flex
-    flex-direction: column
-    justify-content: space-around
-    align-items: center
-    .topContent
-      width: 90%
-      height: 60%
-    .bottomContent
-      height: 30%
+    $itemCount: 4
+    .wrapper
       width: 100%
-      text-align: center
-      font-size: 3vh
-      color: white
+      .CarouselContainer
+        height: 100%
+        width: 100%
+        overflow: hidden
+        margin: 0 auto
+        position: relative
+            
+        .CarouselTracker
+          display: flex
+          height: 100%
+          .theCarouselItem
+            min-width: 100% / $itemCount
 </style>

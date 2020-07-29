@@ -4,16 +4,22 @@
         <div class="contentWrapper">
             <h1>О Нас</h1>
             <div class="description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet delectus consequuntur modi voluptatem deserunt atque exercitationem, ipsum quis non, dignissimos omnis unde corrupti voluptas, quod soluta doloremque vero. Sapiente, doloribus?
-                Lorem ipsum dolor sit amet consectetur 
+                Наша компания занимается поставкой напольных покрытий для объектов здравоохранения, спорта, образования и административного назначения.
+К каждому клиенту осуществляем индивидуальный подход. Мы гарантируем поставки материалов в указанные сроки. Оказываем услуги по монтажу напольных покрытий качественно и с гарантией.
             </div>
-            <button>Обратный званок</button>
+            <button @click="viewModal">Обратный званок</button>
         </div>
     </div>
 </template>
 
 <script>
 export default {
+    name: "AboutItem",
+    methods: {
+        viewModal() {
+            this.$emit("viewModal")
+        }
+    }
 }
 </script>
 <style lang="sass" scoped>

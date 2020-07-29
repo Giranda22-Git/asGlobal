@@ -4,8 +4,7 @@ const { ObjectID } = require('mongodb')
 const MongoClient = require('mongodb').MongoClient
 const ObjectId = require('mongodb').ObjectID
 const cors = require('cors')
-const e = require('express')
-const PORT = process.env.PORT || 3000
+const PORT = 3000
 
 const app = express()
 let db

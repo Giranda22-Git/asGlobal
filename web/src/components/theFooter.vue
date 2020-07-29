@@ -4,11 +4,22 @@
     <div class="fontWrapper">
       <Partners
         class="Partners"
-        v-for="item in partners"
-        :key="item._id"
-        :Partner="item"
+        :PartnerData="partners"
+        :currentSlideIndex="currentSlideIndex"
       />
     </div>
+    <button class="prevSlide" @click="prevSlide">
+      <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-double-left" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M8.354 1.646a.5.5 0 0 1 0 .708L2.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+        <path fill-rule="evenodd" d="M12.354 1.646a.5.5 0 0 1 0 .708L6.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+      </svg>
+    </button>
+    <button class="nextSlide" @click="nextSlide">
+      <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-double-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
+        <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
+      </svg>
+    </button>
   </div>
   <footer>
     <div class="container">
@@ -33,7 +44,7 @@
     </div>
     <hr>
     <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
-      <a href="#">ТOОИПО "sitePunk"</a>.
+      <a href="#">ТOО "Punk Studio"</a>.
     </p>
   </footer>
 </div>
@@ -45,17 +56,41 @@ import Partners from '@/components/Partners.vue'
 export default {
     name: 'theFooter', 
     data: () => ({
-      partners: new Array()
+      partners: new Array(),
+      currentSlideIndex: 0,
+      interval: 5000
     }),
     mounted(){
-      axios.get('http://localhost:3000/Partners')
-      .then( response => this.partners = response.data )
-      .catch(function (error) {
-        console.log(error);
-      })
+      
     },
     components: {
       Partners
+    },
+    methods: {
+      nextSlide() {
+        if (this.currentSlideIndex < this.partners.length - 4)
+          this.currentSlideIndex++
+        else this.currentSlideIndex = 0
+      },
+      prevSlide() {
+        if (this.currentSlideIndex > 0)
+          this.currentSlideIndex--
+      }
+    },
+    mounted() {
+      axios.get('http://localhost:3000/Partners')
+      .then( response => {this.partners = response.data} )
+      .catch(function (error) {
+        console.log(error);
+      })
+
+      if(this.interval > 0)
+      {
+        let vm = this
+        setInterval(function() {
+          vm.nextSlide()
+        }, vm.interval)
+      }
     }
 }
 </script>
@@ -64,17 +99,50 @@ export default {
 *
   --webkit-box-sizing: border-box
 .PartnersWrapper
-  height: 35vh
+  height: 24vh
   display: flex
   justify-content: center
   background-color: #26272b
+  position: relative
+  .nextSlide
+    position: absolute
+    right: 0
+    top: 50%
+    height: 30%
+    width: 5%
+    transform: translate(-50%, -50%)
+    outline: none
+    border: none
+    font-size: 500%
+    background-color: transparent
+    color: darken(white, 60%)
+    cursor: pointer
+
+  .prevSlide
+    position: absolute
+    left: 0
+    top: 50%
+    height: 30%
+    width: 5%
+    transform: translate(50%, -50%)
+    outline: none
+    border: none
+    font-size: 500%
+    background-color: transparent
+    color: darken(white, 60%)
+    cursor: pointer
+
+  .prevSlide:hover, .nextSlide:hover
+    color: darken(white, 45%)
+
   .fontWrapper
-    display: grid
-    grid-template-columns: 1fr 1fr 1fr 1fr
-    grid-template-rows: 1fr
-    grid-column-gap: 1%
+    display: flex
     width: 80%
     height: 100%
+    justify-content: center
+    align-items: center
+    & *
+      height: 100%
 footer
   background-color: #26272b
   font-size: 2.4vh

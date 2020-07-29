@@ -3,7 +3,7 @@
     "$oid": "5f19442ddcdc4a2ea001d962"
   },
   "name": "forbo",
-  "imageName": "forbo.svg"
+  "imageName": "forbo.png"
 },{
   "_id": {
     "$oid": "5f1944b9dcdc4a2ea001d963"
@@ -16,12 +16,6 @@
   },
   "name": "VEITAN",
   "imageName": "veitan.png"
-},{
-  "_id": {
-    "$oid": "5f1a97ec3589bb10c0642a37"
-  },
-  "name": "Tarkett",
-  "imageName": "tarkett_logo.png"
 },{
   "_id": {
     "$oid": "5f1a98243589bb10c0642a38"

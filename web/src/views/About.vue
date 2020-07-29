@@ -1,8 +1,13 @@
 <template>
     <div class = "block" id="navAbout">
         <div class="background">
-            <AboutItem/>
-            <AboutModal/>
+            <AboutItem
+                @viewModal = "viewModal"
+            />
+            <AboutModal
+                v-show="isModalVisible"
+                @close="close"
+            />
         </div>
     </div>
 </template>
@@ -12,9 +17,20 @@ import AboutItem from '@/components/AboutItem.vue'
 import AboutModal from '@/components/AboutModal.vue'
 export default {
     name: "About",
+    data: () => ({
+        isModalVisible: false
+    }),
     components:{
         AboutItem,
         AboutModal
+    },
+    methods: {
+        close() {
+            this.isModalVisible = false
+        },
+        viewModal() {
+            this.isModalVisible = true
+        }
     }
 }
 </script>

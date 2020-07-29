@@ -5,12 +5,14 @@
       :CatalogData = "catalogData"
     />
     <section class="ourWorks">
-      <div class="title">Наши работы</div>
+      <div class="title">
+        <div>Наши работы</div>
         <hr>
-        <theCarousel
-          :carouselData = "sliderItems"
-          :interval = "10000"
-        />
+      </div>
+      <theCarousel
+        :carouselData = "sliderItems"
+        :interval = "10000"
+      />
     </section>
   </div>
 </template>
@@ -53,16 +55,19 @@ export default {
 <style lang="sass" scoped>
 
   .ourWorks
-    height: 80vh
+    height: 78vh
     display: flex
     flex-direction: column
-    justify-content: center
+    justify-content: space-around
+    background-color: lighten(#26272b, 6.25%)
     hr
       width: 100%
-      height: 4vh
+      height: 0vh
     .title
+      margin-top: 3vh
       font-size: 4vh
       text-align: center
+      color: white
 
 
 </style>

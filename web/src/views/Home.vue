@@ -32,13 +32,13 @@ export default {
     }
   },
   mounted() {
-    axios.get('http://localhost:3000/Catalogs')
+    axios.get('http://api.as-global.kz/Catalogs')
     .then( response => this.catalogData = response.data )
     .catch(function (error) {
       console.log(error);
     })
 
-    axios.get('http://localhost:3000/OurWorks')
+    axios.get('http://api.as-global.kz/OurWorks')
     .then( response => {this.sliderItems = response.data} )
     .catch(function (error) {
       console.log(error);

@@ -21,7 +21,8 @@ export default {
   components: {
     theHeader,
     theFooter,
-    PreLoader
+    PreLoader,
+    Map
   }
 }
 </script>
@@ -51,4 +52,7 @@ export default {
     overflow-x: hidden
   *
     --webkit-appearance: none
+  @media screen and ( max-width: 480px )
+    .app
+      
 </style>

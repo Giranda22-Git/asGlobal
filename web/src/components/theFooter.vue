@@ -60,9 +60,6 @@ export default {
       currentSlideIndex: 0,
       interval: 5000
     }),
-    mounted(){
-      
-    },
     components: {
       Partners
     },
@@ -78,7 +75,7 @@ export default {
       }
     },
     mounted() {
-      axios.get('http://localhost:3000/Partners')
+      axios.get('http://api.as-global.kz/Partners')
       .then( response => {this.partners = response.data} )
       .catch(function (error) {
         console.log(error);

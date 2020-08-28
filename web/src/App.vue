@@ -114,7 +114,8 @@ export default {
   components: {
     theHeader,
     theFooter,
-    PreLoader
+    PreLoader,
+    Map
   }
 }
 </script>

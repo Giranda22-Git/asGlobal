@@ -19,6 +19,11 @@ Vue.use(VueRouter)
     path: '/admin',
     name: 'adminPanel',
     component: () => import('../views/adminPanel.vue')
+  },
+  {
+    path: '/sert',
+    name: 'Sertific',
+    component: () => import('../components/Sertific.vue')
   }
 ]
 

@@ -107,6 +107,23 @@ export default {
 .modal-image-enter-active,
 .modal-image-leave-active 
   transition: background .5s ease
+::-webkit-scrollbar 
+  width: 3px 
+  height: 3px
+::-webkit-scrollbar-button 
+  background-color: #666
+::-webkit-scrollbar-track
+  background-color: #999
+::-webkit-scrollbar-track-piece 
+  background-color: #ffffff
+::-webkit-scrollbar-thumb 
+  height: 50px
+  background-color: #666
+  border-radius: 3px
+::-webkit-scrollbar-corner 
+  background-color: #999
+::-webkit-resizer 
+  background-color: #666
 .head
     height: 6%
     display: flex
@@ -163,23 +180,6 @@ export default {
                 overflow: auto
                 width: 100%
                 margin: 0
-                ::-webkit-scrollbar 
-                    width: 3px 
-                    height: 3px
-                ::-webkit-scrollbar-button 
-                    background-color: #666
-                ::-webkit-scrollbar-track
-                    background-color: #999
-                ::-webkit-scrollbar-track-piece 
-                    background-color: #ffffff
-                ::-webkit-scrollbar-thumb 
-                    height: 50px
-                    background-color: #666
-                    border-radius: 3px
-                ::-webkit-scrollbar-corner 
-                    background-color: #999
-                ::-webkit-resizer 
-                    background-color: #666
     .bottom_block
         height: 20vh
         width: 100%

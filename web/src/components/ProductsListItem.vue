@@ -64,11 +64,11 @@ export default {
                 font-style: normal
                 .name
                     text-align: center
-                    font-size: 2.6vh
+                    font-size: 3.1vh
                     font-weight: 400
                     text-rendering: optimizeLegibility
                 h4
-                    font-size: 1.5vh
+                    font-size: 2vh
                     text-align: center
                     font-weight: 400
                     margin: 0

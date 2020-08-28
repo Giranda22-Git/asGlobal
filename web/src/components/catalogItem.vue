@@ -64,9 +64,9 @@ export default {
                     margin-block-end: 20% solid transparent
                     display: block
                     margin-block-end: 6%
-                    font-size: 2.1vh
+                    font-size: 2.5vh
                 span
-                    font-size: 1.4vh
+                    font-size: 1.7vh
                     font-weight: 400
                     text-rendering: optimizeLegibility
                     font-style: normal

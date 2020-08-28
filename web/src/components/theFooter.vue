@@ -227,12 +227,16 @@ footer
     color: #737373
 @media screen and ( max-width: 480px )
   .item1
-    height: 58vh
+    height: 29vh !important
     width: 20% !important
     .text1
+      height: 4vh !important
+      line-height: 3vh !important
+      margin-bottom: 0 !important
       font-size: 5vw !important
     p
-      font-size: 4vw !important
+      line-height: 2vh
+      font-size: 3.5vw !important
   .item2
     .text2
       font-size: 5vw !important
@@ -245,6 +249,6 @@ footer
       font-size: 4.3vw !important
       text-align: left
   .copyright-text
-    font-size: 3.6vw !important
+    font-size: 3vw !important
   
 </style>

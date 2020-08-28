@@ -4,32 +4,23 @@
             <AboutItem
                 @viewModal = "viewModal"
             />
-            <AboutModal
-                v-show="isModalVisible"
-                @close="close"
-            />
         </div>
     </div>
 </template>
 
 <script>
 import AboutItem from '@/components/AboutItem.vue'
-import AboutModal from '@/components/AboutModal.vue'
 export default {
     name: "About",
     data: () => ({
-        isModalVisible: false
+
     }),
     components:{
-        AboutItem,
-        AboutModal
+        AboutItem
     },
     methods: {
-        close() {
-            this.isModalVisible = false
-        },
         viewModal() {
-            this.isModalVisible = true
+            this.$emit('viewAboutModal')
         }
     }
 }

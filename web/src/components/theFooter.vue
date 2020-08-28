@@ -75,7 +75,7 @@ export default {
       }
     },
     mounted() {
-      axios.get('http://api.as-global.kz/Partners')
+      axios.get('http://localhost:3000/Partners')
       .then( response => {this.partners = response.data} )
       .catch(function (error) {
         console.log(error);

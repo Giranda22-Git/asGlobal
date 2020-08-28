@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <About/>
+    <About @viewAboutModal="viewAboutModal" />
     <Catalog
       :CatalogData = "catalogData"
     />
@@ -28,17 +28,23 @@ export default {
   data(){
     return {
       sliderItems: new Array(),
-      catalogData: new Array()
+      catalogData: new Array(),
+    }
+  },
+  methods: {
+    viewAboutModal() {
+      this.$emit('viewAboutModal')
     }
   },
   mounted() {
-    axios.get('http://api.as-global.kz/Catalogs')
+    
+    axios.get('http://localhost:3000/Catalogs')
     .then( response => this.catalogData = response.data )
     .catch(function (error) {
       console.log(error);
     })
 
-    axios.get('http://api.as-global.kz/OurWorks')
+    axios.get('http://localhost:3000/OurWorks')
     .then( response => {this.sliderItems = response.data} )
     .catch(function (error) {
       console.log(error);
@@ -53,7 +59,8 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-
+  *
+    box-sizing: border-box
   .ourWorks
     height: 78vh
     display: flex
@@ -68,6 +75,4 @@ export default {
       font-size: 4vh
       text-align: center
       color: white
-
-
 </style>

@@ -23,6 +23,7 @@ export default {
 }
 </script>
 <style lang="sass" scoped>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap')
     .wrapper
         width: 80%
         height: 100%
@@ -31,6 +32,7 @@ export default {
         align-items: center
         text-align: center
         color: white
+        font-family: 'Montserrat', sans-serif
         .img
             width: 45%
             height: 50%
@@ -44,7 +46,7 @@ export default {
             justify-content: space-around
             align-items: center
             .description
-                font-size: 2.7vh
+                font-size: 2.3vh
             h1
                 font-size: 3.5vh
 

@@ -6,7 +6,6 @@
                 <hr>
             </div>
             <div class="Catalog">
-                <catalogItem/>
                 <catalogItem class="catalogItem"
                     v-for="item in CatalogData"
                     :key="item._id"

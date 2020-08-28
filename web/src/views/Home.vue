@@ -68,8 +68,8 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-  *
-    box-sizing: border-box
+*
+  box-sizing: border-box
   .ourWorks
     height: 78vh
     display: flex

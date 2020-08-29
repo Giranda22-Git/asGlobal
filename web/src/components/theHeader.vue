@@ -4,6 +4,7 @@
             <div class="logo"><router-link to="/" class="logoHref"></router-link></div>
             <nav class="menu">
                 <li class="menuItem"><a href="/#navAbout">О Нас</a></li>
+                <li class="menuItem"><router-link to="/sert">Сертификаты</router-link></li>
                 <li class="menuItem"><a href="/#navCatalog">Каталог</a></li>
                 <li class="menuItem"><a href="/#navContacts">Контакты</a></li>
                 <li class="menuItem"><a href='tel:' class="tel">+7 (701) 533 91 95</a></li>
@@ -14,6 +15,7 @@
                 </svg>
                 <div v-show="isMobileVision" class="menuMobile">
                     <li class="menuItem"><a href="/#navAbout">О Нас</a></li>
+                    <li class="menuItem"><router-link to="/sert">Сертификаты</router-link></li>
                     <li class="menuItem"><a href="/#navCatalog">Каталог</a></li>
                     <li class="menuItem"><a href="/#navContacts">Контакты</a></li>
                     <li class="menuItem"><a href='tel:' class="tel">+7 (701) 533 91 95</a></li>
@@ -42,6 +44,8 @@ export default {
 <style lang="sass" scoped>
     $headerColor: #26272b
     $fontColor: white
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+        
     .font
         height: 7vh
         background-color: $headerColor
@@ -92,6 +96,7 @@ export default {
                         text-decoration: none !important
                         color: $fontColor
                         display: block
+
                     & *:hover
                         color: darken(silver, 10%)
 
@@ -113,8 +118,27 @@ export default {
                     a
                         color: $fontColor
                         text-decoration: none
+                        font-family: 'Roboto Condensed', sans-serif;
+                        font-weight: 400
+                        letter-spacing: .15em
+                        position: relative
+                        &:before
+                            content: ''
+                            position: absolute
+                            left: 0
+                            bottom: 0
+                            width: 0%
+                            height: 1px
+                            background-color: white
+                            transition: .5s
+                        &:hover:before
+                            width: 100%
+
                     .tel
                         text-decoration: underline
+                        &:before
+                            content: ''
+                            display: none
     @media (min-width: 0px) and (max-width: 600px)
         .iconMobile
             display: block !important

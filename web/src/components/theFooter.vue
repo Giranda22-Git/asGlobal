@@ -1,5 +1,5 @@
 <template>
-<div id="navContacts">
+<div>
   <div class="PartnersWrapper">
     <div class="fontWrapper">
       <Partners

@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <About/>
+    <About @viewAboutModal="viewAboutModal" />
     <Catalog
       :CatalogData = "catalogData"
     />
@@ -36,7 +36,12 @@ export default {
   data(){
     return {
       sliderItems: new Array(),
-      catalogData: new Array()
+      catalogData: new Array(),
+    }
+  },
+  methods: {
+    viewAboutModal() {
+      this.$emit('viewAboutModal')
     }
   },
   mounted() {
@@ -62,7 +67,8 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-.home
+*
+  box-sizing: border-box
   .ourWorks
     height: 78vh
     display: flex

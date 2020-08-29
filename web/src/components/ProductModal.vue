@@ -107,8 +107,6 @@ export default {
 .modal-image-enter-active,
 .modal-image-leave-active 
   transition: background .5s ease
-
-
 ::-webkit-scrollbar 
   width: 3px 
   height: 3px
@@ -126,7 +124,6 @@ export default {
   background-color: #999
 ::-webkit-resizer 
   background-color: #666
-
 .head
     height: 6%
     display: flex
@@ -139,6 +136,20 @@ export default {
             font-size: 3.5vh
             cursor: pointer
             color: white
+@font-face
+  font-family: AGBookProLigExt
+  src: url(../assets/AGBookProLigExt.otf)
+.productName
+  font-family: AGBookProLigExt
+  font-weight: light
+  letter-spacing: 0.25em
+.productDescription
+  width: 80% !important
+  min-height: 50%
+  font-size: 1.9vh
+  font-family: AGBookProLigExt
+  font-weight: light
+
 .wrapper
     width: 70vw
     height: 65vh
@@ -157,7 +168,7 @@ export default {
         .rightContentWrapper
             display: flex
             flex-direction: column
-            justify-content: space-around
+            justify-content: space-evenly
             align-items: center
             text-align: center
             h1

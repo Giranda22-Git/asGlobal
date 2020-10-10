@@ -250,5 +250,11 @@ footer
       text-align: left
   .copyright-text
     font-size: 3vw !important
+  .prevSlide
+    font-size: 9vw  !important
+    color: darken(white, 45%) !important
+  .nextSlide
+    font-size: 9vw !important
+    color: darken(white, 45%) !important
   
 </style>

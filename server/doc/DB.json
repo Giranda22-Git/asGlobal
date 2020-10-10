@@ -6,7 +6,7 @@
   "imageName": "vinil.jpg",
   "products": [
     {
-      "name": "SprotLine standart/classic",
+      "name": "SportLine standart/classic",
       "description": "Это специально разработанный гетерогенный ПВХ напольный материал для многофункциональных спортивных и игровых залов.",
       "imageName": "sportline.png",
       "Colors": [
@@ -4292,6 +4292,79 @@
       ],
       "_id": {
         "$oid": "5f1d94fe93b29b23641f265d"
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5f43d39f36051b0898e19036"
+  },
+  "name": "Коннелюрный ПВХ плинтус",
+  "imageName": "plintus.jpg",
+  "products": [
+    {
+      "name": "Коннелюрный плинтус",
+      "description": "Двухпозиционный коннелюрный ПВХ плинтус для заведения линолеума на стены.",
+      "imageName": "plintus.jpg",
+      "Colors": [
+        {
+          "imageName": "plintus.jpg",
+          "Code": "",
+          "table": [
+            {}
+          ]
+        },
+        {
+          "imageName": "plintus110.jpg",
+          "Code": "110",
+          "table": [
+            {}
+          ]
+        },
+        {
+          "imageName": "plintus_117.jpg",
+          "Code": "117",
+          "table": [
+            {}
+          ]
+        },
+        {
+          "imageName": "plintus_130.jpg",
+          "Code": "130",
+          "table": [
+            {}
+          ]
+        },
+        {
+          "imageName": "plintus_132.jpg",
+          "Code": "132",
+          "table": [
+            {}
+          ]
+        },
+        {
+          "imageName": "plintus_138.jpg",
+          "Code": "138",
+          "table": [
+            {}
+          ]
+        },
+        {
+          "imageName": "plintus_146.jpg",
+          "Code": "146",
+          "table": [
+            {}
+          ]
+        }
+      ],
+      "default": [
+        {
+          "name": "",
+          "result": ""
+        }
+      ],
+      "_id": {
+        "$oid": "5f43e15d36051b0898e1903b"
       }
     }
   ]

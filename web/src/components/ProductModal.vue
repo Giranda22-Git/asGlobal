@@ -146,7 +146,7 @@ export default {
 .productDescription
   width: 80% !important
   min-height: 50%
-  font-size: 1.9vh
+  font-size: 3vw
   font-family: AGBookProLigExt
   font-weight: light
 
@@ -179,6 +179,7 @@ export default {
                 max-height: 60%
                 overflow: auto
                 width: 100%
+                font-size: 2vh
                 margin: 0
     .bottom_block
         height: 20vh
@@ -240,7 +241,7 @@ export default {
                 &:last-child .first_column
                     line-height: 210%
                     
-@media screen and ( max-width: 500px )
+@media screen and ( max-width: 480px )
   h1
     font-size: 5vw
     & *
@@ -266,7 +267,7 @@ export default {
           margin-top: 3%
           border-bottom: 1px solid silver
           height: 17%
-          font-size: 7.3vw
+          font-size: 6vw
         h4
           margin-top: 5%
           font-size: 4.4vw
@@ -285,6 +286,6 @@ export default {
           height: 90% !important
       .RightBottomBlock
         height: 43% !important
-      
-
+    .productDescription
+      font-size: 5.5vw !important
 </style>

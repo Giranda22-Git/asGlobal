@@ -162,4 +162,9 @@ name: 'Sertific'
     ::-webkit-scrollbar-thumb 
         border-radius: 10px
         -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5)
+    @media screen and ( max-width: 480px )
+        .line
+            flex-direction: column !important
+            .sert_block
+                width: 80vw !important
 </style>
